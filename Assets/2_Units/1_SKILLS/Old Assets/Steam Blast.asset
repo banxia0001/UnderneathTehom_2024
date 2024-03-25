@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Steam Blast
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 31e77ac6f0aa34f459d023d2578c5e17, type: 3}
+  CD: 4
+  Cost: 1
+  attacWait: 0.12
+  animTrigger: attack
+  type: 0
+  DamageType: 2
+  bonusToDamageRate: 50
+  isUsingWeapon: 0
+  isFriendly: 0
+  isSelfUse: 0
+  isInstant: 0
+  hitSpecialEffect: {fileID: 100000, guid: 978c01eed36d79f4e8ae6e248ce44f45, type: 3}
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 0}
+  causeHeal: 0
+  num: 1
+  damMin: 3
+  damMax: 4
+  armorBreak: 0
+  armorPierce: 50
+  castAsCirclePoint: 1
+  splashRange: 1
+  range: 1
+  autoHit: 1
+  hitBonus: 0
+  noDamage: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  description: Opens the fire cannon's cooling slots, creating a blast of steam.

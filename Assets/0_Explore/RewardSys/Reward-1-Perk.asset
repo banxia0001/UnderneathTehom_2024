@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d861a885c7e2a94a85bd5ba974763ba, type: 3}
+  m_Name: Reward-1-Perk
+  m_EditorClassIdentifier: 
+  rewards:
+  - type: 2
+    skill: {fileID: 11400000, guid: bdc02c667b98d034aaaf8d56722c3ec6, type: 2}
+    unitPrefab: {fileID: 0}
+    unitPrefabText: 
+    perk: {fileID: 11400000, guid: e59baaba1855eb14381d93bccb753fb4, type: 2}
+  - type: 2
+    skill: {fileID: 0}
+    unitPrefab: {fileID: 0}
+    unitPrefabText: 
+    perk: {fileID: 11400000, guid: b79fe795f3638bc499edd5d163252bb5, type: 2}
+  - type: 2
+    skill: {fileID: 11400000, guid: bdc02c667b98d034aaaf8d56722c3ec6, type: 2}
+    unitPrefab: {fileID: 0}
+    unitPrefabText: 
+    perk: {fileID: 11400000, guid: c0d1a1c4068c25a44b19ef45d508ea68, type: 2}

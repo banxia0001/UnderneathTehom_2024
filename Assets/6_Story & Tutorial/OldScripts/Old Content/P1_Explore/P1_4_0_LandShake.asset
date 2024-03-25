@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: becb34be61b87c64b90fdff18cc112d0, type: 3}
+  m_Name: P1_4_0_LandShake
+  m_EditorClassIdentifier: 
+  paragraphContents:
+  - speaker: 0
+    text: 'The cave continues to collapse...
+
+
+'
+  choiceContents_0:
+  - eventTrigger: 0
+    animTrigger: 0
+    camLookAt: 1
+    text: Find Exit.
+    nextDialog: {fileID: 11400000, guid: 18d4fd06ce012144ca13a71bea054f9d, type: 2}
+    dialogueToUnlockThisChoice: []
+  - eventTrigger: 1
+    animTrigger: 6
+    camLookAt: 0
+    text: I want eat more! Im not leaving!
+    nextDialog: {fileID: 11400000, guid: 0faa11765c497c64e9aee8e123b1d207, type: 2}
+    dialogueToUnlockThisChoice: []

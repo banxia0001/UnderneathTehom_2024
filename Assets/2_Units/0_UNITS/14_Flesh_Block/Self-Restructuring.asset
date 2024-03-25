@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Self-Restructuring
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 5eec4d63b49f42c43b526e7c9d078352, type: 3}
+  CD: 1
+  Cost: 2
+  description: 
+  slotInfo: 0
+  type: 2
+  causeGridShock: 0
+  damageType: 2
+  animTriggerType: 1
+  isUsingWeapon: 1
+  isFriendly: 1
+  isSelfUse: 1
+  isInstant: 0
+  timer_PerformAction: 0.6
+  castSpecialEffect: {fileID: 0}
+  timer_AttackHit: 0.79
+  hitSpecialEffect: {fileID: 7064773570136956116, guid: 27625738204e742d0b234a3d54789c58, type: 3}
+  timer_WaitAfterAttack: 0.35
+  moveToGrid_SpeedRatio: 1
+  moveToGrid_DistanceRatio: 0.5
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 11400000, guid: b13df6e8be7ef854c9276b982c2ca0d2, type: 2}
+  causeHeal: 0
+  addArmor: 0
+  num: 0
+  damMin: 0
+  damMax: 0
+  armorSunder: 0
+  armorMgSunder: 0
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 1
+  autoHit: 0
+  hitBonus: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  revivalOption: 0
+  revivalPrefab: {fileID: 0}

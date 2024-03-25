@@ -1,0 +1,159 @@
+
+Bone_soider_Melle.png
+size: 1974,1548
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ArmL
+  rotate: true
+  xy: 311, 1007
+  size: 336, 365
+  orig: 338, 368
+  offset: 1, 1
+  index: -1
+ArmR
+  rotate: true
+  xy: 311, 1007
+  size: 336, 365
+  orig: 338, 368
+  offset: 1, 1
+  index: -1
+ArmLowL
+  rotate: false
+  xy: 614, 563
+  size: 438, 383
+  orig: 444, 385
+  offset: 2, 1
+  index: -1
+FootL
+  rotate: true
+  xy: 1123, 920
+  size: 361, 623
+  orig: 845, 623
+  offset: 0, 0
+  index: -1
+FootR
+  rotate: true
+  xy: 2, 634
+  size: 371, 610
+  orig: 383, 610
+  offset: 12, 0
+  index: -1
+Hand
+  rotate: false
+  xy: 1278, 1288
+  size: 262, 258
+  orig: 264, 261
+  offset: 1, 2
+  index: -1
+Head
+  rotate: true
+  xy: 477, 115
+  size: 446, 451
+  orig: 448, 453
+  offset: 1, 1
+  index: -1
+Jaw
+  rotate: true
+  xy: 2, 1048
+  size: 302, 307
+  orig: 307, 311
+  offset: 3, 3
+  index: -1
+RibCageBehind
+  rotate: false
+  xy: 2, 1376
+  size: 193, 170
+  orig: 195, 172
+  offset: 1, 1
+  index: -1
+RibCageTop
+  rotate: true
+  xy: 2, 203
+  size: 429, 473
+  orig: 431, 475
+  offset: 1, 1
+  index: -1
+Skirt
+  rotate: false
+  xy: 1054, 539
+  size: 568, 379
+  orig: 797, 660
+  offset: 0, 0
+  index: -1
+SkirtBack
+  rotate: false
+  xy: 729, 1292
+  size: 547, 254
+  orig: 549, 256
+  offset: 1, 1
+  index: -1
+Spine
+  rotate: true
+  xy: 428, 1345
+  size: 201, 299
+  orig: 203, 301
+  offset: 1, 1
+  index: -1
+ThighL
+  rotate: false
+  xy: 1542, 1283
+  size: 430, 263
+  orig: 433, 265
+  offset: 2, 1
+  index: -1
+ThighR
+  rotate: true
+  xy: 197, 1352
+  size: 194, 229
+  orig: 196, 231
+  offset: 1, 1
+  index: -1
+main armor
+  rotate: false
+  xy: 930, 2
+  size: 903, 535
+  orig: 906, 537
+  offset: 1, 1
+  index: -1
+shoulder armor
+  rotate: false
+  xy: 678, 948
+  size: 443, 342
+  orig: 445, 344
+  offset: 1, 1
+  index: -1
+
+Bone_soider_Melle2.png
+size: 2008,1446
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shield
+  rotate: true
+  xy: 2, 779
+  size: 665, 1290
+  orig: 668, 1293
+  offset: 1, 2
+  index: -1
+Sword
+  rotate: true
+  xy: 893, 2
+  size: 610, 1068
+  orig: 613, 1070
+  offset: 2, 1
+  index: -1
+headgear
+  rotate: false
+  xy: 2, 132
+  size: 889, 645
+  orig: 892, 647
+  offset: 2, 1
+  index: -1
+pickaxe
+  rotate: true
+  xy: 1294, 614
+  size: 830, 712
+  orig: 834, 714
+  offset: 3, 1
+  index: -1

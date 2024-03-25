@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63d769735f95f9140b6c4a04fcb44ee2, type: 3}
+  m_Name: MyGridList
+  m_EditorClassIdentifier: 
+  moveableNode: {fileID: 7788776963690584143, guid: be639d474d72e0749a59b0e00594f58e, type: 3}
+  nodeUnderUnit: {fileID: 7788776963690584143, guid: 70f0a526b32c6ff4397397ef7db1bd64, type: 3}
+  moveableNode_FriendOn: {fileID: 2981760518936004381, guid: eb6f0844ad7944d4083294aa5589cfe1, type: 3}
+  greenNode_Light: {fileID: 4743330229383610313, guid: 4c3ebc90c7f45894face0cbfe5039432, type: 3}
+  greenNode: {fileID: 3950717250232042511, guid: 2e7e288a1a335544c9a00a497210459f, type: 3}
+  redNode_Light: {fileID: 1173698018261092199, guid: 048174f2389b9f744bd96d7f5f28c37e, type: 3}
+  redNode: {fileID: 5493777009094942125, guid: 9846a34753915274e998d2b5705fdb42, type: 3}
+  redNode_Boss: {fileID: 1173698018261092199, guid: fbca358be97e87943ae38f4635f1394f, type: 3}
+  purpleNode_Light: {fileID: 2985670429163718323, guid: 23f730722360e6b45985d6cf8feef826, type: 3}
+  purpleNode: {fileID: 1508261824323803742, guid: 26cd8b07a21c846438a36679b5ba2559, type: 3}
+  staticNode: {fileID: 5493777009094942125, guid: b5efe4c3c59f2e74bbe138b7a5901d89, type: 3}
+  chargeNode: {fileID: 4971893248230807284, guid: 989e8d5596fe95c44825e0231ecd8fbe, type: 3}
+  chargeNode_Attack: {fileID: 5205177455655065364, guid: c1b0e7da7f2958e43b09fafd5ed2bc29, type: 3}
+  chargeNode_Final: {fileID: 734714352615516328, guid: ed0bd1796e481ec4196d06c538f224a6, type: 3}
+  chargeNode_Wrong: {fileID: 8194147754420632940, guid: bd99fe92e784ed6428eb5bccedfdca95, type: 3}
+  chargeNode_Enemy: {fileID: 4971893248230807284, guid: 358697c4ba79f584983aa5fd17ee9f37, type: 3}

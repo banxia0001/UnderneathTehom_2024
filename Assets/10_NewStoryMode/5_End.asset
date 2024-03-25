@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 5_End
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: You survived the disaster.
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: Even though you know nothing about this place and youself.
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: You have to keep escaping.
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: Waiting for the day...you finally fill the inner hunger.
+    speaker: 0
+    continueTrigger: 3
+    eventTrigger: 0
+    camLookAt: 0

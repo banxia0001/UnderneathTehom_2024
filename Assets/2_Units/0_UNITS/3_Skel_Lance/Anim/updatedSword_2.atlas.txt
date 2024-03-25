@@ -1,0 +1,202 @@
+
+updatedSword_2.png
+size: 3514,2992
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chestpiece
+  rotate: true
+  xy: 2151, 737
+  size: 528, 338
+  orig: 530, 340
+  offset: 1, 1
+  index: -1
+Color
+  rotate: false
+  xy: 2241, 26
+  size: 508, 193
+  orig: 510, 196
+  offset: 1, 1
+  index: -1
+ForearmRight
+  rotate: true
+  xy: 2459, 1766
+  size: 554, 215
+  orig: 558, 218
+  offset: 2, 2
+  index: -1
+Gorget
+  rotate: true
+  xy: 1849, 570
+  size: 695, 300
+  orig: 697, 303
+  offset: 1, 1
+  index: -1
+HandLeft
+  rotate: false
+  xy: 3031, 17
+  size: 270, 203
+  orig: 273, 206
+  offset: 2, 2
+  index: -1
+HandRight
+  rotate: true
+  xy: 3229, 2299
+  size: 192, 198
+  orig: 196, 201
+  offset: 2, 2
+  index: -1
+Hat
+  rotate: false
+  xy: 1849, 2322
+  size: 829, 668
+  orig: 831, 670
+  offset: 1, 1
+  index: -1
+Hat Flap
+  rotate: false
+  xy: 3275, 933
+  size: 232, 431
+  orig: 234, 433
+  offset: 1, 1
+  index: -1
+Lines
+  rotate: false
+  xy: 2680, 2229
+  size: 521, 215
+  orig: 523, 217
+  offset: 1, 1
+  index: -1
+RibBack
+  rotate: false
+  xy: 3377, 681
+  size: 133, 250
+  orig: 136, 252
+  offset: 2, 1
+  index: -1
+Ribs
+  rotate: false
+  xy: 2676, 1748
+  size: 499, 479
+  orig: 501, 481
+  offset: 1, 1
+  index: -1
+RightShoulder
+  rotate: false
+  xy: 2751, 64
+  size: 278, 251
+  orig: 280, 254
+  offset: 1, 1
+  index: -1
+ShoulderLeft
+  rotate: false
+  xy: 3151, 1366
+  size: 340, 366
+  orig: 342, 368
+  offset: 1, 1
+  index: -1
+SkirtBack
+  rotate: false
+  xy: 2604, 317
+  size: 440, 471
+  orig: 442, 475
+  offset: 1, 2
+  index: -1
+SkirtFront
+  rotate: false
+  xy: 1849, 1683
+  size: 608, 637
+  orig: 610, 639
+  offset: 1, 1
+  index: -1
+Skull
+  rotate: false
+  xy: 2680, 2446
+  size: 547, 544
+  orig: 549, 546
+  offset: 1, 1
+  index: -1
+Spine8
+  rotate: true
+  xy: 3229, 2493
+  size: 497, 283
+  orig: 973, 1287
+  offset: 1, 1
+  index: -1
+Sword
+  rotate: false
+  xy: 2, 2
+  size: 1845, 2988
+  orig: 2211, 3492
+  offset: 194, 200
+  index: -1
+UpperArmLeft
+  rotate: true
+  xy: 1849, 9
+  size: 559, 390
+  orig: 561, 393
+  offset: 1, 1
+  index: -1
+UpperArmRight
+  rotate: false
+  xy: 3177, 1734
+  size: 257, 493
+  orig: 259, 495
+  offset: 1, 1
+  index: -1
+hat2
+  rotate: true
+  xy: 2435, 1280
+  size: 401, 420
+  orig: 403, 422
+  offset: 1, 1
+  index: -1
+spine1
+  rotate: false
+  xy: 3046, 222
+  size: 295, 266
+  orig: 297, 268
+  offset: 1, 1
+  index: -1
+spine2
+  rotate: false
+  xy: 2241, 221
+  size: 361, 514
+  orig: 363, 516
+  offset: 1, 1
+  index: -1
+spine3
+  rotate: true
+  xy: 2857, 1319
+  size: 427, 292
+  orig: 429, 294
+  offset: 1, 1
+  index: -1
+spine4
+  rotate: true
+  xy: 2884, 853
+  size: 464, 389
+  orig: 466, 391
+  offset: 1, 1
+  index: -1
+spine5
+  rotate: false
+  xy: 1849, 1267
+  size: 584, 414
+  orig: 586, 416
+  offset: 1, 1
+  index: -1
+spine6
+  rotate: false
+  xy: 2491, 790
+  size: 391, 488
+  orig: 393, 490
+  offset: 1, 1
+  index: -1
+spine7
+  rotate: false
+  xy: 3046, 490
+  size: 329, 361
+  orig: 331, 363
+  offset: 1, 1
+  index: -1

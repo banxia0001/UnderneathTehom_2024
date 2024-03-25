@@ -1,0 +1,125 @@
+
+boneSnake2.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b3
+  rotate: false
+  xy: 954, 125
+  size: 89, 131
+  orig: 89, 131
+  offset: 0, 0
+  index: -1
+图层10
+  rotate: false
+  xy: 649, 75
+  size: 121, 181
+  orig: 121, 181
+  offset: 0, 0
+  index: -1
+图层11
+  rotate: false
+  xy: 878, 99
+  size: 76, 157
+  orig: 76, 157
+  offset: 0, 0
+  index: -1
+图层12
+  rotate: false
+  xy: 1043, 128
+  size: 71, 128
+  orig: 71, 128
+  offset: 0, 0
+  index: -1
+图层13
+  rotate: false
+  xy: 520, 75
+  size: 129, 181
+  orig: 129, 181
+  offset: 0, 0
+  index: -1
+图层14
+  rotate: false
+  xy: 0, 28
+  size: 144, 228
+  orig: 144, 228
+  offset: 0, 0
+  index: -1
+图层22
+  rotate: true
+  xy: 1240, 131
+  size: 125, 113
+  orig: 125, 113
+  offset: 0, 0
+  index: -1
+图层23
+  rotate: true
+  xy: 1353, 136
+  size: 120, 104
+  orig: 120, 104
+  offset: 0, 0
+  index: -1
+图层24
+  rotate: true
+  xy: 259, 0
+  size: 67, 73
+  orig: 67, 73
+  offset: 0, 0
+  index: -1
+图层27
+  rotate: false
+  xy: 144, 30
+  size: 115, 226
+  orig: 115, 226
+  offset: 0, 0
+  index: -1
+图层31
+  rotate: false
+  xy: 1114, 129
+  size: 126, 127
+  orig: 126, 127
+  offset: 0, 0
+  index: -1
+图层32
+  rotate: false
+  xy: 1404, 21
+  size: 96, 115
+  orig: 96, 115
+  offset: 0, 0
+  index: -1
+图层37
+  rotate: false
+  xy: 954, 82
+  size: 106, 43
+  orig: 106, 43
+  offset: 0, 0
+  index: -1
+图层38
+  rotate: true
+  xy: 404, 7
+  size: 60, 1000
+  orig: 300, 1000
+  offset: 123, 0
+  index: -1
+图层41
+  rotate: false
+  xy: 332, 3
+  size: 72, 64
+  orig: 72, 64
+  offset: 0, 0
+  index: -1
+图层6
+  rotate: true
+  xy: 259, 67
+  size: 189, 261
+  orig: 189, 261
+  offset: 0, 0
+  index: -1
+图层9
+  rotate: false
+  xy: 770, 95
+  size: 108, 161
+  orig: 108, 161
+  offset: 0, 0
+  index: -1

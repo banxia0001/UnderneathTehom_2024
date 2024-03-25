@@ -1,0 +1,41 @@
+
+machinegun.png
+size: 2930,2647
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: true
+  xy: 984, 25
+  size: 944, 1312
+  orig: 1083, 1313
+  offset: 4, 1
+  index: -1
+1
+  rotate: false
+  xy: 2, 2
+  size: 980, 967
+  orig: 981, 967
+  offset: 1, 0
+  index: -1
+2
+  rotate: true
+  xy: 2, 971
+  size: 1674, 2008
+  orig: 1674, 2009
+  offset: 0, 0
+  index: -1
+3
+  rotate: true
+  xy: 2298, 412
+  size: 1335, 630
+  orig: 1335, 630
+  offset: 0, 0
+  index: -1
+4
+  rotate: true
+  xy: 2012, 1749
+  size: 896, 655
+  orig: 897, 655
+  offset: 0, 0
+  index: -1

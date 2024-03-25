@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 2_Eating
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: 'The corpse lies delectably before you.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'Only a thin layer of skin shrouds the feast of meat and organs within.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'Fungi and moss flourish, leeching off the lifeless remains.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'It looks delicious.
+
+'
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 1
+    camLookAt: 0
+  - text: "\u201C*Munch* *Munch* *Chew*\u201D"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 2
+    camLookAt: 0
+  - text: "\u201C*Crack* *Slurp* *Gulp*\u201D"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 2
+    camLookAt: 0
+  - text: '* Sounds of blissful chewing...... *'
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 2
+    camLookAt: 0
+  - text: "\u201C*Sounds of blissful chewing*\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 2
+    camLookAt: 0
+  - text: "\u2014-?!!\u2019\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 11
+    camLookAt: 0
+  - text: "\u201CWhat?!\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 12
+    camLookAt: 0
+  - text: "\u2014-?!!\u2019"
+    speaker: 1
+    continueTrigger: 1
+    eventTrigger: 8
+    camLookAt: 3

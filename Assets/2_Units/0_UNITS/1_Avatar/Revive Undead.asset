@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Revive Undead
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: a0dd69e0acdb1d24dac4f782feb53123, type: 3}
+  CD: 2
+  Cost: 6
+  description: "Revival a undead warrior with greatsword at the target location.
+    \n"
+  slotInfo: 1
+  type: 12
+  causeGridShock: 0
+  damageType: 2
+  animTriggerType: 11
+  isUsingWeapon: 1
+  isFriendly: 1
+  isSelfUse: 0
+  isInstant: 0
+  timer_PerformAction: 0.13
+  castSpecialEffect: {fileID: 2319781598066829374, guid: 08ab8e3b45a41465793fcc9b00e2927c, type: 3}
+  timer_AttackHit: 0.11
+  hitSpecialEffect: {fileID: 100002, guid: e7a53675611748b42a8ecc3523e4f0ce, type: 3}
+  timer_WaitAfterAttack: 0.16
+  moveToGrid_SpeedRatio: 1
+  moveToGrid_DistanceRatio: 0.5
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 0}
+  causeHeal: 0
+  addArmor: 0
+  num: 1
+  damMin: 0
+  damMax: 0
+  armorSunder: 0
+  armorMgSunder: 0
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 2
+  autoHit: 0
+  hitBonus: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing:
+  - {fileID: 3336372439517075307, guid: 9f667b35b319c634685182030414ffd1, type: 3}
+  randomBuffs: []
+  revivalOption: 3
+  revivalPrefab: {fileID: 5888339026595524337, guid: d5b44d686a3779c44a15996b6ed4cdc4, type: 3}

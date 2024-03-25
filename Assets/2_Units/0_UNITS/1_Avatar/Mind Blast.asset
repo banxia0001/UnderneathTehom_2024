@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Mind Blast
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 8454bd610e84d8b47a1da12f7083059e, type: 3}
+  CD: 2
+  Cost: 1
+  description: Releases a mind shock on the target, it will receive a 'Shattered
+    Mind' effect.
+  slotInfo: 0
+  type: 10
+  causeGridShock: 0
+  damageType: 2
+  animTriggerType: 11
+  isUsingWeapon: 0
+  isFriendly: 0
+  isSelfUse: 0
+  isInstant: 1
+  timer_PerformAction: 0.2
+  castSpecialEffect: {fileID: 0}
+  timer_AttackHit: 0.52
+  hitSpecialEffect: {fileID: 100002, guid: 31ed1b7b458d49e4e98dd760835d7a68, type: 3}
+  timer_WaitAfterAttack: 0.25
+  moveToGrid_SpeedRatio: 1
+  moveToGrid_DistanceRatio: 0.5
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 11400000, guid: 50324c56fda669542bbd9c2a90d26a4e, type: 2}
+  causeHeal: 0
+  addArmor: 0
+  num: 1
+  damMin: 0
+  damMax: 0
+  armorSunder: 0
+  armorMgSunder: 0
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 3
+  autoHit: 0
+  hitBonus: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  revivalOption: 0
+  revivalPrefab: {fileID: 0}

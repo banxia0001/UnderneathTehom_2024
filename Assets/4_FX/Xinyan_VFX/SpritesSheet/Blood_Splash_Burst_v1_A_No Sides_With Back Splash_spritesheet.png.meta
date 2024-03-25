@@ -1,0 +1,1608 @@
+fileFormatVersion: 2
+guid: ac490167034b9ff45a0305bdba3f6dd5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8487731821622318531
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_0
+  - first:
+      213: 4370128091290468240
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_1
+  - first:
+      213: -9004262875003222633
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_2
+  - first:
+      213: -8241098212445573856
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_3
+  - first:
+      213: -7864925146157902835
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_4
+  - first:
+      213: -5658028147465543635
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_5
+  - first:
+      213: -1995469462163367699
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_6
+  - first:
+      213: -6182811365059956625
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_7
+  - first:
+      213: 6988256675578299236
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_8
+  - first:
+      213: 8222961102226220084
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_9
+  - first:
+      213: 7511633473081339771
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_10
+  - first:
+      213: 5295121073745094497
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_11
+  - first:
+      213: 9111423386897605195
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_12
+  - first:
+      213: -1037343301547522529
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_13
+  - first:
+      213: -4235755385002408765
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_14
+  - first:
+      213: -1119949281383224290
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_15
+  - first:
+      213: -344384646408527278
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_16
+  - first:
+      213: 6677855533077619614
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_17
+  - first:
+      213: 3477078472586450761
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_18
+  - first:
+      213: -6824452856109979141
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_19
+  - first:
+      213: 3853008548993028237
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_20
+  - first:
+      213: 3410510463377850931
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_21
+  - first:
+      213: 5400131283882614669
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_22
+  - first:
+      213: -7843820406664625873
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_23
+  - first:
+      213: -2554738918630178300
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_24
+  - first:
+      213: -6316613918254059735
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_25
+  - first:
+      213: 5580613242504588504
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_26
+  - first:
+      213: 8415554052456441270
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_27
+  - first:
+      213: 1532292180164111094
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_28
+  - first:
+      213: -2342209960915732579
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_29
+  - first:
+      213: -8585561803376652334
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_30
+  - first:
+      213: 7782094928278315264
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_31
+  - first:
+      213: -7268986021105142144
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_32
+  - first:
+      213: 7057920729258171415
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_33
+  - first:
+      213: -3121625343267111736
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_34
+  - first:
+      213: -565534373384830781
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_35
+  - first:
+      213: -8931878719970430364
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_36
+  - first:
+      213: -2200152537111955083
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_37
+  - first:
+      213: -6864004335131519650
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_38
+  - first:
+      213: 7139464188270604164
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_39
+  - first:
+      213: -5038400099492205664
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_40
+  - first:
+      213: 1744985232681874176
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_41
+  - first:
+      213: 5062001174591126360
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_42
+  - first:
+      213: -3309976356855298323
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_43
+  - first:
+      213: 8800827568046107540
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_44
+  - first:
+      213: 1039725550721350258
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_45
+  - first:
+      213: 3435625171100098612
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_46
+  - first:
+      213: 4241534700851865778
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_47
+  - first:
+      213: 4678560109563580841
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_48
+  - first:
+      213: 5632481550243486584
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_49
+  - first:
+      213: 7915415985299540440
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_50
+  - first:
+      213: -8934450447655756434
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_51
+  - first:
+      213: 4172751907777353957
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_52
+  - first:
+      213: -7281664657087028184
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_53
+  - first:
+      213: 5235754542785381621
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_54
+  - first:
+      213: -599877027463751851
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_55
+  - first:
+      213: -2907060600597570844
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_56
+  - first:
+      213: -915411907973068540
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_57
+  - first:
+      213: -739239462680963981
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_58
+  - first:
+      213: -1091413567634916343
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_59
+  - first:
+      213: -4503006895363339669
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_60
+  - first:
+      213: 638954227110111294
+    second: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_61
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5d3903f1b7ac570800000000000000
+      internalID: 8487731821622318531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ff2585850d5ac30800000000000000
+      internalID: 4370128091290468240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795023f2f9e6a0380800000000000000
+      internalID: -9004262875003222633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d2318c6dcb1ad80800000000000000
+      internalID: -8241098212445573856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04983eef3c2ad290800000000000000
+      internalID: -7864925146157902835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d20a72d9065aa71b0800000000000000
+      internalID: -5658028147465543635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de8dc9bb81bae44e0800000000000000
+      internalID: -1995469462163367699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f607a5842dd323aa0800000000000000
+      internalID: -6182811365059956625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 463c81bcb664bf060800000000000000
+      internalID: 6988256675578299236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4346c0c2e83dd1270800000000000000
+      internalID: 8222961102226220084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7f62fd68deae3860800000000000000
+      internalID: 7511633473081339771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167e243df8c0c7940800000000000000
+      internalID: 5295121073745094497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b42e736cb47427e70800000000000000
+      internalID: 9111423386897605195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16012963cd9a91f0800000000000000
+      internalID: -1037343301547522529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c4cb795be29735c0800000000000000
+      internalID: -4235755385002408765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce2b4ff042570f0800000000000000
+      internalID: -1119949281383224290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252a8bc1dff783bf0800000000000000
+      internalID: -344384646408527278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93e77ef9328cac50800000000000000
+      internalID: 6677855533077619614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9475caec270114030800000000000000
+      internalID: 3477078472586450761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf92a2de84caa41a0800000000000000
+      internalID: -6824452856109979141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d80d5477cd2a87530800000000000000
+      internalID: 3853008548993028237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 332c3606231945f20800000000000000
+      internalID: 3410510463377850931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8f1c44aace11fa40800000000000000
+      internalID: 5400131283882614669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f218bc206e6252390800000000000000
+      internalID: -7843820406664625873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402ce253d7ebb8cd0800000000000000
+      internalID: -2554738918630178300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92fad23bb11e658a0800000000000000
+      internalID: -6316613918254059735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dca35c3d22527d40800000000000000
+      internalID: 5580613242504588504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b5e3ccb2dd0ac470800000000000000
+      internalID: 8415554052456441270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa6ac29e9bc34510800000000000000
+      internalID: 1532292180164111094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d977c3a337cce7fd0800000000000000
+      internalID: -2342209960915732579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2df82903705f9d880800000000000000
+      internalID: -8585561803376652334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 001e5602b1e8ffb60800000000000000
+      internalID: 7782094928278315264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0867fbef9bf5f1b90800000000000000
+      internalID: -7268986021105142144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c9c404285c2f160800000000000000
+      internalID: 7057920729258171415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ccf4b41a42cda4d0800000000000000
+      internalID: -3121625343267111736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c0cf16db71d628f0800000000000000
+      internalID: -565534373384830781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462ba4790a79b0480800000000000000
+      internalID: -8931878719970430364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57974c5acec7771e0800000000000000
+      internalID: -2200152537111955083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e559ebb9c682eb0a0800000000000000
+      internalID: -6864004335131519650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48fed7c4ad8741360800000000000000
+      internalID: 7139464188270604164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ab6979ddc1041ab0800000000000000
+      internalID: -5038400099492205664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0033e44e2de673810800000000000000
+      internalID: 1744985232681874176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b3d18af37df3640800000000000000
+      internalID: 5062001174591126360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6c2ba5a0a9012d0800000000000000
+      internalID: -3309976356855298323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b6ada5b02d22a70800000000000000
+      internalID: 8800827568046107540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_45
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27ab4a231e8dd6e00800000000000000
+      internalID: 1039725550721350258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_46
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 430efc0f3eacdaf20800000000000000
+      internalID: 3435625171100098612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_47
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b8a4ca7655fcda30800000000000000
+      internalID: 4241534700851865778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a199dea1a59de040800000000000000
+      internalID: 4678560109563580841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b5436b0289a2e40800000000000000
+      internalID: 5632481550243486584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d94a35a6e439dd60800000000000000
+      internalID: 7915415985299540440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6d162497a4720480800000000000000
+      internalID: -8934450447655756434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e817ee70c798e930800000000000000
+      internalID: 4172751907777353957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_53
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824afc4039452fa90800000000000000
+      internalID: -7281664657087028184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f44cd5340329a840800000000000000
+      internalID: 5235754542785381621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_55
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5571b15950fcca7f0800000000000000
+      internalID: -599877027463751851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea19d839cb08a7d0800000000000000
+      internalID: -2907060600597570844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4094a1248bdcb43f0800000000000000
+      internalID: -915411907973068540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37453f610a1bdb5f0800000000000000
+      internalID: -739239462680963981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c341e84258ad0f0800000000000000
+      internalID: -1091413567634916343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6acbbc261b1281c0800000000000000
+      internalID: -4503006895363339669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Splash_Burst_v1_A_No Sides_With Back Splash_spritesheet_61
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38e1a6fb750ed800800000000000000
+      internalID: 638954227110111294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

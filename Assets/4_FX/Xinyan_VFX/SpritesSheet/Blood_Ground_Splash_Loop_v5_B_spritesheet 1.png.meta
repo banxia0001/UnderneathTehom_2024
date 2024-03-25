@@ -1,0 +1,1632 @@
+fileFormatVersion: 2
+guid: 1c998605c72eef544a238bd8248fc10f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5739456571761895948
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_0
+  - first:
+      213: -6933356306707821186
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_1
+  - first:
+      213: 5619759166160695599
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_2
+  - first:
+      213: 7292172577086165063
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_3
+  - first:
+      213: -4179214756149654051
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_4
+  - first:
+      213: 7817097500674293516
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_5
+  - first:
+      213: 3054368220881123553
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_6
+  - first:
+      213: 1697428481904266830
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_7
+  - first:
+      213: -2824453257244805404
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_8
+  - first:
+      213: -3604905835777601037
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_9
+  - first:
+      213: 8926548505779185839
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_10
+  - first:
+      213: 2181752068302964875
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_11
+  - first:
+      213: 8331457253791325590
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_12
+  - first:
+      213: 977778424255064280
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_13
+  - first:
+      213: 2452607844673999585
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_14
+  - first:
+      213: 2314152496997694095
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_15
+  - first:
+      213: -8252678107105601761
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_16
+  - first:
+      213: -5003268302401505615
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_17
+  - first:
+      213: 6427693918925623451
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_18
+  - first:
+      213: 3195437008397640404
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_19
+  - first:
+      213: 8755861905630367787
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_20
+  - first:
+      213: 6429981648722489476
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_21
+  - first:
+      213: 731575047913459169
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_22
+  - first:
+      213: 6702605297347651648
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_23
+  - first:
+      213: -9011756415433895656
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_24
+  - first:
+      213: 3396491169500330577
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_25
+  - first:
+      213: -5911305951033465193
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_26
+  - first:
+      213: -6519359716404473862
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_27
+  - first:
+      213: -444205423789101577
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_28
+  - first:
+      213: -4097604665020648386
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_29
+  - first:
+      213: -5324219439494109171
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_30
+  - first:
+      213: -395690660315562841
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_31
+  - first:
+      213: 557658256682491823
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_32
+  - first:
+      213: 1515566056045096058
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_33
+  - first:
+      213: -7142781226604169098
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_34
+  - first:
+      213: 2700824424500036163
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_35
+  - first:
+      213: 8191520694844380531
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_36
+  - first:
+      213: 6377103590472808580
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_37
+  - first:
+      213: 4121928949622542213
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_38
+  - first:
+      213: 2707663655152396228
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_39
+  - first:
+      213: -6599970295715232980
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_40
+  - first:
+      213: -572155691130041172
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_41
+  - first:
+      213: 3156756447351657734
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_42
+  - first:
+      213: 6757588842304393347
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_43
+  - first:
+      213: -8215022217878062471
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_44
+  - first:
+      213: -2811866483464694703
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_45
+  - first:
+      213: 4281771604723363832
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_46
+  - first:
+      213: 5383155244140518777
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_47
+  - first:
+      213: 5582178322272032363
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_48
+  - first:
+      213: 2562325014685293722
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_49
+  - first:
+      213: 1452776430038928456
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_50
+  - first:
+      213: -2172571723290161094
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_51
+  - first:
+      213: 4594157086223105754
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_52
+  - first:
+      213: 6837626315326717181
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_53
+  - first:
+      213: 5283538752978948505
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_54
+  - first:
+      213: 6118326161860434639
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_55
+  - first:
+      213: 7029523373078158747
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_56
+  - first:
+      213: -1587578549867148960
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_57
+  - first:
+      213: -8792585079453387085
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_58
+  - first:
+      213: -8215877986691134452
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_59
+  - first:
+      213: -7647808795582054236
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_60
+  - first:
+      213: -6767217234340171135
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_61
+  - first:
+      213: -5987069299067950300
+    second: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_62
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a26a3d755a6af40800000000000000
+      internalID: 5739456571761895948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_1
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d477d6c25c7cf90800000000000000
+      internalID: -6933356306707821186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_2
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21f046df256dfd40800000000000000
+      internalID: 5619759166160695599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_3
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740d012c250033560800000000000000
+      internalID: 7292172577086165063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_4
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd01ab52527006c0800000000000000
+      internalID: -4179214756149654051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_5
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0ff84692c8eb7c60800000000000000
+      internalID: 7817097500674293516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_6
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e87cd2d6bb436a20800000000000000
+      internalID: 3054368220881123553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_7
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3584
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ec88ff53a7e8710800000000000000
+      internalID: 1697428481904266830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e67a352ab68dc8d0800000000000000
+      internalID: -2824453257244805404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_9
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f15eb1fd3dc8fdc0800000000000000
+      internalID: -3604905835777601037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa82345329871eb70800000000000000
+      internalID: 8926548505779185839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_11
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b880c2b52f3274e10800000000000000
+      internalID: 2181752068302964875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_12
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d5599fa384f9370800000000000000
+      internalID: 8331457253791325590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_13
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d8a3cedb44c19d00800000000000000
+      internalID: 977778424255064280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_14
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2512b17d9690220800000000000000
+      internalID: 2452607844673999585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_15
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 3072
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a71a36f658d1020800000000000000
+      internalID: 2314152496997694095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17d3547cf8987d80800000000000000
+      internalID: -8252678107105601761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_17
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b6f267ccf1d09ab0800000000000000
+      internalID: -5003268302401505615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_18
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90108a5091c33950800000000000000
+      internalID: 6427693918925623451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_19
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2adab6709785c20800000000000000
+      internalID: 3195437008397640404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20197b3302138970800000000000000
+      internalID: 8755861905630367787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_21
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4807264fd32eb3950800000000000000
+      internalID: 6429981648722489476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_22
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edcb6941a3172a00800000000000000
+      internalID: 731575047913459169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2560
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048ee0a8100740d50800000000000000
+      internalID: 6702605297347651648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81117b7594fcfe280800000000000000
+      internalID: -9011756415433895656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_25
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a71d829b2c22f20800000000000000
+      internalID: 3396491169500330577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_26
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7966ff59e82d6fda0800000000000000
+      internalID: -5911305951033465193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_27
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff48b401e49685a0800000000000000
+      internalID: -6519359716404473862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_28
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fdafb3458dd5d9f0800000000000000
+      internalID: -444205423789101577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_29
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e34f57764426227c0800000000000000
+      internalID: -4097604665020648386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_30
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0869b2f0a29c16b0800000000000000
+      internalID: -5324219439494109171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_31
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2048
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ac73fed079328af0800000000000000
+      internalID: -395690660315562841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faf9f97da333db700800000000000000
+      internalID: 557658256682491823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_33
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c25345c4f580510800000000000000
+      internalID: 1515566056045096058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_34
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 678fde7815ebfdc90800000000000000
+      internalID: -7142781226604169098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_35
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342060721814b7520800000000000000
+      internalID: 2700824424500036163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_36
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 375d572eba02ea170800000000000000
+      internalID: 8191520694844380531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_37
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 488fffd9de5008850800000000000000
+      internalID: 6377103590472808580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_38
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58f86af6a88043930800000000000000
+      internalID: 4121928949622542213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_39
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1536
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c72890afbd839520800000000000000
+      internalID: 2707663655152396228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2383c3fbf13864a0800000000000000
+      internalID: -6599970295715232980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_41
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cacc9f92e6b4f08f0800000000000000
+      internalID: -572155691130041172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_42
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 605d1de734d0fcb20800000000000000
+      internalID: 3156756447351657734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_43
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38052b3bf37c7cd50800000000000000
+      internalID: 6757588842304393347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_44
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97abf6161d06efd80800000000000000
+      internalID: -8215022217878062471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_45
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1549249c45e3af8d0800000000000000
+      internalID: -2811866483464694703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_46
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffe3e4b698eb6b30800000000000000
+      internalID: 4281771604723363832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_47
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 1024
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97dd6c16c2fc4ba40800000000000000
+      internalID: 5383155244140518777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6619e3cb91e77d40800000000000000
+      internalID: 5582178322272032363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_49
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9c1a6b66053f8320800000000000000
+      internalID: 2562325014685293722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_50
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84cc78a477c492410800000000000000
+      internalID: 1452776430038928456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_51
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a305b38478979d1e0800000000000000
+      internalID: -2172571723290161094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_52
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adefbae6789b1cf30800000000000000
+      internalID: 4594157086223105754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_53
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfc79ef08e024ee50800000000000000
+      internalID: 6837626315326717181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_54
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9911250a086e25940800000000000000
+      internalID: 5283538752978948505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_55
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 512
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca9ba95a39a8e450800000000000000
+      internalID: 6118326161860434639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9d11a88342ed8160800000000000000
+      internalID: 7029523373078158747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_57
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069832268b9c7f9e0800000000000000
+      internalID: -1587578549867148960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_58
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6f7c194767af580800000000000000
+      internalID: -8792585079453387085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_59
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cc25d20865bfd80800000000000000
+      internalID: -8215877986691134452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_60
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a049359b668dd590800000000000000
+      internalID: -7647808795582054236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_61
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 0
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 182b04597c30612a0800000000000000
+      internalID: -6767217234340171135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blood_Ground_Splash_Loop_v5_B_spritesheet 1_62
+      rect:
+        serializedVersion: 2
+        x: 3136
+        y: 55
+        width: 455
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b686f7138a9eca0800000000000000
+      internalID: -5987069299067950300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

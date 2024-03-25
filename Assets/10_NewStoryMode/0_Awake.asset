@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 0_Awake
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: 'The strange and peculiar imagery of your dreams dissipates like wisps
+      of smoke.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'Your eyelids slowly slither open as the weight of your slumber falls away.
+
+'
+    speaker: 9
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'The debris of an unfamiliar city surrounds you.
+
+'
+    speaker: 9
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'Who you are, what you are, why you came here - all this eludes you.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'All that comes to mind is a singular, primeval thought:'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201CI\u2019m starving\u2026.\u201D\r\n"
+    speaker: 7
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "The gnawing emptiness in your stomach drives you to move\u2026\r\n"
+    speaker: 0
+    continueTrigger: 1
+    eventTrigger: 0
+    camLookAt: 0

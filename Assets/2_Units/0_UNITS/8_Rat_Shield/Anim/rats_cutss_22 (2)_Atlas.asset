@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
+  m_Name: rats_cutss_22 (2)_Atlas
+  m_EditorClassIdentifier: 
+  atlasFile: {fileID: 4900000, guid: 4d3bbd37b715dea47b476dd666809023, type: 3}
+  materials:
+  - {fileID: 2100000, guid: 9a8ad1173f034ca488be935aa2c4040e, type: 2}
+  - {fileID: 2100000, guid: a6eb02e43a9e83b4b897155c024a88a6, type: 2}
+  - {fileID: 2100000, guid: 73234d94c57846343bd059665305c008, type: 2}
+  - {fileID: 2100000, guid: 9aab2098ca7c6584ebde534efed85d4b, type: 2}

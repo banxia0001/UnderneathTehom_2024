@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f3f2f016923d0e4b88a84c64406d902, type: 3}
+  m_Name: Undead
+  m_EditorClassIdentifier: 
+  EnemyList:
+  - {fileID: 6172686811869509274, guid: d652fe4403386c54eb42ca2127272995, type: 3}
+  - {fileID: 8028154028972766379, guid: c7c2fdb7abc2d694289216d9df12bfbe, type: 3}
+  - {fileID: 8028154028972766379, guid: 8c4eb9dd0b496184ca0c30aeead96541, type: 3}
+  - {fileID: 893891766077704407, guid: 28b7c94f8b24dab4bb874bb579f515e7, type: 3}
+  - {fileID: 893891766077704407, guid: 28b7c94f8b24dab4bb874bb579f515e7, type: 3}
+  - {fileID: 893891766077704407, guid: 28b7c94f8b24dab4bb874bb579f515e7, type: 3}
+  - {fileID: 893891766077704407, guid: 28b7c94f8b24dab4bb874bb579f515e7, type: 3}
+  - {fileID: 5403910442299141102, guid: ade03ef73d2bfdb428186fed1f5ddf4d, type: 3}
+  - {fileID: 5403910442299141102, guid: ade03ef73d2bfdb428186fed1f5ddf4d, type: 3}
+  - {fileID: 3883637322618193918, guid: 0c8705be9f40c9f4490e7d1d5bc96c4e, type: 3}
+  - {fileID: 7436311655402998045, guid: 50cdac1f59b1df94094dd83611dba14c, type: 3}
+  - {fileID: 7436311655402998045, guid: 50cdac1f59b1df94094dd83611dba14c, type: 3}
+  - {fileID: 3883637322618193918, guid: 0c8705be9f40c9f4490e7d1d5bc96c4e, type: 3}
+  - {fileID: 3883637322618193918, guid: 0c8705be9f40c9f4490e7d1d5bc96c4e, type: 3}

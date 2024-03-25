@@ -1,0 +1,203 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6424563302866464691
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 464792223717251515, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1876025592399243334, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201396910441018818, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: initialSkinName
+      value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 5201396910441018818, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 1045fb9eee9a6954f8484c04e81f7090, type: 2}
+    - target: {fileID: 7082899171262699768, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Name
+      value: Prefab_ZombieRat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.073
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.729
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: unitTeam
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: unitType
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.Name
+      value: Undead Rat
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.dodge
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: isSummoned
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.FleshDrop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.healthMax
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.healthNow
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.damage.hit
+      value: 95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.damage.num
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.movePointMax
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.movePointNow
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.damage.damMax
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.damage.damMin
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: isOccupySummonLimit
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.damage.damBonus
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.Skill.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.unitSpriteAssetType
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.traitList.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.Skill.Array.data[0].skill
+      value: 
+      objectReference: {fileID: 11400000, guid: cc4c080b37463d4478ecc9d8207bbdcb, type: 2}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.Skill.Array.data[1].skill
+      value: 
+      objectReference: {fileID: 11400000, guid: 5663a5de38805814e9867f08cd1478a6, type: 2}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.traitList.Array.data[0].buff
+      value: 
+      objectReference: {fileID: 11400000, guid: 53eb548bb9b15c54cba33a8f4f23dbf3, type: 2}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.traitList.Array.data[1].buff
+      value: 
+      objectReference: {fileID: 11400000, guid: 9bf6055a505ddae4c9cde0a86a916d31, type: 2}
+    - target: {fileID: 7082899171262699771, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: data.traitList.Array.data[2].buff
+      value: 
+      objectReference: {fileID: 11400000, guid: e9a1781afe582574a88e1b45864b577b, type: 2}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5083f7d5ebbc09849b3a56b46614d3af, type: 2}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 2988d0b8c719d8f4784d6ef61d837c78, type: 2}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Materials.Array.data[2]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5083f7d5ebbc09849b3a56b46614d3af, type: 2}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: 4b23f95fe395d0d408d7e2d5a7ca40bf, type: 2}
+    - target: {fileID: 9218246687646234833, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
+      propertyPath: m_Materials.Array.data[4]
+      value: 
+      objectReference: {fileID: 2100000, guid: 5083f7d5ebbc09849b3a56b46614d3af, type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}

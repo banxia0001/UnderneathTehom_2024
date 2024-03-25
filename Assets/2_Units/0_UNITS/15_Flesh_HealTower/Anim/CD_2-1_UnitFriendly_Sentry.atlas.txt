@@ -1,0 +1,118 @@
+
+CD_2-1_UnitFriendly_Sentry.png
+size: 398,485
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body1
+  rotate: true
+  xy: 273, 380
+  size: 103, 122
+  orig: 111, 124
+  offset: 0, 2
+  index: -1
+body2
+  rotate: true
+  xy: 2, 186
+  size: 143, 263
+  orig: 154, 295
+  offset: 2, 31
+  index: -1
+body3
+  rotate: true
+  xy: 2, 331
+  size: 152, 269
+  orig: 163, 295
+  offset: 9, 25
+  index: -1
+body4
+  rotate: true
+  xy: 267, 228
+  size: 72, 62
+  orig: 73, 63
+  offset: 0, 1
+  index: -1
+body5
+  rotate: true
+  xy: 2, 12
+  size: 172, 147
+  orig: 172, 148
+  offset: 0, 0
+  index: -1
+bubble1
+  rotate: true
+  xy: 304, 3
+  size: 45, 49
+  orig: 45, 51
+  offset: 0, 2
+  index: -1
+bubble2
+  rotate: true
+  xy: 331, 231
+  size: 69, 63
+  orig: 69, 63
+  offset: 0, 0
+  index: -1
+bubble2.5
+  rotate: true
+  xy: 367, 350
+  size: 28, 29
+  orig: 28, 29
+  offset: 0, 0
+  index: -1
+bubble3
+  rotate: false
+  xy: 267, 186
+  size: 35, 40
+  orig: 36, 41
+  offset: 0, 1
+  index: -1
+bubble4
+  rotate: false
+  xy: 355, 8
+  size: 41, 40
+  orig: 41, 40
+  offset: 0, 0
+  index: -1
+bubble5
+  rotate: true
+  xy: 367, 322
+  size: 26, 29
+  orig: 26, 29
+  offset: 0, 0
+  index: -1
+bubble6
+  rotate: false
+  xy: 273, 302
+  size: 92, 76
+  orig: 93, 88
+  offset: 0, 0
+  index: -1
+bubble7
+  rotate: true
+  xy: 214, 2
+  size: 46, 51
+  orig: 46, 51
+  offset: 0, 0
+  index: -1
+rootBackL
+  rotate: true
+  xy: 151, 2
+  size: 46, 61
+  orig: 47, 61
+  offset: 1, 0
+  index: -1
+rootBackR
+  rotate: true
+  xy: 267, 2
+  size: 46, 35
+  orig: 47, 36
+  offset: 0, 1
+  index: -1
+roots
+  rotate: false
+  xy: 151, 50
+  size: 229, 134
+  orig: 230, 134
+  offset: 0, 0
+  index: -1

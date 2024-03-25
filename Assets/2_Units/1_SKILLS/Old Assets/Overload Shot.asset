@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Overload Shot
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 8b8e3906531785648863e44deb9b2304, type: 3}
+  CD: 5
+  Cost: 2
+  animTrigger: attack
+  type: 3
+  DamageType: 0
+  bonusToDamageRate: 300
+  isUsingWeapon: 1
+  isFriendly: 0
+  isSelfUse: 0
+  isInstant: 0
+  performWait: 0.12
+  castSpecialEffect: {fileID: 100000, guid: 978c01eed36d79f4e8ae6e248ce44f45, type: 3}
+  attackWait: 0.1
+  hitSpecialEffect: {fileID: 100002, guid: 58e414f236a231a4c9958db55996b6be, type: 3}
+  projectile: {fileID: 4969660462560180803, guid: 5907b8d8d4942114194d1d7de7d3fe1f, type: 3}
+  isCurveProjectile: 0
+  flyingSpeed: 50
+  buffSelf: 0
+  buff: {fileID: 0}
+  causeHeal: 0
+  num: 1
+  damMin: 1
+  damMax: 2
+  armorBreak: 3
+  armorPierce: 50
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 2
+  autoHit: 1
+  hitBonus: 0
+  noDamage: 0
+  causeKnockBack: 1
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  description: Unit perform one powerful shot. The bullet will damage all units in
+    one line.

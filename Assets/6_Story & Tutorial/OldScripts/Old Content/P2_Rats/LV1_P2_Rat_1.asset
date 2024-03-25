@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: becb34be61b87c64b90fdff18cc112d0, type: 3}
+  m_Name: LV1_P2_Rat_1
+  m_EditorClassIdentifier: 
+  paragraphContents:
+  - speaker: 0
+    text: After traversing the tunnel, you notice a gaint, malformed rat atop a rock,
+      unmistakably lured by the cave's collapse, evident from its gleaming eyes.
+  choiceContents_0:
+  - eventTrigger: 0
+    animTrigger: 5
+    camLookAt: 0
+    text: Make a friendly gesture.
+    nextDialog: {fileID: 11400000, guid: 61a6d9ed6caf2124492709e18d716ae6, type: 2}
+    dialogueToUnlockThisChoice: []
+  - eventTrigger: 0
+    animTrigger: 5
+    camLookAt: 0
+    text: Try to scare the creature away.
+    nextDialog: {fileID: 11400000, guid: 61a6d9ed6caf2124492709e18d716ae6, type: 2}
+    dialogueToUnlockThisChoice: []

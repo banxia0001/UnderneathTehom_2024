@@ -1,0 +1,229 @@
+
+Nameless_CharTest_Cut_1-Recovered_2 (1).png
+size: 2485,2326
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ArmL
+  rotate: true
+  xy: 1467, 213
+  size: 472, 923
+  orig: 472, 969
+  offset: 0, 15
+  index: -1
+ArmR
+  rotate: true
+  xy: 603, 589
+  size: 389, 862
+  orig: 389, 862
+  offset: 0, 0
+  index: -1
+ArmorL
+  rotate: true
+  xy: 1235, 980
+  size: 455, 644
+  orig: 455, 644
+  offset: 0, 0
+  index: -1
+ArmorLBack
+  rotate: true
+  xy: 603, 1089
+  size: 414, 630
+  orig: 414, 630
+  offset: 0, 0
+  index: -1
+ArmorR
+  rotate: true
+  xy: 2, 1238
+  size: 373, 599
+  orig: 379, 599
+  offset: 6, 0
+  index: -1
+ArmorRBack
+  rotate: false
+  xy: 2067, 1228
+  size: 388, 581
+  orig: 413, 599
+  offset: 0, 18
+  index: -1
+BangCenter
+  rotate: false
+  xy: 862, 1505
+  size: 474, 382
+  orig: 474, 382
+  offset: 0, 0
+  index: -1
+BangLeft
+  rotate: true
+  xy: 1432, 1867
+  size: 286, 459
+  orig: 286, 459
+  offset: 0, 0
+  index: -1
+BangRightLow
+  rotate: true
+  xy: 342, 2037
+  size: 193, 342
+  orig: 193, 342
+  offset: 0, 0
+  index: -1
+BangRightUp
+  rotate: true
+  xy: 2, 2039
+  size: 191, 338
+  orig: 191, 338
+  offset: 0, 0
+  index: -1
+ChestArmor
+  rotate: true
+  xy: 1137, 1889
+  size: 276, 293
+  orig: 276, 302
+  offset: 0, 9
+  index: -1
+Eyelid
+  rotate: false
+  xy: 1563, 2155
+  size: 444, 169
+  orig: 452, 211
+  offset: 8, 34
+  index: -1
+MouthOpen
+  rotate: false
+  xy: 213, 2244
+  size: 126, 80
+  orig: 136, 82
+  offset: 6, 1
+  index: -1
+MouthOpen2
+  rotate: false
+  xy: 97, 2272
+  size: 114, 52
+  orig: 123, 82
+  offset: 6, 29
+  index: -1
+Pupils
+  rotate: false
+  xy: 1172, 2167
+  size: 389, 157
+  orig: 400, 157
+  offset: 5, 0
+  index: -1
+RingLeft1
+  rotate: true
+  xy: 341, 2232
+  size: 92, 360
+  orig: 93, 360
+  offset: 1, 0
+  index: -1
+RingLeft2
+  rotate: true
+  xy: 2009, 2137
+  size: 187, 351
+  orig: 187, 354
+  offset: 0, 0
+  index: -1
+RingRight
+  rotate: true
+  xy: 703, 2176
+  size: 148, 467
+  orig: 148, 467
+  offset: 0, 0
+  index: -1
+ShoeL
+  rotate: false
+  xy: 482, 1613
+  size: 378, 359
+  orig: 379, 359
+  offset: 1, 0
+  index: -1
+ShoeR
+  rotate: false
+  xy: 1893, 1811
+  size: 466, 324
+  orig: 466, 342
+  offset: 0, 0
+  index: -1
+TurbanInside
+  rotate: false
+  xy: 1338, 1437
+  size: 727, 372
+  orig: 727, 372
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 2, 1700
+  size: 478, 335
+  orig: 478, 335
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 553, 2
+  size: 585, 732
+  orig: 585, 772
+  offset: 0, 0
+  index: -1
+eyewhite
+  rotate: false
+  xy: 686, 1974
+  size: 449, 200
+  orig: 452, 208
+  offset: 3, 3
+  index: -1
+face
+  rotate: false
+  xy: 2, 99
+  size: 549, 600
+  orig: 551, 603
+  offset: 1, 1
+  index: -1
+faceAngry
+  rotate: true
+  xy: 1881, 687
+  size: 539, 602
+  orig: 551, 603
+  offset: 0, 1
+  index: -1
+faceSick
+  rotate: true
+  xy: 2, 701
+  size: 535, 599
+  orig: 551, 603
+  offset: 0, 4
+  index: -1
+mouthClosed
+  rotate: false
+  xy: 2, 2290
+  size: 93, 34
+  orig: 96, 34
+  offset: 0, 0
+  index: -1
+
+Nameless_CharTest_Cut_1-Recovered_2 (1)2.png
+size: 2452,1094
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+TurbanScarf
+  rotate: true
+  xy: 1722, 129
+  size: 963, 728
+  orig: 970, 742
+  offset: 3, 0
+  index: -1
+TurbanTop
+  rotate: true
+  xy: 2, 2
+  size: 1090, 864
+  orig: 1090, 864
+  offset: 0, 0
+  index: -1
+pants
+  rotate: true
+  xy: 868, 72
+  size: 1020, 852
+  orig: 1020, 917
+  offset: 0, 1
+  index: -1

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Sharing of Life
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 431d79118f270124b911b306f5378596, type: 3}
+  CD: 4
+  Cost: 1
+  description: The undead creature shares its profane life energy, healing target
+    unit for 3 HP.
+  type: 2
+  damageType: 2
+  animTriggerType: 7
+  isUsingWeapon: 0
+  isFriendly: 1
+  isSelfUse: 0
+  isInstant: 0
+  timer_PerformAction: 0.226
+  castSpecialEffect: {fileID: 0}
+  timer_AttackHit: 0.358
+  hitSpecialEffect: {fileID: 0}
+  timer_WaitAfterAttack: 0.35
+  moveToGrid_SpeedRatio: 1
+  moveToGrid_DistanceRatio: 0.5
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 0}
+  causeHeal: 1
+  addArmor: 0
+  num: 1
+  damMin: 2
+  damMax: 2
+  armorSunder: 0
+  armorMgSunder: 0
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 1
+  autoHit: 1
+  hitBonus: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []

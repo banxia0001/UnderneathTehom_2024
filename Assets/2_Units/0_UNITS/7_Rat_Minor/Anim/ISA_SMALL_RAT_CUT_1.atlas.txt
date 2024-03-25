@@ -1,0 +1,275 @@
+
+ISA_SMALL_RAT_CUT_1.png
+size: 2560,2505
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grey/ArmL
+  rotate: true
+  xy: 2020, 2265
+  size: 238, 533
+  orig: 238, 533
+  offset: 0, 0
+  index: -1
+Grey/ArmR
+  rotate: true
+  xy: 1157, 2022
+  size: 265, 441
+  orig: 265, 441
+  offset: 0, 0
+  index: -1
+Grey/EarL
+  rotate: true
+  xy: 910, 1216
+  size: 444, 470
+  orig: 444, 470
+  offset: 0, 0
+  index: -1
+Grey/EarR
+  rotate: true
+  xy: 2, 2326
+  size: 177, 513
+  orig: 177, 513
+  offset: 0, 0
+  index: -1
+Grey/FootL
+  rotate: true
+  xy: 2, 874
+  size: 438, 673
+  orig: 438, 685
+  offset: 0, 0
+  index: -1
+Grey/LegR
+  rotate: true
+  xy: 2, 259
+  size: 481, 859
+  orig: 481, 859
+  offset: 0, 0
+  index: -1
+Skin/LegR
+  rotate: true
+  xy: 2, 259
+  size: 481, 859
+  orig: 481, 859
+  offset: 0, 0
+  index: -1
+Skin/ArmL
+  rotate: true
+  xy: 1428, 2289
+  size: 214, 590
+  orig: 255, 590
+  offset: 41, 0
+  index: -1
+Skin/ArmR
+  rotate: true
+  xy: 2, 1812
+  size: 268, 481
+  orig: 268, 481
+  offset: 0, 0
+  index: -1
+Skin/EarL
+  rotate: true
+  xy: 1524, 1635
+  size: 359, 517
+  orig: 359, 517
+  offset: 0, 0
+  index: -1
+Skin/EarR
+  rotate: true
+  xy: 517, 2321
+  size: 182, 535
+  orig: 182, 535
+  offset: 0, 0
+  index: -1
+Skin/FootL
+  rotate: false
+  xy: 2120, 966
+  size: 438, 660
+  orig: 438, 685
+  offset: 0, 1
+  index: -1
+Skin/Shroom1
+  rotate: true
+  xy: 1537, 666
+  size: 529, 534
+  orig: 529, 534
+  offset: 0, 0
+  index: -1
+Skin/Shroom2
+  rotate: false
+  xy: 2, 1413
+  size: 409, 397
+  orig: 415, 425
+  offset: 6, 0
+  index: -1
+Skin/Tail
+  rotate: false
+  xy: 1691, 2
+  size: 815, 662
+  orig: 815, 662
+  offset: 0, 0
+  index: -1
+Zombie/ArmL
+  rotate: true
+  xy: 1600, 1996
+  size: 267, 929
+  orig: 272, 929
+  offset: 3, 0
+  index: -1
+Zombie/ArmR
+  rotate: true
+  xy: 2, 2082
+  size: 237, 826
+  orig: 237, 826
+  offset: 0, 0
+  index: -1
+Zombie/Brain
+  rotate: false
+  xy: 413, 1314
+  size: 495, 398
+  orig: 495, 398
+  offset: 0, 0
+  index: -1
+Zombie/CalfL
+  rotate: true
+  xy: 2043, 1628
+  size: 366, 395
+  orig: 366, 395
+  offset: 0, 0
+  index: -1
+Zombie/EarR
+  rotate: false
+  xy: 1092, 1662
+  size: 430, 358
+  orig: 431, 359
+  offset: 1, 1
+  index: -1
+Zombie/EyeHanging
+  rotate: true
+  xy: 1054, 2317
+  size: 186, 372
+  orig: 187, 372
+  offset: 1, 0
+  index: -1
+Zombie/FootL
+  rotate: true
+  xy: 485, 1714
+  size: 346, 605
+  orig: 346, 606
+  offset: 0, 1
+  index: -1
+Zombie/LegR
+  rotate: true
+  xy: 677, 742
+  size: 453, 858
+  orig: 453, 859
+  offset: 0, 0
+  index: -1
+Zombie/Tail
+  rotate: false
+  xy: 1382, 1197
+  size: 736, 429
+  orig: 736, 429
+  offset: 0, 0
+  index: -1
+Zombie/ThighL
+  rotate: true
+  xy: 863, 31
+  size: 633, 826
+  orig: 634, 826
+  offset: 0, 0
+  index: -1
+Zombie/ThighLBone
+  rotate: true
+  xy: 830, 2062
+  size: 253, 325
+  orig: 253, 326
+  offset: 0, 0
+  index: -1
+
+ISA_SMALL_RAT_CUT_12.png
+size: 2543,2084
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grey/Tail
+  rotate: false
+  xy: 2, 1412
+  size: 782, 670
+  orig: 782, 670
+  offset: 0, 0
+  index: -1
+Grey/ThighL
+  rotate: true
+  xy: 786, 1359
+  size: 723, 995
+  orig: 723, 995
+  offset: 0, 0
+  index: -1
+Skin/Head
+  rotate: false
+  xy: 1783, 875
+  size: 758, 1207
+  orig: 758, 1226
+  offset: 0, 19
+  index: -1
+Skin/ThighL
+  rotate: true
+  xy: 1236, 2
+  size: 871, 1042
+  orig: 871, 1044
+  offset: 0, 2
+  index: -1
+Zombie/Head
+  rotate: true
+  xy: 2, 625
+  size: 732, 1232
+  orig: 732, 1232
+  offset: 0, 0
+  index: -1
+
+ISA_SMALL_RAT_CUT_13.png
+size: 1515,2382
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grey/Head
+  rotate: true
+  xy: 2, 1402
+  size: 978, 1387
+  orig: 978, 1397
+  offset: 0, 2
+  index: -1
+Zombie/Body
+  rotate: true
+  xy: 2, 2
+  size: 1398, 1511
+  orig: 1398, 1511
+  offset: 0, 0
+  index: -1
+
+ISA_SMALL_RAT_CUT_14.png
+size: 1573,1438
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Skin/Body
+  rotate: false
+  xy: 2, 2
+  size: 1569, 1434
+  orig: 1570, 1434
+  offset: 0, 0
+  index: -1
+
+ISA_SMALL_RAT_CUT_15.png
+size: 1709,1452
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Grey/Body
+  rotate: false
+  xy: 2, 2
+  size: 1705, 1448
+  orig: 1711, 1451
+  offset: 5, 3
+  index: -1

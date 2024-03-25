@@ -1,0 +1,360 @@
+
+rats_cutss_22 (2).png
+size: 3436,3683
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bone/ArmL
+  rotate: true
+  xy: 1862, 2
+  size: 424, 788
+  orig: 424, 939
+  offset: 0, 139
+  index: -1
+bone/BackFurTop
+  rotate: false
+  xy: 2, 13
+  size: 594, 330
+  orig: 594, 399
+  offset: 0, 0
+  index: -1
+bone/Body
+  rotate: false
+  xy: 1862, 428
+  size: 1061, 1317
+  orig: 1061, 1317
+  offset: 0, 0
+  index: -1
+bone/EarL
+  rotate: true
+  xy: 2, 345
+  size: 1097, 1858
+  orig: 1097, 1858
+  offset: 0, 0
+  index: -1
+bone/HandL
+  rotate: false
+  xy: 1163, 82
+  size: 235, 261
+  orig: 237, 264
+  offset: 1, 2
+  index: -1
+bone/Knife2
+  rotate: true
+  xy: 598, 12
+  size: 331, 563
+  orig: 343, 563
+  offset: 0, 0
+  index: -1
+metal/HandL
+  rotate: false
+  xy: 2652, 161
+  size: 233, 265
+  orig: 233, 265
+  offset: 0, 0
+  index: -1
+shroom/Back
+  rotate: true
+  xy: 1687, 1747
+  size: 1934, 1747
+  orig: 1934, 1747
+  offset: 0, 0
+  index: -1
+shroom/EarL and Head
+  rotate: false
+  xy: 2, 1444
+  size: 1683, 2237
+  orig: 1683, 2237
+  offset: 0, 0
+  index: -1
+shroom/EarR
+  rotate: false
+  xy: 2925, 378
+  size: 453, 1367
+  orig: 453, 1367
+  offset: 0, 0
+  index: -1
+shroom/HandL
+  rotate: false
+  xy: 1400, 120
+  size: 241, 223
+  orig: 241, 223
+  offset: 0, 0
+  index: -1
+
+rats_cutss_22 (2)2.png
+size: 3335,3668
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bone/BackFur
+  rotate: true
+  xy: 2, 24
+  size: 1812, 1810
+  orig: 1812, 1817
+  offset: 0, 7
+  index: -1
+bone/EarR
+  rotate: false
+  xy: 2887, 1968
+  size: 437, 1698
+  orig: 437, 1727
+  offset: 0, 29
+  index: -1
+bone/Knife1
+  rotate: true
+  xy: 1849, 1876
+  size: 482, 685
+  orig: 519, 735
+  offset: 36, 50
+  index: -1
+metal/BackFur
+  rotate: true
+  xy: 2, 1838
+  size: 1828, 1845
+  orig: 1884, 1974
+  offset: 56, 0
+  index: -1
+metal/Body
+  rotate: false
+  xy: 1849, 2360
+  size: 1026, 1306
+  orig: 1026, 1306
+  offset: 0, 0
+  index: -1
+metal/EarR
+  rotate: false
+  xy: 2887, 327
+  size: 446, 1639
+  orig: 446, 1639
+  offset: 0, 0
+  index: -1
+shroom/Sword
+  rotate: true
+  xy: 1814, 2
+  size: 1834, 1071
+  orig: 1834, 1071
+  offset: 0, 0
+  index: -1
+
+rats_cutss_22 (2)3.png
+size: 3568,3521
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bone/ArmR
+  rotate: true
+  xy: 2, 1592
+  size: 546, 580
+  orig: 546, 580
+  offset: 0, 0
+  index: -1
+bone/CalfL
+  rotate: true
+  xy: 2, 3111
+  size: 408, 582
+  orig: 408, 582
+  offset: 0, 0
+  index: -1
+bone/LegR
+  rotate: true
+  xy: 1732, 876
+  size: 625, 863
+  orig: 625, 863
+  offset: 0, 0
+  index: -1
+bone/Shield
+  rotate: true
+  xy: 584, 1518
+  size: 574, 943
+  orig: 574, 948
+  offset: 0, 5
+  index: -1
+bone/Tail
+  rotate: false
+  xy: 2307, 2079
+  size: 1142, 523
+  orig: 1144, 525
+  offset: 1, 1
+  index: -1
+bone/ThighL
+  rotate: true
+  xy: 1302, 2626
+  size: 475, 650
+  orig: 475, 650
+  offset: 0, 0
+  index: -1
+metal/ArmL
+  rotate: true
+  xy: 1169, 3105
+  size: 414, 774
+  orig: 415, 810
+  offset: 1, 0
+  index: -1
+metal/ArmR
+  rotate: false
+  xy: 1529, 1516
+  size: 594, 576
+  orig: 595, 576
+  offset: 1, 0
+  index: -1
+metal/BackFurTop
+  rotate: false
+  xy: 2735, 3102
+  size: 552, 417
+  orig: 552, 417
+  offset: 0, 0
+  index: -1
+metal/CalfL
+  rotate: true
+  xy: 586, 3111
+  size: 408, 581
+  orig: 408, 582
+  offset: 0, 0
+  index: -1
+metal/Knife1
+  rotate: true
+  xy: 2, 935
+  size: 581, 789
+  orig: 581, 789
+  offset: 0, 0
+  index: -1
+metal/Knife2
+  rotate: true
+  xy: 585, 2656
+  size: 447, 715
+  orig: 451, 734
+  offset: 4, 19
+  index: -1
+metal/LegR
+  rotate: true
+  xy: 2597, 855
+  size: 625, 863
+  orig: 625, 863
+  offset: 0, 0
+  index: -1
+metal/Shield
+  rotate: true
+  xy: 2, 286
+  size: 626, 910
+  orig: 626, 910
+  offset: 0, 0
+  index: -1
+metal/Sword
+  rotate: false
+  xy: 1675, 2
+  size: 1880, 851
+  orig: 1880, 851
+  offset: 0, 0
+  index: -1
+metal/Tail
+  rotate: false
+  xy: 1145, 2094
+  size: 1160, 516
+  orig: 1163, 516
+  offset: 3, 0
+  index: -1
+metal/ThighL
+  rotate: true
+  xy: 2587, 2604
+  size: 496, 650
+  orig: 496, 650
+  offset: 0, 0
+  index: -1
+shroom/ArmL
+  rotate: true
+  xy: 1945, 3103
+  size: 416, 788
+  orig: 416, 788
+  offset: 0, 0
+  index: -1
+shroom/ArmR
+  rotate: true
+  xy: 2990, 1482
+  size: 595, 576
+  orig: 595, 576
+  offset: 0, 0
+  index: -1
+shroom/CalfL
+  rotate: true
+  xy: 2, 2682
+  size: 427, 581
+  orig: 427, 582
+  offset: 0, 0
+  index: -1
+shroom/HeadTop
+  rotate: false
+  xy: 914, 168
+  size: 759, 744
+  orig: 759, 744
+  offset: 0, 0
+  index: -1
+shroom/LegR
+  rotate: true
+  xy: 2125, 1503
+  size: 574, 863
+  orig: 574, 863
+  offset: 0, 0
+  index: -1
+shroom/Shield
+  rotate: true
+  xy: 793, 914
+  size: 600, 937
+  orig: 600, 937
+  offset: 0, 0
+  index: -1
+shroom/Tail
+  rotate: false
+  xy: 2, 2140
+  size: 1141, 514
+  orig: 1141, 514
+  offset: 0, 0
+  index: -1
+shroom/ThighL
+  rotate: true
+  xy: 1954, 2612
+  size: 489, 631
+  orig: 489, 631
+  offset: 0, 0
+  index: -1
+
+rats_cutss_22 (2)4.png
+size: 2940,2977
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bone/Head
+  rotate: true
+  xy: 1219, 5
+  size: 933, 1202
+  orig: 937, 1204
+  offset: 2, 1
+  index: -1
+bone/Sword
+  rotate: false
+  xy: 1072, 1938
+  size: 1866, 1037
+  orig: 1873, 1037
+  offset: 0, 0
+  index: -1
+metal/EarL
+  rotate: false
+  xy: 2, 1069
+  size: 1068, 1906
+  orig: 1068, 1906
+  offset: 0, 0
+  index: -1
+metal/Head
+  rotate: true
+  xy: 2, 2
+  size: 936, 1215
+  orig: 936, 1215
+  offset: 0, 0
+  index: -1
+shroom/Body
+  rotate: true
+  xy: 1072, 940
+  size: 996, 1250
+  orig: 997, 1250
+  offset: 0, 0
+  index: -1

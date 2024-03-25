@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d9648d144d3b1f49aa5df9b2768ecdd, type: 3}
+  m_Name: 2_BoneSnake
+  m_EditorClassIdentifier: 
+  data:
+    Name: Bone Snake
+    unitSpriteAssetType: 2
+    unitType: 5
+    unitSize: 0
+    healthMax: 7
+    healthNow: 7
+    damage:
+      range: 1
+      damMin: 2
+      damMax: 4
+      damBonus: 1
+      num: 1
+      hit: 70
+      armorSunder: 0
+      performWait: 0
+      castSpecialEffect: {fileID: 0}
+      attackWait: 0.4
+      hitSpecialEffect: {fileID: 6386262669065467272, guid: c73df3487608b4347a60e9fa12154c08, type: 3}
+    armorNow: 1
+    armorMax: 1
+    dodge: 20
+    power: 2
+    MR: 2
+    SR: 2
+    movePointMax: 3
+    rate_Corpse: 10
+    traitList: []
+    Skill:
+    - skill: {fileID: 11400000, guid: bb7411d77d5c26241896858e5649543b, type: 2}
+      CD: 0
+    - skill: {fileID: 11400000, guid: a69a502edbb7671448c5e58a1be63513, type: 2}
+      CD: 0

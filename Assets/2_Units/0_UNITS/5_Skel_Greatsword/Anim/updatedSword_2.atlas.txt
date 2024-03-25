@@ -1,0 +1,208 @@
+
+updatedSword_2.png
+size: 2595,2089
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Chestpiece
+  rotate: false
+  xy: 1067, 1247
+  size: 528, 338
+  orig: 530, 340
+  offset: 1, 1
+  index: -1
+Color
+  rotate: false
+  xy: 454, 1894
+  size: 508, 193
+  orig: 510, 196
+  offset: 1, 1
+  index: -1
+ForearmRight
+  rotate: false
+  xy: 1236, 1872
+  size: 554, 215
+  orig: 558, 218
+  offset: 2, 2
+  index: -1
+Gorget
+  rotate: false
+  xy: 2, 1333
+  size: 695, 300
+  orig: 697, 303
+  offset: 1, 1
+  index: -1
+HandLeft
+  rotate: false
+  xy: 964, 1884
+  size: 270, 203
+  orig: 273, 206
+  offset: 2, 2
+  index: -1
+HandRight
+  rotate: true
+  xy: 254, 1895
+  size: 192, 198
+  orig: 196, 201
+  offset: 2, 2
+  index: -1
+Hat
+  rotate: false
+  xy: 1691, 2
+  size: 829, 668
+  orig: 831, 670
+  offset: 1, 1
+  index: -1
+Hat Flap
+  rotate: true
+  xy: 2, 1661
+  size: 232, 431
+  orig: 234, 433
+  offset: 1, 1
+  index: -1
+Lines
+  rotate: false
+  xy: 1792, 1872
+  size: 521, 215
+  orig: 523, 217
+  offset: 1, 1
+  index: -1
+RibBack
+  rotate: true
+  xy: 2, 1954
+  size: 133, 250
+  orig: 136, 252
+  offset: 2, 1
+  index: -1
+Ribs
+  rotate: false
+  xy: 2, 460
+  size: 499, 479
+  orig: 501, 481
+  offset: 1, 1
+  index: -1
+RightShoulder
+  rotate: false
+  xy: 2315, 1836
+  size: 278, 251
+  orig: 280, 254
+  offset: 1, 1
+  index: -1
+ShoulderLeft
+  rotate: true
+  xy: 699, 1274
+  size: 340, 366
+  orig: 342, 368
+  offset: 1, 1
+  index: -1
+SkirtBack
+  rotate: true
+  xy: 2061, 672
+  size: 440, 471
+  orig: 442, 475
+  offset: 1, 2
+  index: -1
+SkirtFront
+  rotate: true
+  xy: 1052, 189
+  size: 608, 637
+  orig: 610, 639
+  offset: 1, 1
+  index: -1
+Skull
+  rotate: false
+  xy: 503, 335
+  size: 547, 544
+  orig: 549, 546
+  offset: 1, 1
+  index: -1
+Spine8
+  rotate: false
+  xy: 1227, 1587
+  size: 497, 283
+  orig: 973, 1287
+  offset: 1, 1
+  index: -1
+UpperArmLeft
+  rotate: false
+  xy: 2, 941
+  size: 559, 390
+  orig: 561, 393
+  offset: 1, 1
+  index: -1
+UpperArmRight
+  rotate: true
+  xy: 435, 1635
+  size: 257, 493
+  orig: 259, 495
+  offset: 1, 1
+  index: -1
+hat2
+  rotate: true
+  xy: 1053, 844
+  size: 401, 420
+  orig: 403, 422
+  offset: 1, 1
+  index: -1
+spine1
+  rotate: false
+  xy: 930, 1616
+  size: 295, 266
+  orig: 297, 268
+  offset: 1, 1
+  index: -1
+spine2
+  rotate: true
+  xy: 1597, 1215
+  size: 361, 514
+  orig: 363, 516
+  offset: 1, 1
+  index: -1
+spine3
+  rotate: false
+  xy: 1726, 1578
+  size: 427, 292
+  orig: 429, 294
+  offset: 1, 1
+  index: -1
+spine4
+  rotate: false
+  xy: 2113, 1114
+  size: 464, 389
+  orig: 466, 391
+  offset: 1, 1
+  index: -1
+spine5
+  rotate: false
+  xy: 1475, 799
+  size: 584, 414
+  orig: 586, 416
+  offset: 1, 1
+  index: -1
+spine6
+  rotate: true
+  xy: 563, 881
+  size: 391, 488
+  orig: 393, 490
+  offset: 1, 1
+  index: -1
+spine7
+  rotate: true
+  xy: 2155, 1505
+  size: 329, 361
+  orig: 331, 363
+  offset: 1, 1
+  index: -1
+
+updatedSword_22.png
+size: 690,2511
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sword
+  rotate: false
+  xy: 2, 2
+  size: 686, 2507
+  orig: 688, 2509
+  offset: 1, 1
+  index: -1

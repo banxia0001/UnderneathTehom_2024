@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 3_Run!
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: 'The walls of the cave reverberate, as if pulsed by a heartbeat.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 3
+    camLookAt: 0
+  - text: 'Rocks shed from the cavern walls crash to the ground beside you. The earth
+      around you ripples like a living thing.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201C...! I need to get out of here.\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 1
+  - text: "\u201CThose tendrils\u2026look weak. I might be able to break through
+      there\u2026\u201D\r\n\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 1
+  - text: "\u201CDamn it\u2026 my meal\u2026\u201D"
+    speaker: 1
+    continueTrigger: 1
+    eventTrigger: 0
+    camLookAt: 0

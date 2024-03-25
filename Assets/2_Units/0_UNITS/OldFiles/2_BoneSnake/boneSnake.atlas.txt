@@ -1,0 +1,76 @@
+
+boneSnake.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+B3-1
+  rotate: true
+  xy: 273, 0
+  size: 112, 164
+  orig: 112, 164
+  offset: 0, 0
+  index: -1
+B3-2
+  rotate: false
+  xy: 586, 46
+  size: 148, 98
+  orig: 148, 98
+  offset: 0, 0
+  index: -1
+b1
+  rotate: true
+  xy: 491, 337
+  size: 172, 152
+  orig: 172, 152
+  offset: 0, 0
+  index: -1
+b2
+  rotate: true
+  xy: 437, 8
+  size: 104, 149
+  orig: 165, 149
+  offset: 0, 0
+  index: -1
+b3
+  rotate: false
+  xy: 616, 213
+  size: 102, 124
+  orig: 102, 124
+  offset: 0, 0
+  index: -1
+b5
+  rotate: true
+  xy: 491, 144
+  size: 193, 125
+  orig: 193, 125
+  offset: 0, 0
+  index: -1
+b6
+  rotate: false
+  xy: 643, 403
+  size: 93, 106
+  orig: 93, 106
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 0, 29
+  size: 126, 51
+  orig: 126, 51
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 273, 112
+  size: 218, 397
+  orig: 218, 397
+  offset: 0, 0
+  index: -1
+图层3
+  rotate: true
+  xy: 0, 80
+  size: 429, 273
+  orig: 431, 273
+  offset: 2, 0
+  index: -1

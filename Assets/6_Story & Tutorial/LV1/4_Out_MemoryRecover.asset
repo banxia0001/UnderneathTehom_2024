@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 4_Out_MemoryRecover
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: "You\u2019ve survived.\r\n\r\n"
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201C...That was close\u2026\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201C...Ah\u2026the flesh\u2026\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'A pang of hunger wracks your frame, but fades just as quickly as it began.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\rThe foul scent of beasts drifts by from the rock crevices - the telltale
+      sign of wild flesh.\r\n"
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'Flesh to sate your boundless hunger.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: '"Good...Good...Nice......"'
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201CFlesh\u2026\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'Your desire to consume drives you forward.
+
+'
+    speaker: 0
+    continueTrigger: 1
+    eventTrigger: 0
+    camLookAt: 0

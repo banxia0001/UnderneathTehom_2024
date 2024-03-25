@@ -1,0 +1,132 @@
+
+enemy_mage_-_final.png
+size: 1447,1046
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+armL
+  rotate: true
+  xy: 820, 261
+  size: 304, 317
+  orig: 304, 317
+  offset: 0, 0
+  index: -1
+armR
+  rotate: true
+  xy: 1139, 221
+  size: 302, 306
+  orig: 302, 306
+  offset: 0, 0
+  index: -1
+belt
+  rotate: false
+  xy: 781, 21
+  size: 115, 50
+  orig: 117, 58
+  offset: 1, 7
+  index: -1
+belt1
+  rotate: false
+  xy: 719, 18
+  size: 60, 112
+  orig: 62, 114
+  offset: 1, 1
+  index: -1
+belt2
+  rotate: true
+  xy: 293, 22
+  size: 81, 145
+  orig: 81, 145
+  offset: 0, 0
+  index: -1
+belt3
+  rotate: true
+  xy: 898, 22
+  size: 49, 94
+  orig: 51, 96
+  offset: 1, 1
+  index: -1
+body
+  rotate: false
+  xy: 2, 105
+  size: 548, 939
+  orig: 548, 939
+  offset: 0, 0
+  index: -1
+handL
+  rotate: false
+  xy: 440, 29
+  size: 70, 74
+  orig: 70, 74
+  offset: 0, 0
+  index: -1
+mask
+  rotate: true
+  xy: 799, 73
+  size: 186, 296
+  orig: 186, 296
+  offset: 0, 0
+  index: -1
+maskBL
+  rotate: false
+  xy: 552, 132
+  size: 245, 133
+  orig: 245, 141
+  offset: 0, 8
+  index: -1
+maskBR
+  rotate: true
+  xy: 552, 9
+  size: 121, 165
+  orig: 121, 165
+  offset: 0, 0
+  index: -1
+maskTL
+  rotate: true
+  xy: 1184, 525
+  size: 211, 260
+  orig: 211, 260
+  offset: 0, 0
+  index: -1
+maskTR
+  rotate: true
+  xy: 2, 2
+  size: 101, 289
+  orig: 101, 291
+  offset: 0, 2
+  index: -1
+neck
+  rotate: false
+  xy: 820, 567
+  size: 362, 477
+  orig: 362, 477
+  offset: 0, 0
+  index: -1
+skull
+  rotate: true
+  xy: 1097, 55
+  size: 164, 193
+  orig: 164, 193
+  offset: 0, 0
+  index: -1
+smolSkull
+  rotate: true
+  xy: 1292, 56
+  size: 163, 151
+  orig: 165, 153
+  offset: 1, 1
+  index: -1
+staff
+  rotate: false
+  xy: 552, 267
+  size: 266, 777
+  orig: 266, 777
+  offset: 0, 0
+  index: -1
+staffHead
+  rotate: false
+  xy: 1184, 738
+  size: 253, 306
+  orig: 253, 306
+  offset: 0, 0
+  index: -1

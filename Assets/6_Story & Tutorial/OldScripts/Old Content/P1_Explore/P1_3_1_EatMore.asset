@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: becb34be61b87c64b90fdff18cc112d0, type: 3}
+  m_Name: P1_3_1_EatMore
+  m_EditorClassIdentifier: 
+  paragraphContents:
+  - speaker: 0
+    text: As the putrid jerky slides down your throat, a fiery warmth emanates from
+      your stomach. A sweet and tranquil flavor emerges from within...
+  choiceContents_0:
+  - eventTrigger: 0
+    animTrigger: 2
+    camLookAt: 0
+    text: Eat More!
+    nextDialog: {fileID: 11400000, guid: 497a7a2370055df4e923eb84fe80dbd6, type: 2}
+    dialogueToUnlockThisChoice: []

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Herb Cure
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 8a3949640ea1b064eae79fb2047f495b, type: 3}
+  CD: 3
+  Cost: 1
+  animTrigger: use
+  type: 2
+  DamageType: 2
+  bonusToDamageRate: 100
+  isUsingWeapon: 1
+  isFriendly: 1
+  isSelfUse: 1
+  isInstant: 1
+  performWait: 0.2
+  castSpecialEffect: {fileID: 5820300268245956447, guid: 6bd8f77072e4be142a2503a0955c9866, type: 3}
+  attackWait: 0.2
+  hitSpecialEffect: {fileID: 4470749529762867639, guid: 70efe937ec43647c59f1b2ad500d8bee, type: 3}
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 1
+  buff: {fileID: 11400000, guid: 471a461c07640614b8bffdc84482f4df, type: 2}
+  causeHeal: 1
+  num: 1
+  damMin: 2
+  damMax: 4
+  armorBreak: 0
+  armorPierce: 0
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 1
+  autoHit: 0
+  hitBonus: 0
+  noDamage: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs:
+  - {fileID: 11400000, guid: d173034635066124aa1a0e9e246fd846, type: 2}
+  - {fileID: 11400000, guid: 06ad48902cb18ef4c8a1553ce642e0ac, type: 2}
+  - {fileID: 11400000, guid: 94fbc582a6be55c44a6547d970b1b237, type: 2}
+  - {fileID: 11400000, guid: 471a461c07640614b8bffdc84482f4df, type: 2}
+  - {fileID: 11400000, guid: 8a4650b50915fc246b7fd3d01a7fe108, type: 2}
+  - {fileID: 11400000, guid: f999b3693da97fd40bb53416b2f9b7b2, type: 2}
+  - {fileID: 11400000, guid: fbab08e291e7eab4a9394c5764b54b26, type: 2}
+  - {fileID: 11400000, guid: 9b31b3b76f615c64f8f8ac7bea35bedc, type: 2}
+  - {fileID: 11400000, guid: d39cb49880b43ca45a95c05ee22d2462, type: 2}
+  - {fileID: 11400000, guid: 1585bbc8bed891d4299a2239e542384e, type: 2}
+  description: Hunters take herb to heal wounds, it will provide additional random
+    buffs or debuffs.

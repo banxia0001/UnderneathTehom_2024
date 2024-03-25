@@ -1,0 +1,90 @@
+
+fleshblock sentry.png
+size: 2017,590
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Eye_2
+  rotate: true
+  xy: 1497, 45
+  size: 79, 161
+  orig: 79, 161
+  offset: 0, 0
+  index: -1
+Eye_3
+  rotate: true
+  xy: 1855, 235
+  size: 150, 160
+  orig: 150, 160
+  offset: 0, 0
+  index: -1
+Eye_Main
+  rotate: false
+  xy: 1149, 126
+  size: 407, 462
+  orig: 407, 462
+  offset: 0, 0
+  index: -1
+Intestines
+  rotate: false
+  xy: 586, 14
+  size: 561, 574
+  orig: 581, 574
+  offset: 20, 0
+  index: -1
+L_tentacleBottom
+  rotate: false
+  xy: 1149, 15
+  size: 220, 35
+  orig: 222, 35
+  offset: 0, 0
+  index: -1
+L_tentacleTop
+  rotate: false
+  xy: 1660, 12
+  size: 245, 184
+  orig: 245, 184
+  offset: 0, 0
+  index: -1
+Layer 6
+  rotate: true
+  xy: 1333, 60
+  size: 64, 162
+  orig: 64, 162
+  offset: 0, 0
+  index: -1
+Layer 7
+  rotate: false
+  xy: 1558, 198
+  size: 295, 173
+  orig: 295, 173
+  offset: 0, 0
+  index: -1
+Layer 7 copy 3
+  rotate: false
+  xy: 1149, 52
+  size: 182, 72
+  orig: 182, 72
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 2
+  size: 582, 586
+  orig: 582, 586
+  offset: 0, 0
+  index: -1
+body_Layer2
+  rotate: false
+  xy: 1811, 387
+  size: 202, 201
+  orig: 202, 224
+  offset: 0, 21
+  index: -1
+body_Layer3
+  rotate: true
+  xy: 1558, 373
+  size: 215, 251
+  orig: 215, 251
+  offset: 0, 0
+  index: -1

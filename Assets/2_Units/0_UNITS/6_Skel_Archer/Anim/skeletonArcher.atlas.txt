@@ -1,0 +1,235 @@
+
+skeletonArcher.png
+size: 2034,2028
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+ArmLowL
+  rotate: false
+  xy: 422, 1302
+  size: 448, 290
+  orig: 459, 292
+  offset: 2, 1
+  index: -1
+ArmLowR
+  rotate: false
+  xy: 1454, 1522
+  size: 448, 278
+  orig: 459, 280
+  offset: 2, 1
+  index: -1
+ArmUpL
+  rotate: true
+  xy: 1683, 764
+  size: 440, 349
+  orig: 442, 351
+  offset: 1, 1
+  index: -1
+ArmUpR
+  rotate: true
+  xy: 887, 498
+  size: 421, 478
+  orig: 423, 481
+  offset: 1, 2
+  index: -1
+ArmorL
+  rotate: false
+  xy: 1130, 1827
+  size: 254, 199
+  orig: 256, 201
+  offset: 1, 1
+  index: -1
+Bone1
+  rotate: true
+  xy: 1113, 1536
+  size: 275, 339
+  orig: 277, 341
+  offset: 1, 1
+  index: -1
+Bone10
+  rotate: true
+  xy: 1386, 1813
+  size: 213, 266
+  orig: 215, 269
+  offset: 1, 2
+  index: -1
+Bone11
+  rotate: false
+  xy: 712, 1866
+  size: 221, 160
+  orig: 224, 162
+  offset: 2, 1
+  index: -1
+Bone12
+  rotate: false
+  xy: 501, 1879
+  size: 209, 147
+  orig: 212, 149
+  offset: 1, 1
+  index: -1
+Bone2
+  rotate: false
+  xy: 1304, 1206
+  size: 491, 314
+  orig: 493, 316
+  offset: 1, 1
+  index: -1
+Bone3
+  rotate: false
+  xy: 872, 1225
+  size: 430, 309
+  orig: 433, 311
+  offset: 2, 1
+  index: -1
+Bone4
+  rotate: false
+  xy: 1367, 341
+  size: 471, 421
+  orig: 473, 423
+  offset: 1, 1
+  index: -1
+Bone5
+  rotate: true
+  xy: 448, 500
+  size: 419, 437
+  orig: 421, 439
+  offset: 1, 1
+  index: -1
+Bone6
+  rotate: true
+  xy: 2, 569
+  size: 389, 444
+  orig: 392, 446
+  offset: 2, 1
+  index: -1
+Bone7
+  rotate: true
+  xy: 2, 960
+  size: 340, 465
+  orig: 342, 467
+  offset: 1, 1
+  index: -1
+Bone8
+  rotate: true
+  xy: 2, 1358
+  size: 285, 418
+  orig: 287, 420
+  offset: 1, 1
+  index: -1
+Bone9
+  rotate: true
+  xy: 2, 1664
+  size: 231, 356
+  orig: 233, 358
+  offset: 1, 1
+  index: -1
+DrapeL
+  rotate: true
+  xy: 685, 1594
+  size: 260, 426
+  orig: 262, 428
+  offset: 1, 1
+  index: -1
+DrapeR
+  rotate: true
+  xy: 2, 1897
+  size: 129, 497
+  orig: 131, 499
+  offset: 1, 1
+  index: -1
+Layer 7
+  rotate: false
+  xy: 360, 1645
+  size: 323, 232
+  orig: 325, 234
+  offset: 1, 1
+  index: -1
+Layer 9
+  rotate: false
+  xy: 469, 921
+  size: 1212, 283
+  orig: 1214, 285
+  offset: 1, 1
+  index: -1
+RibCageBehind
+  rotate: false
+  xy: 935, 1856
+  size: 193, 170
+  orig: 195, 172
+  offset: 1, 1
+  index: -1
+Scarf
+  rotate: false
+  xy: 487, 2
+  size: 547, 494
+  orig: 550, 496
+  offset: 1, 1
+  index: -1
+handL
+  rotate: false
+  xy: 1654, 1802
+  size: 340, 224
+  orig: 342, 226
+  offset: 1, 1
+  index: -1
+skull
+  rotate: false
+  xy: 2, 43
+  size: 483, 455
+  orig: 483, 456
+  offset: 0, 1
+  index: -1
+
+skeletonArcher2.png
+size: 1620,1160
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Backpack
+  rotate: true
+  xy: 1039, 641
+  size: 517, 579
+  orig: 519, 581
+  offset: 1, 1
+  index: -1
+Helmet
+  rotate: false
+  xy: 712, 2
+  size: 705, 637
+  orig: 707, 639
+  offset: 1, 1
+  index: -1
+Layer 8
+  rotate: false
+  xy: 2, 97
+  size: 708, 554
+  orig: 710, 556
+  offset: 1, 1
+  index: -1
+RibCageTop
+  rotate: true
+  xy: 511, 653
+  size: 505, 526
+  orig: 507, 528
+  offset: 1, 1
+  index: -1
+Skirt
+  rotate: false
+  xy: 2, 658
+  size: 507, 500
+  orig: 509, 502
+  offset: 1, 1
+  index: -1
+
+skeletonArcher3.png
+size: 1113,1639
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BowHand
+  rotate: false
+  xy: 2, 2
+  size: 1109, 1635
+  orig: 1227, 1635
+  offset: 0, 0
+  index: -1

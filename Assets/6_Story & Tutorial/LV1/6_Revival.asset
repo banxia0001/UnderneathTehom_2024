@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 6_Revival
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: "Finally, you sink your teeth into sweet flesh once more.\r"
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 4
+    camLookAt: 0
+  - text: "Still hot with fresh blood, and juicy with fat - \r\n"
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201C*Munch* *Munch* *Munch* *Chew* *Gulp*\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201C\u2026so good\u2026\u201D\r\n"
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 2
+    camLookAt: 0
+  - text: '*Sounds of contented chewing*'
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 2
+    camLookAt: 0
+  - text: 'You are sated. For now.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 5
+    camLookAt: 0
+  - text: "Yet there is still more flesh left on these bodies. It\u2019d be a shame
+      to leave it behind.\r\n\r\n"
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: '".................."'
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: '"........"'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: '"!"'
+    speaker: 1
+    continueTrigger: 0
+    eventTrigger: 7
+    camLookAt: 0
+  - text: 'Though you recall little of your past, your pangs of hunger bring to mind
+      vague memories of ancient famine.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: 'With the pain of starvation no longer clouding your mind, you slowly recall
+      your memories of those desperate times - and the desperate methods you used
+      to preserve food.
+
+'
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201CTo raise the still flesh, and have it walk alongside me\u2026\u201D\u2019\r\n"
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: Your hands course with a familiar warmth.
+    speaker: 0
+    continueTrigger: 1
+    eventTrigger: 0
+    camLookAt: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3b36ea2c3ad7a4f9597f3b2ad83a5d, type: 3}
+  m_Name: Vigil
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 0fb7734069673234c8d6114e43e6815a, type: 3}
+  description: This unit is vigil the night. Gain + 10% hit-rate and 1 damage bonus.
+  buffType: 0
+  tuantTarget: {fileID: 0}
+  isBuff: 1
+  remainTime: 5
+  dam: 1
+  hit: 10
+  dodge: 0
+  power: 0
+  healthMax: 0
+  movePointMax: 0
+  magicRes: 0
+  canRepel: 0
+  expertHeal: 0
+  giantSlayer: 0
+  standAlone: 0
+  isNecro: 0
+  armorBreak: 0
+  armorPierce: 0
+  changePerTurnType: 0
+  changeNum: 0

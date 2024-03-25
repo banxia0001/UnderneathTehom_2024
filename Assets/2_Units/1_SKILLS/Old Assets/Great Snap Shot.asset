@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Great Snap Shot
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 0a2121388bff8874d976a6e11e0abb1d, type: 3}
+  CD: 3
+  Cost: 2
+  animTrigger: attack
+  type: 0
+  DamageType: 0
+  bonusToDamageRate: 200
+  isUsingWeapon: 1
+  isFriendly: 0
+  isSelfUse: 0
+  isInstant: 0
+  performWait: 0.12
+  castSpecialEffect: {fileID: 0}
+  attackWait: 0.4
+  hitSpecialEffect: {fileID: 2383012453347530748, guid: 42a4bdc6cc61b9d4bae75ef28247598e, type: 3}
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 0}
+  causeHeal: 0
+  num: 1
+  damMin: 1
+  damMax: 3
+  armorBreak: 1
+  armorPierce: 20
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 4
+  autoHit: 0
+  hitBonus: 65
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  description: Hunter unleashes a great snap shot.

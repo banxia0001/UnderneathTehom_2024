@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: AI_Dodge
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 0}
+  CD: 1
+  Cost: 1
+  attacWait: 0.2
+  animTrigger: use
+  type: 2
+  DamageType: 2
+  bonusToDamageRate: 100
+  isUsingWeapon: 0
+  isFriendly: 0
+  isSelfUse: 1
+  isInstant: 0
+  hitSpecialEffect: {fileID: 0}
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 1
+  buff: {fileID: 11400000, guid: d39cb49880b43ca45a95c05ee22d2462, type: 2}
+  causeHeal: 0
+  num: 1
+  damMin: 0
+  damMax: 0
+  armorBreak: 0
+  armorPierce: 0
+  castAsCirclePoint: 0
+  splashRange: 0
+  range: 1
+  autoHit: 0
+  hitBonus: 0
+  noDamage: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  description: 

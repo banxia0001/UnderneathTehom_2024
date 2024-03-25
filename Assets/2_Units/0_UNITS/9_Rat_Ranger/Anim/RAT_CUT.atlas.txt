@@ -1,0 +1,313 @@
+
+RAT_CUT.png
+size: 2004,1859
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/ArmL
+  rotate: true
+  xy: 1321, 455
+  size: 397, 667
+  orig: 397, 667
+  offset: 0, 0
+  index: -1
+brown/ArrowInHand
+  rotate: true
+  xy: 608, 1227
+  size: 322, 668
+  orig: 324, 671
+  offset: 1, 2
+  index: -1
+white/ArrowInHand
+  rotate: true
+  xy: 608, 1227
+  size: 322, 668
+  orig: 324, 671
+  offset: 1, 2
+  index: -1
+brown/ArrowShooting
+  rotate: false
+  xy: 670, 1551
+  size: 891, 306
+  orig: 894, 309
+  offset: 2, 2
+  index: -1
+white/ArrowShooting
+  rotate: false
+  xy: 670, 1551
+  size: 891, 306
+  orig: 894, 309
+  offset: 2, 2
+  index: -1
+brown/CalfLF
+  rotate: true
+  xy: 1278, 1184
+  size: 346, 493
+  orig: 346, 502
+  offset: 0, 0
+  index: -1
+brown/EarL2
+  rotate: false
+  xy: 451, 511
+  size: 868, 341
+  orig: 868, 341
+  offset: 0, 0
+  index: -1
+brown/EarL3
+  rotate: true
+  xy: 489, 856
+  size: 369, 435
+  orig: 369, 435
+  offset: 0, 0
+  index: -1
+brown/FingerBack
+  rotate: true
+  xy: 2, 1761
+  size: 96, 164
+  orig: 98, 166
+  offset: 1, 1
+  index: -1
+brown/FingerFront
+  rotate: true
+  xy: 334, 1716
+  size: 141, 166
+  orig: 143, 168
+  offset: 1, 1
+  index: -1
+brown/ThighLF
+  rotate: true
+  xy: 2, 90
+  size: 419, 551
+  orig: 419, 551
+  offset: 0, 0
+  index: -1
+white/ArmL
+  rotate: true
+  xy: 2, 1372
+  size: 342, 604
+  orig: 342, 604
+  offset: 0, 0
+  index: -1
+white/CalfLF
+  rotate: true
+  xy: 2, 1024
+  size: 346, 485
+  orig: 346, 502
+  offset: 0, 0
+  index: -1
+white/EarBandage
+  rotate: true
+  xy: 2, 609
+  size: 413, 447
+  orig: 413, 490
+  offset: 0, 0
+  index: -1
+white/EarL2
+  rotate: false
+  xy: 926, 854
+  size: 876, 328
+  orig: 876, 328
+  offset: 0, 0
+  index: -1
+white/EarL3
+  rotate: true
+  xy: 1563, 1532
+  size: 325, 439
+  orig: 325, 439
+  offset: 0, 0
+  index: -1
+white/EarR2
+  rotate: true
+  xy: 1108, 2
+  size: 451, 590
+  orig: 451, 590
+  offset: 0, 0
+  index: -1
+white/FingerBack
+  rotate: true
+  xy: 168, 1761
+  size: 96, 164
+  orig: 98, 166
+  offset: 1, 1
+  index: -1
+white/FingerFront
+  rotate: true
+  xy: 502, 1716
+  size: 141, 166
+  orig: 143, 168
+  offset: 1, 1
+  index: -1
+white/ThighLF
+  rotate: true
+  xy: 555, 90
+  size: 419, 551
+  orig: 419, 551
+  offset: 0, 0
+  index: -1
+
+RAT_CUT2.png
+size: 1976,1919
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/EarR2
+  rotate: true
+  xy: 2, 1391
+  size: 526, 625
+  orig: 526, 625
+  offset: 0, 0
+  index: -1
+brown/Head
+  rotate: true
+  xy: 2, 2
+  size: 843, 978
+  orig: 843, 978
+  offset: 0, 0
+  index: -1
+brown/LegR
+  rotate: true
+  xy: 629, 1387
+  size: 530, 731
+  orig: 530, 731
+  offset: 0, 0
+  index: -1
+brown/Tail
+  rotate: false
+  xy: 989, 588
+  size: 985, 596
+  orig: 985, 596
+  offset: 0, 0
+  index: -1
+white/LegR
+  rotate: false
+  xy: 1362, 1186
+  size: 530, 731
+  orig: 530, 731
+  offset: 0, 0
+  index: -1
+white/Tail
+  rotate: false
+  xy: 2, 847
+  size: 985, 538
+  orig: 985, 596
+  offset: 0, 0
+  index: -1
+
+RAT_CUT3.png
+size: 1370,1461
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/EarR
+  rotate: true
+  xy: 2, 738
+  size: 721, 1366
+  orig: 722, 1366
+  offset: 0, 0
+  index: -1
+white/EarR
+  rotate: true
+  xy: 2, 2
+  size: 734, 1366
+  orig: 734, 1366
+  offset: 0, 0
+  index: -1
+
+RAT_CUT4.png
+size: 1355,1283
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+white/EarL
+  rotate: false
+  xy: 2, 2
+  size: 1351, 1279
+  orig: 1351, 1283
+  offset: 0, 4
+  index: -1
+
+RAT_CUT5.png
+size: 1351,1282
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/EarL
+  rotate: false
+  xy: 2, 2
+  size: 1347, 1278
+  orig: 1351, 1283
+  offset: 4, 5
+  index: -1
+
+RAT_CUT6.png
+size: 1834,1623
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/BowArm
+  rotate: false
+  xy: 2, 19
+  size: 954, 1602
+  orig: 954, 1603
+  offset: 0, 1
+  index: -1
+white/BowArm
+  rotate: false
+  xy: 958, 2
+  size: 874, 1619
+  orig: 874, 1619
+  offset: 0, 0
+  index: -1
+
+RAT_CUT7.png
+size: 1855,1957
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/Body
+  rotate: true
+  xy: 2, 1101
+  size: 854, 906
+  orig: 854, 906
+  offset: 0, 0
+  index: -1
+white/Back
+  rotate: true
+  xy: 2, 2
+  size: 1015, 1100
+  orig: 1015, 1100
+  offset: 0, 0
+  index: -1
+white/Head
+  rotate: false
+  xy: 910, 1019
+  size: 943, 936
+  orig: 943, 944
+  offset: 0, 8
+  index: -1
+
+RAT_CUT8.png
+size: 1104,1021
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brown/Back
+  rotate: true
+  xy: 2, 2
+  size: 1017, 1100
+  orig: 1082, 1100
+  offset: 0, 0
+  index: -1
+
+RAT_CUT9.png
+size: 1119,1045
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+white/Body
+  rotate: false
+  xy: 2, 2
+  size: 1115, 1041
+  orig: 1115, 1041
+  offset: 0, 0
+  index: -1

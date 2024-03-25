@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3b36ea2c3ad7a4f9597f3b2ad83a5d, type: 3}
+  m_Name: Wine of Life
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 431d79118f270124b911b306f5378596, type: 3}
+  description: Recover 2 hp per turn.
+  buffType: 0
+  tuantTarget: {fileID: 0}
+  isBuff: 1
+  remainTime: 5
+  dam: 0
+  hit: 0
+  dodge: 0
+  power: 0
+  healthMax: 0
+  movePointMax: 0
+  magicRes: 2
+  canRepel: 0
+  expertHeal: 0
+  giantSlayer: 0
+  armorBreak: 0
+  armorPierce: 0
+  changePerTurnType: 3
+  changeNum: 2

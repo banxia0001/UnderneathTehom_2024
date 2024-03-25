@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
+  m_Name: Mist of Regeneration
+  m_EditorClassIdentifier: 
+  skillSprite: {fileID: 21300000, guid: 431d79118f270124b911b306f5378596, type: 3}
+  CD: 3
+  Cost: 1
+  description: Friendly units shrouded in the mist will receive 'Regenration' effect.
+  slotInfo: 0
+  type: 2
+  causeGridShock: 1
+  damageType: 2
+  animTriggerType: 11
+  isUsingWeapon: 0
+  isFriendly: 1
+  isSelfUse: 0
+  isInstant: 1
+  timer_PerformAction: 0.12
+  castSpecialEffect: {fileID: 7064773570136956116, guid: 27625738204e742d0b234a3d54789c58, type: 3}
+  timer_AttackHit: 0.22
+  hitSpecialEffect: {fileID: 4470749529762867639, guid: 70efe937ec43647c59f1b2ad500d8bee, type: 3}
+  timer_WaitAfterAttack: 0.35
+  moveToGrid_SpeedRatio: 1
+  moveToGrid_DistanceRatio: 0.5
+  projectile: {fileID: 0}
+  isCurveProjectile: 0
+  flyingSpeed: 20
+  buffSelf: 0
+  buff: {fileID: 11400000, guid: ede1f325e335ba7439103e9d57657220, type: 2}
+  causeHeal: 1
+  addArmor: 0
+  num: 1
+  damMin: 1
+  damMax: 1
+  armorSunder: 0
+  armorMgSunder: 0
+  castAsCirclePoint: 0
+  splashRange: 2
+  range: 4
+  autoHit: 0
+  hitBonus: 0
+  causeKnockBack: 0
+  KnockBack_Distance: 2
+  SummonDeath: 0
+  SommonBeing: []
+  randomBuffs: []
+  revivalOption: 0
+  revivalPrefab: {fileID: 0}

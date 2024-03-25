@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c51930a94f45f498db6a357688ce21, type: 3}
+  m_Name: 3_Raid2
+  m_EditorClassIdentifier: 
+  NewDialogContent:
+  - text: More of them are coming...
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 0
+  - text: "\u201C*Skreeeeeee!*\u201D\r"
+    speaker: 3
+    continueTrigger: 0
+    eventTrigger: 16
+    camLookAt: 3
+  - text: '"Great, meat!"'
+    speaker: 11
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 3
+  - text: You recall a spell that is appropriate for the situation.
+    speaker: 0
+    continueTrigger: 1
+    eventTrigger: 0
+    camLookAt: 0
