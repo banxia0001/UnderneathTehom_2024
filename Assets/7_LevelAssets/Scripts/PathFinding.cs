@@ -13,7 +13,7 @@ public class PathFinding : MonoBehaviour
             {
                
                 PathNode pathNode = grid.GetPath(x, y);
-                if (pathNode != null)
+                if (pathNode != null && pathNode.enabled)
                 {
                     pathNode.gCost = 999999;
                     pathNode.CalculateFCost();

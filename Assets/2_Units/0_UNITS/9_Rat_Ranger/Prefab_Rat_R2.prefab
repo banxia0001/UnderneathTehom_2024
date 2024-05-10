@@ -97,7 +97,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6062141196026238369, guid: da6a430afa2223e4f93b1e6ac370e477, type: 3}
       propertyPath: data.damage.damMin
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6062141196026238370, guid: da6a430afa2223e4f93b1e6ac370e477, type: 3}
       propertyPath: m_Name

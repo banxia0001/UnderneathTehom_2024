@@ -14,7 +14,7 @@ public class NewDialogContent
 {
     [TextArea(4, 10)]
     public string text;
-
+    public AudioClip audio;
     public enum Speaker { narrator, nameless_one, shrunken_head, rat, skeleton, nameless_WannaFight, nameless_Shock, nameless_Sad, nameless_DownEat,
     nameless_Awake, nameless_DownEat_Shock, nameless_DownEat_WannaFight, nameless_DownEat_Sad
     }

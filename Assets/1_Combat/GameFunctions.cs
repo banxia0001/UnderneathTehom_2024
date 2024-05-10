@@ -310,6 +310,22 @@ public class GameFunctions : MonoBehaviour
             }
 
 
+            if (attacker.currentData.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS)
+            {
+                if (attackString == "attack")
+                {
+                    BossAI AI = attacker.GetComponent<BossAI>();
+                    if (AI.swordInHand < 2) attackString = "attack";
+                    else
+                    {
+                        attackString = "swordAttack";
+                        timer_1 = 0.5f;
+                        timer_2 = 0.75f;
+                        timer_3 = 0.35f;
+                    } 
+                }
+            }
+
 
             bool dontWait = false;
             //if (attacker.data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._13_Rev_Turret)
@@ -452,8 +468,11 @@ public class GameFunctions : MonoBehaviour
             {
                 if (defender.GetComponent<UnitAI>().unitHoldingSkill) canFightBack = false;
                 if (defender.GetComponent<BossAI>() != null)
-                    if (defender.GetComponent<BossAI>().bossHoldSkill != BossAI.BossHoldSkill.none) 
+                    if (defender.GetComponent<BossAI>().bossHoldSkill != BossAI.BossHoldSkill.none)
+                    {
                         canFightBack = false;
+                    }
+                       
             }
 
             if (defender.unitSpecialState == Unit.UnitSpecialState.block) canFightBack = false;
@@ -532,6 +551,8 @@ public class GameFunctions : MonoBehaviour
         damageInformation damInfo = calculateDamage(attacker, defender, damage, skill, hitInfo.crit, false);
 
 
+    
+
         //Dodge and move back
         if (!hitInfo.hit)
         {
@@ -561,6 +582,13 @@ public class GameFunctions : MonoBehaviour
             {
               
                 int finaldam = (int)damInfo.damage;
+                if (attacker.currentData.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS)
+                {
+                    BossAI AI = attacker.GetComponent<BossAI>();
+                    if (AI.swordInHand < 2) { }
+                    else finaldam += 3;
+                }
+
                 if (defender.unitAttribute == Unit.UnitAttribute.alive)
                 {
                    
@@ -1572,6 +1600,8 @@ public class GameFunctions : MonoBehaviour
 
         if (type == "chargeNode_Enemy") grid = list.chargeNode_Enemy;
         if (type == "redNode_Boss") grid = list.redNode_Boss;
+        if (type == "redNode_Boss_Middle") grid = list.redNode_Boss_Middle;
+        if (type == "redNode_Boss_Large") grid = list.redNode_Boss_Large;
 
         return grid;
     }

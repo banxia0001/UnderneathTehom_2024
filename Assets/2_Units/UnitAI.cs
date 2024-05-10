@@ -63,9 +63,7 @@ public class UnitAI : MonoBehaviour
     //INPUT HERE, START THINKING.
     public void AI_Thinking()
     {
-        if (unit.GC.isAttacking|| unit.GC.isMoving|| unit.GC.isAIThinking) return;
-        Debug.Log(unit.data.Name + ":Thinking");
-
+        if (unit.GC.isAttacking|| unit.GC.isMoving|| unit.GC.isAIThinking || !unit.isActive) return;
         if (unit.unitSpecialState == Unit.UnitSpecialState.boneFireTower)
         {
             unit.GC.isAIThinking = true;
@@ -76,6 +74,7 @@ public class UnitAI : MonoBehaviour
 
         if (unit.data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS)
         {
+            if (unit.activeNumber != 0) return;
             unit.GC.isAIThinking = true;
             BossAI bossAI = this.unit.gameObject.GetComponent<BossAI>();
             bossAI.CheckNewTurn();
@@ -104,6 +103,7 @@ public class UnitAI : MonoBehaviour
             unitHoldingSkill = false;
             skillInUse = skill_HoldFromLastTurn;
             skill_HoldFromLastTurn = null;
+            unit.canNormalFlip = true;
 
             if (skillInUse.skillSpecialFunction == _SkillAI._SkillSpeicalFunction.Hold_n_Charge)
             {

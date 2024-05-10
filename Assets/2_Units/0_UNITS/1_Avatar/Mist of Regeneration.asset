@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5f9a30214c868d4db6ff8ada0f3eb32, type: 3}
   m_Name: Mist of Regeneration
   m_EditorClassIdentifier: 
-  skillSprite: {fileID: 21300000, guid: 431d79118f270124b911b306f5378596, type: 3}
-  CD: 3
+  skillSprite: {fileID: 21300000, guid: 706c04440e99928428fe807c87b65d44, type: 3}
+  CD: 1
   Cost: 1
   description: Friendly units shrouded in the mist will receive 'Regenration' effect.
   slotInfo: 0
@@ -26,9 +26,9 @@ MonoBehaviour:
   isSelfUse: 0
   isInstant: 1
   timer_PerformAction: 0.12
-  castSpecialEffect: {fileID: 7064773570136956116, guid: 27625738204e742d0b234a3d54789c58, type: 3}
+  castSpecialEffect: {fileID: 7864247110178309402, guid: c6cfdf6ad73c95142aa6edc68a4963d3, type: 3}
   timer_AttackHit: 0.22
-  hitSpecialEffect: {fileID: 4470749529762867639, guid: 70efe937ec43647c59f1b2ad500d8bee, type: 3}
+  hitSpecialEffect: {fileID: 7995171336108139731, guid: fa59a52c59dc2594a9e7596b03a2ce1b, type: 3}
   timer_WaitAfterAttack: 0.35
   moveToGrid_SpeedRatio: 1
   moveToGrid_DistanceRatio: 0.5

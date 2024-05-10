@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   skillSprite: {fileID: 21300000, guid: 66db23dd040ae004f969e76cd5c2dc42, type: 3}
   CD: 1
-  Cost: 1
+  Cost: 2
   description: Attacker use the strength to knock back the enemy. Victim gain penalties
     on the Acc and Dod.
   slotInfo: 0
   type: 0
-  causeGridShock: 0
+  causeGridShock: 1
   damageType: 0
   animTriggerType: 8
   isUsingWeapon: 1
@@ -41,8 +41,8 @@ MonoBehaviour:
   causeHeal: 0
   addArmor: 0
   num: 1
-  damMin: 1
-  damMax: 2
+  damMin: 2
+  damMax: 3
   armorSunder: 0
   armorMgSunder: 0
   castAsCirclePoint: 0

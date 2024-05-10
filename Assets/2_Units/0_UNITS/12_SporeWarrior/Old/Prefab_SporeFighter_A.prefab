@@ -41,11 +41,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1036316275005072198, guid: bf1513542838358438744efa857f6ccc, type: 3}
       propertyPath: data.healthMax
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1036316275005072198, guid: bf1513542838358438744efa857f6ccc, type: 3}
       propertyPath: data.healthNow
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 1036316275005072198, guid: bf1513542838358438744efa857f6ccc, type: 3}
       propertyPath: data.movePointMax
@@ -178,7 +178,7 @@ PrefabInstance:
     - target: {fileID: 2595530801500196479, guid: bf1513542838358438744efa857f6ccc, type: 3}
       propertyPath: skeletonDataAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 7a40211cfc336bc40a2edf9af5699e08, type: 2}
+      objectReference: {fileID: 11400000, guid: d901ae1ea78c73c48851b5f850abdd0a, type: 2}
     - target: {fileID: 3706013608838076148, guid: bf1513542838358438744efa857f6ccc, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

@@ -445,7 +445,7 @@ MonoBehaviour:
   m_IgnoreLayout: 0
   m_MinWidth: 0
   m_MinHeight: -1
-  m_PreferredWidth: 22
+  m_PreferredWidth: 0
   m_PreferredHeight: 52.5
   m_FlexibleWidth: -1
   m_FlexibleHeight: -1
@@ -9206,8 +9206,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 67.285, y: 0}
-  m_SizeDelta: {x: 40.57, y: 0}
+  m_AnchoredPosition: {x: 70.16, y: 0}
+  m_SizeDelta: {x: 90.32, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8796201672412166566
 CanvasRenderer:
@@ -9237,7 +9237,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: sdsd
+  m_text: 'sdsd
+
+    123
+
+    123
+
+    123123123
+
+    23
+
+    23'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3771a8b777a6d8c4ebfa160dc4870df0, type: 2}
   m_sharedMaterial: {fileID: 7962948835788209683, guid: 3771a8b777a6d8c4ebfa160dc4870df0, type: 2}

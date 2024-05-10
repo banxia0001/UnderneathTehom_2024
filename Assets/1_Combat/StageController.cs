@@ -119,6 +119,7 @@ public class StageController : MonoBehaviour
 
             foreach (Unit unit in GameController.playerList)
             {
+                if(unit != null)
                 unit.UnitEnable(true);
             }
             GC.gameState = GameController._gameState.enemyTurn_ChooseUnit;
@@ -154,14 +155,16 @@ public class StageController : MonoBehaviour
         if (teamNum == 0)
             foreach (Unit unit in GameController.playerList)
             {
-                if (unit.unitSpecialState == Unit.UnitSpecialState.normalUnit && unit.isActive)
+                if (unit != null)
+                    if (unit.unitSpecialState == Unit.UnitSpecialState.normalUnit && unit.isActive)
                         still_UnitEnable = true;
             }
 
         if (teamNum == 1)
             foreach (Unit unit in GameController.enemyList)
             {
-                if (unit.isActive == true) still_UnitEnable = true;
+                if (unit != null)
+                    if (unit.isActive == true) still_UnitEnable = true;
             }
 
         return still_UnitEnable;
@@ -191,7 +194,8 @@ public class StageController : MonoBehaviour
         {
             foreach (Unit unit in GameController.playerList)
             {
-                if (!dontReadBUFFCD)
+                if (unit != null)
+                    if (!dontReadBUFFCD)
                 {
                     unit.Buff_Reflesh();
                     unit.CD_Reflesh();
@@ -205,9 +209,13 @@ public class StageController : MonoBehaviour
         {
             foreach (Unit unit in GameController.enemyList)
             {
-                unit.Buff_Reflesh();
-                unit.CD_Reflesh();
-                unit.UnitEnable(true);
+                if (unit != null)
+                {
+                    unit.Buff_Reflesh();
+                    unit.CD_Reflesh();
+                    unit.UnitEnable(true);
+                }
+                   
             }
         }
     }

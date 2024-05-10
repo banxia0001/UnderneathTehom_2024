@@ -11,7 +11,7 @@ public class RevivalController : MonoBehaviour
     [Header("Mouse Panel")]
     public TMP_Text fleshText;
     public GameObject ParentFolder;
-    public GameObject Preveiw_Meatblock, Preveiw_Turret, Preview_HealTower, Preview_Skel_Greatsword, Preview_ZombieRat;
+    public GameObject Preveiw_Meatblock, Preveiw_Turret, Preview_HealTower, Preview_Skel_Greatsword, Preview_ZombieRat, Preveiw_AOETurret;
 
     public GameObject Prefab_Meatblock, Prefab_Turret, Prefab_HealTower, Prefab_Skel_Greatsword, Prefab_ZombieRat, Prefab_AOETurret;
 
@@ -34,6 +34,7 @@ public class RevivalController : MonoBehaviour
         if (Preview_HealTower != null) Preview_HealTower.SetActive(false);
         if (Preview_Skel_Greatsword != null) Preview_Skel_Greatsword.SetActive(false);
         if (Preview_ZombieRat != null) Preview_ZombieRat.SetActive(false);
+        if (Preveiw_AOETurret != null) Preveiw_AOETurret.SetActive(false);
 
         switch (currentSkill.revivalOption)
         {
@@ -58,7 +59,7 @@ public class RevivalController : MonoBehaviour
                 break;
 
             case Skill.RevivalOption.aoeTurret:
-                Preveiw_Turret.SetActive(true);
+                Preveiw_AOETurret.SetActive(true);
                 break;
         }
 

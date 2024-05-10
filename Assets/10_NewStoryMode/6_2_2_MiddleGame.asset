@@ -13,17 +13,24 @@ MonoBehaviour:
   m_Name: 6_2_2_MiddleGame
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: The collapse started again.
+  - text: 'The collapse returns.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 11
     camLookAt: 0
-  - text: "You have to destory they before the level collapses.\n\u200B"
+  - text: 'You have to finish up before the cave collapses.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 18
     camLookAt: 0
-  - text: '"Interesting."'
+  - text: " \u201CGotta be quick.\u201D"
+    audio: {fileID: 8300000, guid: 1ab23ca2e3e01d646acadfa03aedeecd, type: 3}
     speaker: 10
     continueTrigger: 1
     eventTrigger: 0

@@ -109,11 +109,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3459869869167251100, guid: f33523a3be53b964384bc18b4362529b, type: 3}
       propertyPath: data.armorMax
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3459869869167251100, guid: f33523a3be53b964384bc18b4362529b, type: 3}
       propertyPath: data.armorNow
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3459869869167251100, guid: f33523a3be53b964384bc18b4362529b, type: 3}
       propertyPath: data.FleshDrop
@@ -145,11 +145,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3459869869167251100, guid: f33523a3be53b964384bc18b4362529b, type: 3}
       propertyPath: data.damage.damMax
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3459869869167251100, guid: f33523a3be53b964384bc18b4362529b, type: 3}
       propertyPath: data.damage.damMin
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3459869869167251100, guid: f33523a3be53b964384bc18b4362529b, type: 3}
       propertyPath: deathData.deathType

@@ -1,16 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Rendering;
 public class BossAI : MonoBehaviour
 {
+    [Header("DebugMode")]
+    public bool noSwordSummon = false;
     public enum BossState
     {
         stage_1_OnField,
         stage_2_OnCliff,
         stage_3_OnCliff_JumpBack,
     }
-
     public enum BossHoldSkill
     {
        none,holdSkill_1,holdSkill_2
@@ -25,7 +26,7 @@ public class BossAI : MonoBehaviour
     public bool secondAction_Attacked;
 
     [Header("SwordStats")]
-    private int swordInHand;
+    public int swordInHand;
     public int remainSword_SummonTimer;
     public int remainSword_SummonTimer_2;
     public GameObject[] SwordSprite;
@@ -44,19 +45,19 @@ public class BossAI : MonoBehaviour
     public GameObject ShockWaveVFX;
     public GameObject Minor_ShockWave_VFX;
 
-    public Animator anim;
-    private Unit thisUnit;
+    public Unit thisUnit;
     private UnitAI thisUnitAI;
     PathNode gobackPath = null;
+    public SortingGroup swordSortingA, swordSortingB;
 
-
-    int bossSummonOrder = 0;
+    public int bossSummonOrder = 0;
     private void Start()
     {
         thisUnit = this.GetComponent<Unit>();
         thisUnitAI = this.GetComponent<UnitAI>();
         JumpToMiddle();
         swordInHand = 2;
+        remainSword_SummonTimer_2 = 4;
     }
     private void DefaultSetting()
     {
@@ -71,12 +72,14 @@ public class BossAI : MonoBehaviour
     private void JumpToMiddle()
     {
         DefaultSetting();
-        StartCoroutine(JumpingBetweenTiles(this.thisUnit.nodeAt, true, true,true));
+        StartCoroutine(JumpingBetweenTiles(this.thisUnit.nodeAt, true, true,true,false,true));
     }
 
     public void CheckNewTurn()
     {
-        Debug.Log("Boss New Turn");
+        Debug.Log("Boss Check New Turn "+thisUnit.activeNumber + ":" + thisUnit.GC.isAIThinking + "/" + thisUnit.GC.isMoving + "/" + thisUnit.GC.isAttacking);
+        thisUnit.activeNumber++;
+        thisUnit.GC.isAIThinking = true;
         secondActioned = false;
         secondAction_Attacked = false;
       
@@ -89,7 +92,6 @@ public class BossAI : MonoBehaviour
                 break;
 
             case BossState.stage_2_OnCliff:
-                timer = 3;
                 secondActioned = false;
                 gobackPath = BossFunctions.Get_TeleportPathnode_Size3(true);
                 if (gobackPath == null)
@@ -103,8 +105,7 @@ public class BossAI : MonoBehaviour
                 break;
 
             case BossState.stage_3_OnCliff_JumpBack:
-
-                timer = 3;
+                timer = Random.Range(3,6);
                 if (gobackPath == null)
                 {
                     gobackPath = BossFunctions.Get_TeleportPathnode_Size3(true);
@@ -115,7 +116,7 @@ public class BossAI : MonoBehaviour
                 else
                 {
                     DefaultSetting();
-                    StartCoroutine(JumpingBetweenTiles(gobackPath, true, false, true));
+                    StartCoroutine(JumpingBetweenTiles(gobackPath, true, false, true,false,false));
                 }
                 break;
         }
@@ -125,41 +126,39 @@ public class BossAI : MonoBehaviour
     public Unit targetUnit;
     private void Stage_1_Action()
     {
-        Debug.Log("STAGE_1: BOSS IS THINKING");
         thisUnit.GC.isAIThinking = true;
 
         this.targetUnit = GameFunctions.FindClosestUnit_By_Grid(0, thisUnit);
         foreach (_Buff buff in thisUnit.buffList)
         {
-            if (buff.buff.buffType == Buff._buffType.tuant) if (buff.tuantTarget != null) this.targetUnit = buff.tuantTarget;
+            if (buff.buff.buffType == Buff._buffType.tuant) 
+                if (buff.tuantTarget != null) 
+                    this.targetUnit = buff.tuantTarget;
         }
 
         if (!secondActioned)
         {
-            Debug.Log("Boss cast skill");
             if (bossHoldSkill != BossHoldSkill.none)
-            { Skill_Attack(); Stage1_NoSkill_BackToNormal(); return; }
+            { Debug.Log("Boss cast skill"); Skill_Attack(); Stage1_NoSkill_BackToNormal(); return; }
             timer_Skill--;
         }
 
-        //remainSword_SummonTimer--;
+        remainSword_SummonTimer--;
         if (bossHoldSkill == BossHoldSkill.none)
         {
-            Debug.Log("Boss throw sword");
-            if (BossFunctions.CheckSword() < 2 && swordInHand > 0)
+            if (BossFunctions.CheckSword() < 1 && swordInHand > 1)
             {
-              
-                StartCoroutine(BossFunctions.Boss_ThrowSwordToBattlefield(this, thisUnit, Prefab_Swords[bossSummonOrder]));
-                bossSummonOrder++;
-                if (bossSummonOrder >= Prefab_Swords.Length)  bossSummonOrder = 0;
+                Debug.Log("Boss throw sword");
+                StartCoroutine(BossFunctions.Boss_ThrowSwordToBattlefield(this, thisUnit));
                 return;
             }
         }
 
-        if (timer_Skill <= 0) 
+        if (timer_Skill <= Random.Range(-1, 0)) 
         {
             Debug.Log("Boss may cast skill");
-            timer_Skill = 3; Skill_Hold(); return;
+            timer_Skill = 6; Skill_Hold(); 
+            return;
         }
 
 
@@ -167,7 +166,7 @@ public class BossAI : MonoBehaviour
         if (swordInHand < 1 && remainSword_SummonTimer_2 < 0)
         {
             Debug.Log("Boss summon sword");
-            remainSword_SummonTimer_2 = 2;
+            remainSword_SummonTimer_2 = Random.Range(4, 5); ;
             StartCoroutine(BossFunctions.Boss_SummonSwordToHand(this,thisUnit));
             return;
         }
@@ -204,19 +203,22 @@ public class BossAI : MonoBehaviour
 
     public void ActionEnd()
     {
-        Debug.Log("Boss Action End");
-        thisUnit.GC.isAIThinking = false;
+        Debug.Log("Boss Action End:" + thisUnit.GC.isAIThinking + "/"+thisUnit.GC.isMoving + "/" + thisUnit.GC.isAttacking);
         thisUnit.GC.isMoving = false;
         thisUnit.GC.isAttacking = false;
 
         if (!secondActioned && bossState == BossState.stage_1_OnField)
         {
             Debug.Log("Second Action Start");
+            thisUnit.GC.isAIThinking = true;
             secondActioned = true;
             Stage_1_Action();
             return;
         }
+
         thisUnit.UnitEnable(false);
+        thisUnit.GC.isAIThinking = false;
+        thisUnit.activeNumber = 0;
     }
 
 
@@ -238,10 +240,10 @@ public class BossAI : MonoBehaviour
     private void Skill_Attack()
     {
         Debug.Log("Boss Skill Attack");
-        if (bossHoldSkill == BossHoldSkill.holdSkill_1)
-        {
-            StartCoroutine(BossFunctions.BossSkill_1_2(this,thisUnit));
-        }
+        //if (bossHoldSkill == BossHoldSkill.holdSkill_1)
+        //{
+        //    StartCoroutine(BossFunctions.BossSkill_1_2(this,thisUnit));
+        //}
 
         if (bossHoldSkill == BossHoldSkill.holdSkill_2)
         {
@@ -263,7 +265,7 @@ public class BossAI : MonoBehaviour
         timer = 3;
         GridManager GM = FindObjectOfType<GridManager>();
         int i = Random.Range(0, Vector_PlayerDeselectAroundNodes.Count);
-        StartCoroutine(JumpingBetweenTiles(GM.GetPath(Vector_PlayerDeselectAroundNodes[i].x, Vector_PlayerDeselectAroundNodes[i].y),false,false, false));
+        StartCoroutine(JumpingBetweenTiles(GM.GetPath(Vector_PlayerDeselectAroundNodes[i].x, Vector_PlayerDeselectAroundNodes[i].y),false,false, false,true,false));
     }
     private void Stage_2_Action()
     {
@@ -274,41 +276,71 @@ public class BossAI : MonoBehaviour
 
 
 
-    private IEnumerator JumpingBetweenTiles(PathNode pathTo, bool jumpAttack, bool onlyJumpDown, bool dontDisactive)
+    private IEnumerator JumpingBetweenTiles(PathNode pathTo, bool jumpAttack, bool onlyJumpDown, bool dontDisactive, bool toPlatform, bool firstTime)
     {
-     
         thisUnit.moveState = Unit.MoveState.none;
         HealthUI.SetActive(false);
         Shadow.SetActive(false);
 
         if (!onlyJumpDown)
         {
-            anim.SetTrigger("Up");
-            Generate_FlyUp_ShockWave(thisUnit);
-            yield return new WaitForSeconds(1f);
+            if (toPlatform)
+            {
+                this.thisUnit.InputAnimation_Single_NoLoop("Fly up");
+                yield return new WaitForSeconds(1.2f);
+                Generate_FlyUp_ShockWave(thisUnit);
+                yield return new WaitForSeconds(2.8f);
+            }
+            else
+            {
+                this.thisUnit.InputAnimation_Single_NoLoop("fly back up");
+                yield return new WaitForSeconds(1f);
+                Generate_FlyUp_ShockWave(thisUnit);
+                yield return new WaitForSeconds(2f);
+            }
         }
 
         BossFunctions.AddBossToTeleportoNode(pathTo, thisUnit);
         if (!onlyJumpDown) yield return new WaitForSeconds(0.3f);
 
-        anim.SetTrigger("Down");
         thisUnit.moveState = Unit.MoveState.none;
         HealthUI.SetActive(false);
         Shadow.SetActive(false);
 
-        yield return new WaitForSeconds(0.15f);
-        if(jumpAttack) StartCoroutine(Generate_JumpDown_ShockWave(thisUnit));
-        else Generate_FlyUp_ShockWave(thisUnit);
+        if (firstTime)
+        {
+            this.thisUnit.InputAnimation_Single("fly back AOE");
+            this.thisUnit.AddAnimation("enterbattle");
+            this.thisUnit.AddAnimation("idle");
+
+            yield return new WaitForSeconds(0.65f);
+            if (jumpAttack) StartCoroutine(Generate_JumpDown_ShockWave(thisUnit));
+            yield return new WaitForSeconds(5.5f);
+        }
+
+        else if (toPlatform)
+        {
+            this.thisUnit.InputAnimation("touch down");
+            yield return new WaitForSeconds(3f);
+        }
+        else
+        {
+            this.thisUnit.InputAnimation("fly back aoe full");
+            yield return new WaitForSeconds(0.65f);
+            if (jumpAttack) StartCoroutine(Generate_JumpDown_ShockWave(thisUnit));
+            yield return new WaitForSeconds(3f);
+        } 
 
         HealthUI.SetActive(true);
         Shadow.SetActive(true);
 
-        yield return new WaitForSeconds(2f);
+       
         if (dontDisactive)
         {
             thisUnit.GC.isAIThinking = false;
             thisUnit.GC.isAttacking = false;
             thisUnit.GC.isMoving = false;
+            thisUnit.activeNumber = 0;
         }
         else ActionEnd();
     }
@@ -350,16 +382,29 @@ public class BossAI : MonoBehaviour
         NodeGuideInHold = new List<GameObject>();
     }
 
-    public void Draw_NodeGuideInHold(List<PathNode> NodeEffect)
+    public void Draw_NodeGuideInHold(List<PathNode> NodeEffect, int num, bool destroyOld)
     {
+        if(destroyOld)
         Destroy_NodeGuideInHold();
+
+        Debug.Log("DrawGuideMap:" + NodeEffect.Count + ":" + num);
         if (NodeEffect.Count < 1) return;
-        
+        GameObject prefab = null;
+
+        if (num == 0) prefab = GameFunctions.LoadGrid("redNode_Boss");
+        if (num == 1) prefab = GameFunctions.LoadGrid("redNode_Boss_Middle");
+        if (num == 2) prefab = GameFunctions.LoadGrid("redNode_Boss_Large");
+
+        Debug.Log("DrawGuideName:" + prefab.name);
+
         for (int i = 0; i < NodeEffect.Count; i++)
         {
-            GameObject NodeEff = Instantiate(GameFunctions.LoadGrid("redNode_Boss"), NodeEffect[i].transform.position, Quaternion.identity);
-            NodeEff.transform.parent = NodeEffect[i].transform;
-            NodeGuideInHold.Add(NodeEff);
+            if (NodeEffect != null)
+            {
+                GameObject NodeEff = Instantiate(prefab, NodeEffect[i].transform.position, Quaternion.identity);
+                NodeEff.transform.parent = NodeEffect[i].transform;
+                NodeGuideInHold.Add(NodeEff);
+            }
         }
     }
 
@@ -429,4 +474,7 @@ public class BossAI : MonoBehaviour
             }
         }
     }
+
+
+
 }

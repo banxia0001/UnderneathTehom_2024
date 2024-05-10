@@ -15,6 +15,8 @@ public class GridList : ScriptableObject
     public GameObject redNode_Light;
     public GameObject redNode;
     public GameObject redNode_Boss;
+    public GameObject redNode_Boss_Large;
+    public GameObject redNode_Boss_Middle;
 
     public GameObject purpleNode_Light;
     public GameObject purpleNode;

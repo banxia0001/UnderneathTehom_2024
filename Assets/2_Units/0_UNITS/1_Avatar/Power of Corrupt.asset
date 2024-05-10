@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c3b36ea2c3ad7a4f9597f3b2ad83a5d, type: 3}
+  m_Name: Power of Corrupt
+  m_EditorClassIdentifier: 
+  sprite: {fileID: 21300000, guid: 197f7b2b970521d45a671eb39ad97bf1, type: 3}
+  description: This unit gets a massive buff.
+  buffType: 0
+  tuantTarget: {fileID: 0}
+  isBuff: 1
+  canRepeatBuff: 1
+  remainTime: 3
+  healthMax: 0
+  dam: 1
+  hit: 5
+  lifesteal: 0
+  armorSunder: 0
+  armorNegative: 0
+  armorMax: 0
+  dodge: 5
+  power: 0
+  MR: 0
+  SR: 0
+  movePointMax: 0
+  gain_FP_per_Turn: 0
+  gain_Fp_EnterBattle: 0
+  canRepel: 0
+  expertHeal: 0
+  giantSlayer: 0
+  standAlone: 0
+  isCurse: 0
+  cannotBeKnockBack: 0
+  auto_Attack: 0
+  auto_Heal: 0
+  auto_Taunt: 0
+  tag_Undead: 0
+  tag_Rat: 0
+  aura_GrowingDeath: 0
+  aura_Tarish: 0
+  standOn_Water: 0
+  dodgeRate_FacingRange: 0
+  dam_InHightGround: 0
+  dam_ToCursedUnit: 0
+  gain_Fp_Kill: 0
+  changePerTurnType: 0
+  changeNum: 0

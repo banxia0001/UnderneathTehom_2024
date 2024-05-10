@@ -7,7 +7,7 @@ using Spine.Unity;
 public class MySpineEvent : MonoBehaviour
 {
     public GameController GC;
-
+    
     public GameObject rat_attakVFX;
 
     private void SpawnVFX_RatAttack()
@@ -18,6 +18,29 @@ public class MySpineEvent : MonoBehaviour
     }
     public void HandleEvent(TrackEntry trackEntry, Spine.Event e)
     {
+        if (e.Data.Name == "Trigger_LeftSword_ToBehind")
+        {
+            FindObjectOfType<BossAI>().swordSortingA.sortingOrder = -1;
+        }
+
+
+        if (e.Data.Name == "Trigger_LeftSword_ToFront")
+        {
+            FindObjectOfType<BossAI>().swordSortingA.sortingOrder = 1;
+        }
+
+
+        if (e.Data.Name == "Trigger_RightSword_ToBehind")
+        {
+            FindObjectOfType<BossAI>().swordSortingB.sortingOrder = -1;
+        }
+
+
+        if (e.Data.Name == "Trigger_RightSword_ToFront")
+        {
+            FindObjectOfType<BossAI>().swordSortingB.sortingOrder = 1;
+        }
+
 
         if (e.Data.Name == "rat_attakVFX")
         {
@@ -98,6 +121,28 @@ public class MySpineEvent : MonoBehaviour
 
         if (e.Data.Name == "taunt_Attack") GC.SC.InputVFX_Simple(15);
         if (e.Data.Name == "taunt_Hit") GC.SC.InputVFX_Simple(16);
+
+
+        if (e.Data.Name == "Boss_Slash_1") GC.SC.InputVFX_Boss(0);
+        if (e.Data.Name == "Boss_Slash_2") GC.SC.InputVFX_Boss(1);
+        if (e.Data.Name == "Boss_Throw") GC.SC.InputVFX_Boss(2);
+        if (e.Data.Name == "Boss_CastLoop") GC.SC.InputVFX_Boss(3);
+        if (e.Data.Name == "Boss_SwordInsert") GC.SC.InputVFX_Boss(4);
+        if (e.Data.Name == "Boss_CastLoop") GC.SC.InputVFX_Boss(5);
+        if (e.Data.Name == "Boss_Falling") GC.SC.InputVFX_Boss(6);
+        if (e.Data.Name == "Boss_Death") GC.SC.InputVFX_Boss(7);
+        if (e.Data.Name == "Boss_Wind") GC.SC.InputVFX_Boss(8);
+        if (e.Data.Name == "Boss_Hurt") GC.SC.InputVFX_Boss(9);
+
+        if (e.Data.Name == "Boss_CamMoveA") GC.cameraAnim.SetTrigger("Up_Down");
+        if (e.Data.Name == "Boss_CamMoveB") GC.cameraAnim.SetTrigger("Up_Down2");
+        if (e.Data.Name == "Boss_CamMoveC") GC.cameraAnim.SetTrigger("Up_Down3");
+        if (e.Data.Name == "Boss_CamMoveD") GC.cameraAnim.SetTrigger("Up_Down4");
+
+        if (e.Data.Name == "ratMage_Cast") GC.SC.InputVFX_Boss(10);
+        if (e.Data.Name == "ratMage_Cast_2") GC.SC.InputVFX_Boss(10);
+
+
 
     }
 

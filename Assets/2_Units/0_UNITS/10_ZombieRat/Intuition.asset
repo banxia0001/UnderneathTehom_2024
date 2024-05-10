@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Intuition
   m_EditorClassIdentifier: 
   skillSprite: {fileID: 21300000, guid: 37bbeb480b8778048a5b2c3a7920389c, type: 3}
-  CD: 4
+  CD: 2
   Cost: 1
   description: Unit gain dodge bonus against incoming attack.
   slotInfo: 0
@@ -28,7 +28,7 @@ MonoBehaviour:
   timer_PerformAction: 0.12
   castSpecialEffect: {fileID: 0}
   timer_AttackHit: 0.69
-  hitSpecialEffect: {fileID: 7064773570136956116, guid: 27625738204e742d0b234a3d54789c58, type: 3}
+  hitSpecialEffect: {fileID: 7864247110178309402, guid: c6cfdf6ad73c95142aa6edc68a4963d3, type: 3}
   timer_WaitAfterAttack: 0.403
   moveToGrid_SpeedRatio: 1
   moveToGrid_DistanceRatio: 0.5

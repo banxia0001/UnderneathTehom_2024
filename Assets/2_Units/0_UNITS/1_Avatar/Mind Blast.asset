@@ -13,12 +13,12 @@ MonoBehaviour:
   m_Name: Mind Blast
   m_EditorClassIdentifier: 
   skillSprite: {fileID: 21300000, guid: 8454bd610e84d8b47a1da12f7083059e, type: 3}
-  CD: 2
+  CD: 1
   Cost: 1
   description: Releases a mind shock on the target, it will receive a 'Shattered
     Mind' effect.
   slotInfo: 0
-  type: 10
+  type: 0
   causeGridShock: 0
   damageType: 2
   animTriggerType: 11
@@ -27,7 +27,7 @@ MonoBehaviour:
   isSelfUse: 0
   isInstant: 1
   timer_PerformAction: 0.2
-  castSpecialEffect: {fileID: 0}
+  castSpecialEffect: {fileID: 7864247110178309402, guid: c6cfdf6ad73c95142aa6edc68a4963d3, type: 3}
   timer_AttackHit: 0.52
   hitSpecialEffect: {fileID: 100002, guid: 31ed1b7b458d49e4e98dd760835d7a68, type: 3}
   timer_WaitAfterAttack: 0.25
@@ -41,14 +41,14 @@ MonoBehaviour:
   causeHeal: 0
   addArmor: 0
   num: 1
-  damMin: 0
-  damMax: 0
+  damMin: 1
+  damMax: 1
   armorSunder: 0
   armorMgSunder: 0
   castAsCirclePoint: 0
   splashRange: 0
   range: 3
-  autoHit: 0
+  autoHit: 1
   hitBonus: 0
   causeKnockBack: 0
   KnockBack_Distance: 2

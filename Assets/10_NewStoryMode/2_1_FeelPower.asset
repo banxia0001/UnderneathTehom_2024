@@ -13,17 +13,22 @@ MonoBehaviour:
   m_Name: 2_1_FeelPower
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: During the crisis, you feel the meat you eat being absorbed.
+  - text: 'Satiated by flesh and the act of battle, you feel your strength returning.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
   - text: '"......!"'
+    audio: {fileID: 8300000, guid: 337baa63dc379904c9ff4e871e78b377, type: 3}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: You recall an ancient memory... a magic you once wielded.
+  - text: "An ancient memory stirs within you\u2026. Strange magics you once wielded.\r\n"
+    audio: {fileID: 0}
     speaker: 10
     continueTrigger: 1
     eventTrigger: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3b36ea2c3ad7a4f9597f3b2ad83a5d, type: 3}
   m_Name: Aura of Tarish
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: 5eec4d63b49f42c43b526e7c9d078352, type: 3}
+  sprite: {fileID: 21300000, guid: 893abcf131ed779489ed46e02cef9e5f, type: 3}
   description: At the beginning of each turn, nearby friendly units gain +1 damage.
   buffType: 0
   tuantTarget: {fileID: 0}

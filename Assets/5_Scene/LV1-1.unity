@@ -377,7 +377,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1542222495
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &5727838 stripped
@@ -777,6 +777,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -2913,6 +2914,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3049916206859097596, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3049916206859097597, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
       propertyPath: m_UiScaleMode
       value: 1
@@ -2948,6 +2953,10 @@ PrefabInstance:
     - target: {fileID: 3049916207574145471, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3049916207574145471, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 3049916207574145471, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5534,6 +5543,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -5878,6 +5888,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -6273,6 +6284,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -6694,6 +6706,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -8733,6 +8746,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -8965,6 +8979,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -9118,6 +9133,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -9269,6 +9285,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -10531,6 +10548,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -11050,6 +11068,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -11199,6 +11218,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -11537,6 +11557,7 @@ MonoBehaviour:
   height: -8
   heightOrigin: -8
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -12051,6 +12072,7 @@ MonoBehaviour:
   height: 6
   heightOrigin: 6
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -12674,6 +12696,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -12858,6 +12881,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -13171,6 +13195,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -13994,6 +14019,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -14187,6 +14213,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -14336,6 +14363,7 @@ MonoBehaviour:
   height: -10
   heightOrigin: -10
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -14785,6 +14813,7 @@ MonoBehaviour:
   height: -8
   heightOrigin: -8
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -15859,6 +15888,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -16139,6 +16169,7 @@ MonoBehaviour:
   height: 6
   heightOrigin: 6
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -16999,6 +17030,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -17148,6 +17180,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -17380,6 +17413,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -17882,6 +17916,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -19537,6 +19572,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -20190,6 +20226,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -21119,6 +21156,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -21719,6 +21757,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -22128,6 +22167,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -23416,6 +23456,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -23647,6 +23688,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -24282,6 +24324,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -24431,6 +24474,7 @@ MonoBehaviour:
   height: 8
   heightOrigin: 8
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -24582,6 +24626,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -24888,6 +24933,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -25265,6 +25311,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -25560,6 +25607,7 @@ MonoBehaviour:
   height: 10
   heightOrigin: 10
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -26282,6 +26330,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -26431,6 +26480,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -27261,6 +27311,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -28078,6 +28129,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -28993,6 +29045,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -29306,6 +29359,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -30777,6 +30831,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -30990,6 +31045,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -31265,6 +31321,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -32119,6 +32176,7 @@ MonoBehaviour:
   height: 8
   heightOrigin: 8
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -33144,6 +33202,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -33336,6 +33395,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -33851,6 +33911,7 @@ MonoBehaviour:
   height: 8
   heightOrigin: 8
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -33912,6 +33973,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 1
+--- !u!1 &1187932914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3049916206810513385, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
+  m_PrefabInstance: {fileID: 37309992}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1187932915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1187932914}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6afa951cc29104241acdc22e52d0caf8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1188176381
 GameObject:
   m_ObjectHideFlags: 0
@@ -34972,6 +35050,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -35410,6 +35489,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -36096,6 +36176,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -36375,6 +36456,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -37054,6 +37136,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -37476,6 +37559,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -38597,6 +38681,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -38872,6 +38957,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -39103,6 +39189,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -39726,6 +39813,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -40285,6 +40373,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -40899,6 +40988,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -42199,6 +42289,7 @@ MonoBehaviour:
   height: 4
   heightOrigin: 4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -42348,6 +42439,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -43216,6 +43308,7 @@ MonoBehaviour:
   height: 8
   heightOrigin: 8
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -43880,6 +43973,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -44029,6 +44123,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -44410,6 +44505,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -45006,6 +45102,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -45155,6 +45252,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -46381,6 +46479,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -46804,6 +46903,7 @@ MonoBehaviour:
   height: 6
   heightOrigin: 6
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -47078,6 +47178,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -48307,6 +48408,7 @@ MonoBehaviour:
   height: 10
   heightOrigin: 10
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -48528,6 +48630,7 @@ MonoBehaviour:
   height: 6
   heightOrigin: 6
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -50233,6 +50336,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -50382,6 +50486,7 @@ MonoBehaviour:
   height: 10
   heightOrigin: 10
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -52316,6 +52421,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -52733,6 +52839,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}

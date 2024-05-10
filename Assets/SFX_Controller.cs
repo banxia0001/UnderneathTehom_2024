@@ -52,6 +52,22 @@ public class SFX_Controller : MonoBehaviour
     public AudioSource SkillSoundB;
     public AudioSource SkillSoundC;
     public AudioSource SkillSoundD;
+    public AudioSource SkillSoundE;
+    public AudioSource SkillSoundF;
+    public AudioSource SkillSoundG;
+    public AudioSource SkillSoundH;
+    public AudioSource SkillSoundI;
+    public AudioSource SkillSoundJ;
+    public AudioSource SkillSoundK;
+    public AudioSource SkillSoundL;
+    public AudioSource SkillSoundM;
+    public AudioSource SkillSoundN;
+    public AudioSource SkillSound_0;
+    public AudioSource SkillSound_1;
+    public AudioSource SkillSound_2;
+    public AudioSource SkillSound_3;
+    public AudioSource SkillSound_4;
+    public AudioSource Warming;
     public AudioSource hit2,hit3;
 
 
@@ -106,7 +122,7 @@ public class SFX_Controller : MonoBehaviour
     public AudioClip rat_JumpToGround, rat_MinorRoar;
     public AudioClip summon_1, summon_2, summon_3, summon_4;
 
-    public AudioClip tuantEffect, tuantHit;
+    public AudioClip tuantEffect, tuantHit, bossFireball;
 
 
     public void SwitchBGM(bool activeCombat)
@@ -156,8 +172,58 @@ public class SFX_Controller : MonoBehaviour
     public AudioClip turret_Hit,turret_EnterBattle,turret_Attack;
     public AudioClip healTower_Hurt,healTower_Heal;
 
+    [Header("BossSound")]
+    public AudioClip slash_1;
+    public AudioClip slash_2,boss_throw, Boss_CastLoop, Boss_SwordInsert, Boss_Falling, Boss_Death, Boss_Wind, Boss_Hurt, ratMage_Cast, ratMage_Cast2,boss_Warming;
 
+    public void InputVFX_Boss(int order)
+    {
+        AudioSource SkillSound = SkillSoundA;
+        if (SkillSoundA.isPlaying) SkillSound = SkillSoundB;
+        if (SkillSoundB.isPlaying) SkillSound = SkillSoundC;
+        if (SkillSoundC.isPlaying) SkillSound = SkillSoundD;
+        if (SkillSoundD.isPlaying) SkillSound = SkillSoundE;
+        if (SkillSoundE.isPlaying) SkillSound = SkillSoundF;
+        if (SkillSoundF.isPlaying) SkillSound = SkillSoundG;
+        if (SkillSoundG.isPlaying) SkillSound = SkillSoundH;
+        if (SkillSoundH.isPlaying) SkillSound = SkillSoundI;
+        if (SkillSoundI.isPlaying) SkillSound = SkillSoundJ;
+        if (SkillSoundJ.isPlaying) SkillSound = SkillSoundK;
+        if (SkillSoundK.isPlaying) SkillSound = SkillSoundL;
+        if (SkillSoundL.isPlaying) SkillSound = SkillSoundM;
+        if (SkillSoundM.isPlaying) SkillSound = SkillSoundN;
+        if (SkillSoundN.isPlaying) SkillSound = SkillSound_0;
+        if (SkillSound_0.isPlaying) SkillSound = SkillSound_1;
+        if (SkillSound_1.isPlaying) SkillSound = SkillSound_2;
+        if (SkillSound_2.isPlaying) SkillSound = SkillSound_3;
+        if (SkillSound_3.isPlaying) SkillSound = SkillSound_4;
+        if (SkillSound_4.isPlaying) SkillSound = SkillSoundA;
+        SkillSound.clip = null;
 
+        if (order == 0) SkillSound.clip = slash_1;
+        if (order == 1) SkillSound.clip = slash_2;
+        if (order == 2) SkillSound.clip = boss_throw;
+        if (order == 3) SkillSound.clip = Boss_CastLoop;
+        if (order == 4) SkillSound.clip = Boss_SwordInsert;
+        if (order == 5) SkillSound.clip = Boss_CastLoop;
+        if (order == 6) SkillSound.clip = Boss_Falling;
+        if (order == 7) SkillSound.clip = Boss_Death;
+        if (order == 8) SkillSound.clip = Boss_Wind;
+        if (order == 9) SkillSound.clip = Boss_Hurt;
+        if (order == 10) SkillSound.clip = ratMage_Cast;
+        if (order == 11) SkillSound.clip = ratMage_Cast2;
+        if (order == 12)
+        {
+
+            Warming.Play();
+            return;
+        }
+
+               
+
+        if (SkillSound.clip != null)
+            SkillSound.Play();
+    }
 
     public void InputVFX_Simple(int order)
     {
@@ -165,6 +231,17 @@ public class SFX_Controller : MonoBehaviour
         if (SkillSoundA.isPlaying) SkillSound = SkillSoundB;
         if (SkillSoundB.isPlaying) SkillSound = SkillSoundC;
         if (SkillSoundC.isPlaying) SkillSound = SkillSoundD;
+        if (SkillSoundD.isPlaying) SkillSound = SkillSoundE;
+        if (SkillSoundE.isPlaying) SkillSound = SkillSoundF;
+        if (SkillSoundF.isPlaying) SkillSound = SkillSoundG;
+        if (SkillSoundG.isPlaying) SkillSound = SkillSoundH;
+        if (SkillSoundH.isPlaying) SkillSound = SkillSoundI;
+        if (SkillSoundI.isPlaying) SkillSound = SkillSoundJ;
+        if (SkillSoundJ.isPlaying) SkillSound = SkillSoundK;
+        if (SkillSoundK.isPlaying) SkillSound = SkillSoundL;
+        if (SkillSoundL.isPlaying) SkillSound = SkillSoundM;
+        if (SkillSoundM.isPlaying) SkillSound = SkillSoundN;
+        if (SkillSoundN.isPlaying) SkillSound = SkillSoundA;
         SkillSound.clip = null;
 
         if (order == 0) SkillSound.clip = nameless_Hit;
@@ -186,6 +263,7 @@ public class SFX_Controller : MonoBehaviour
         if (order == 14) SkillSound.clip = summon_4;
         if (order == 15) SkillSound.clip = tuantEffect;
         if (order == 16) SkillSound.clip = tuantHit;
+        if (order == 17) SkillSound.clip = bossFireball;
 
         if (SkillSound.clip != null)
             SkillSound.Play();
@@ -197,6 +275,17 @@ public class SFX_Controller : MonoBehaviour
         if (SkillSoundA.isPlaying) SkillSound = SkillSoundB;
         if (SkillSoundB.isPlaying) SkillSound = SkillSoundC;
         if (SkillSoundC.isPlaying) SkillSound = SkillSoundD;
+        if (SkillSoundD.isPlaying) SkillSound = SkillSoundE;
+        if (SkillSoundE.isPlaying) SkillSound = SkillSoundF;
+        if (SkillSoundF.isPlaying) SkillSound = SkillSoundG;
+        if (SkillSoundG.isPlaying) SkillSound = SkillSoundH;
+        if (SkillSoundH.isPlaying) SkillSound = SkillSoundI;
+        if (SkillSoundI.isPlaying) SkillSound = SkillSoundJ;
+        if (SkillSoundJ.isPlaying) SkillSound = SkillSoundK;
+        if (SkillSoundK.isPlaying) SkillSound = SkillSoundL;
+        if (SkillSoundL.isPlaying) SkillSound = SkillSoundM;
+        if (SkillSoundM.isPlaying) SkillSound = SkillSoundN;
+        if (SkillSoundN.isPlaying) SkillSound = SkillSoundA;
         SkillSound.clip = null;
 
         if (vfx == VFX.none) return;

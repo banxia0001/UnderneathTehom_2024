@@ -141,15 +141,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.healthMax
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.healthNow
-      value: 14
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.damage.hit
-      value: 90
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.damage.damMax

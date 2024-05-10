@@ -13,12 +13,17 @@ MonoBehaviour:
   m_Name: 8_Start
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: Through this plateau, you can see the other side of the Rift.
+  - text: 'The cave opens up into a grand clearing. Strange growths reach towards
+      the surface.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: '"So quiet..."'
+  - text: "\u201CIt\u2019s so quiet\u2026\u201D\r\n"
+    audio: {fileID: 8300000, guid: 4d6b5c985c016c748a1636bdb2e9a6b2, type: 3}
     speaker: 6
     continueTrigger: 1
     eventTrigger: 0

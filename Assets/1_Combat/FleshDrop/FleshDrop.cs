@@ -75,7 +75,7 @@ public class FleshDrop : MonoBehaviour
         if (state == FleshDropState.dropToPos_2)
         {
             vertexCount = flyListNumber * 3;
-            Debug.Log("Enter Drop3");
+            //Debug.Log("Enter Drop3");
             height = Vector3.Distance(point1, point3) * .45f;
             if (height > 1.5f) height = 1.5f;
             if (height < 0.3f) height = 0.3f;
@@ -226,7 +226,7 @@ public class FleshDrop : MonoBehaviour
 
         if (dist2 < 0.01f)
         {
-            Debug.Log("landed");
+            //Debug.Log("landed");
             LandOnTile();
         }
     }

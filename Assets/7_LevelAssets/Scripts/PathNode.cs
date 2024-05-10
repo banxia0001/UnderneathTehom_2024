@@ -17,6 +17,7 @@ public class PathNode : MonoBehaviour
     public int heightOrigin = 0;
 
     public bool isBlocked = false;
+    public bool notFalling = false;
 
     public Unit unit;
     public PathNode cameFromNode;
@@ -99,19 +100,37 @@ public class PathNode : MonoBehaviour
    
     public void AddHeight(int heightAdd, float moveSpeed)
     {
+        if (this.notFalling) return;
         this.moveSpeed = moveSpeed;
         this.height += heightAdd;
         dynamicDirection = GetHeight(this, height);
         sortingGroup.sortingOrder += heightAdd;
-
         dynamicState = DynamicState.moveToPos;
+
+     
+        if(heightAdd < -50)
+        {
+            Debug.Log("Down");
+            if (this.unit != null)
+            {
+                Debug.Log("Down2");
+                if (unit.data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS)
+                {
+                    this.unit.GetComponent<BossAI>().EmergenceJumpToCliff();
+                }
+                else
+                {
+                    Debug.Log("Down3");
+                    this.unit.HealthChange(-1000, 0, "damage");
+                }
+            }
+        }
     }
     public void AddHeight_WithCD(int heightAdd, float moveSpeed, int CD)
     {
+        if (this.isBlocked) return;
         this.moveSpeed = moveSpeed;
         this.height += heightAdd;
-       
-
         dynamicState = DynamicState.moveToPos;
         sortingGroup.sortingOrder += heightAdd;
         heightChangeListInGame.Add(new Vector2Int(heightAdd, CD));
@@ -150,6 +169,8 @@ public class PathNode : MonoBehaviour
             {
                 dynamicState = DynamicState.inStatic;
                 this.transform.position = dynamicDirection;
+                
+                
                 if (height < -50)
                 {
                     Debug.Log("destroy name:" + name);
@@ -166,9 +187,8 @@ public class PathNode : MonoBehaviour
                             {
                                 Destroy(AI.VisualGuideFolder);
                             }
-                            Destroy(this.unit.gameObject);
-                            FindObjectOfType<GameController>().Check_UnitInList();
-                            FindObjectOfType<GameController>().Check_EndGame();
+
+                            this.unit.HealthChange(-1000,0,"damage");
                         }
                     }
 
@@ -178,7 +198,7 @@ public class PathNode : MonoBehaviour
                             Destroy(flesh.gameObject);
                         }
 
-                    Destroy(this.gameObject);
+                    this.gameObject.SetActive(false);
                 }
             }
         }

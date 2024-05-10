@@ -10,8 +10,6 @@ public class AIUnitController : MonoBehaviour
     public Unit selectedUnit_AI;
     public GameController GC;
 
-
-
     /// <summary>
     /// MachineGun  /// MachineGun  ///MachineGun  /// MachineGun
     /// </summary>
@@ -136,20 +134,22 @@ public class AIUnitController : MonoBehaviour
         if (selectedUnit_AI == null)
             for (int i = 0; i < GameController.enemyList.Count; i++)
             {
-                if (GameController.enemyList[i].isActive == true)
-                {
-                    if (i == 0) StartCoroutine(EnemyTurnStart(GameController.enemyList[i], false));
-                    else StartCoroutine(EnemyTurnStart(GameController.enemyList[i], true));
-                    break;
-                }
+                if (GameController.enemyList[i] != null)
+                    if (GameController.enemyList[i].isActive == true)
+                    {
+                        if (i == 0) StartCoroutine(EnemyTurnStart(GameController.enemyList[i], false));
+                        else StartCoroutine(EnemyTurnStart(GameController.enemyList[i], true));
+                        break;
+                    }
             }
     }
     public IEnumerator EnemyTurnStart(Unit unit, bool waitMore)
     {
         GC.isAIThinking = true;
-        yield return new WaitForSeconds(0.2f);
         selectedUnit_AI = unit;
-
+        Debug.Log(selectedUnit_AI.name + " is Selected:" + selectedUnit_AI.isActive);
+        yield return new WaitForSeconds(0.2f);
+      
         if (waitMore) yield return new WaitForSeconds(.2f);
         GC.isAIThinking = false;
         GC.gameState = GameController._gameState.enemyTurn_Action;

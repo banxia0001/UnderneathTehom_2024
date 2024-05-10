@@ -20,6 +20,8 @@ MonoBehaviour:
   redNode_Light: {fileID: 1173698018261092199, guid: 048174f2389b9f744bd96d7f5f28c37e, type: 3}
   redNode: {fileID: 5493777009094942125, guid: 9846a34753915274e998d2b5705fdb42, type: 3}
   redNode_Boss: {fileID: 1173698018261092199, guid: fbca358be97e87943ae38f4635f1394f, type: 3}
+  redNode_Boss_Large: {fileID: 1486330560358015742, guid: 683420e484cd29f4db62747527d27aea, type: 3}
+  redNode_Boss_Middle: {fileID: 4999648760278109645, guid: d375fe21003419b46b99808b6027721b, type: 3}
   purpleNode_Light: {fileID: 2985670429163718323, guid: 23f730722360e6b45985d6cf8feef826, type: 3}
   purpleNode: {fileID: 1508261824323803742, guid: 26cd8b07a21c846438a36679b5ba2559, type: 3}
   staticNode: {fileID: 5493777009094942125, guid: b5efe4c3c59f2e74bbe138b7a5901d89, type: 3}

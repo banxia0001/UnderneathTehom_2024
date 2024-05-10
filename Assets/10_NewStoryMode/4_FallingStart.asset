@@ -13,72 +13,95 @@ MonoBehaviour:
   m_Name: 4_FallingStart
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: The rats jumped over again...
+  - text: 'Even more vermin skitter onto the field.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 17
     camLookAt: 3
   - text: "\u201C*Skreeeeeee!*\u201D\r"
+    audio: {fileID: 0}
     speaker: 3
     continueTrigger: 0
     eventTrigger: 9
     camLookAt: 3
-  - text: They don't seem to be attracted by the fight, but they are avoiding something.
+  - text: "They don\u2019t appear to be attracted by the fight. If anything, it seems
+      like they\u2019re avoiding something\u2026"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
-  - text: What are they escaping from...?
+  - text: 'But what?
+
+'
+    audio: {fileID: 0}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
   - text: '"........."'
+    audio: {fileID: 0}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
   - text: '"........."'
+    audio: {fileID: 0}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 11
     camLookAt: 3
-  - text: '"....?"'
+  - text: "\u201C....?!!!\u201D "
+    audio: {fileID: 8300000, guid: 20cedb42b332d204fa7bb48149c37be5, type: 3}
     speaker: 11
     continueTrigger: 0
     eventTrigger: 18
     camLookAt: 3
-  - text: The earth itself began to tremble.
+  - text: 'The ground begins to tremble.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
-  - text: The ground beneath the feet seemed to come to life.
+  - text: 'The very earth beneath your feet comes to life.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
-  - text: '"I better get out of here."'
+  - text: "\u201CThis place is falling apart.\u201D\r\n"
+    audio: {fileID: 8300000, guid: 30c92b02b6f6ac549a9cab0027e98a64, type: 3}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
-  - text: '"This place is falling apart."'
+  - text: "\u201CI better get out of here, quick!\u201D\r\n"
+    audio: {fileID: 8300000, guid: c62cdf320d1a93f41ac40b070a8f85df, type: 3}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 3
-  - text: '"That door seems destroyable."'
+  - text: " \u201C...! That gate seems weak enough to break through.\u201D\r\n"
+    audio: {fileID: 8300000, guid: 6563d29979520f9479eeb63d41eb225f, type: 3}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 4
-  - text: '"Damn it! goodbye, my dinner!"'
+  - text: "\u201C...Tsch! Damn it! Farewell, my dinner!\u201D"
+    audio: {fileID: 8300000, guid: b5d87f1210ad4f84198332f0cc0556d7, type: 3}
     speaker: 12
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 4
-  - text: '"Time to run!"'
+  - text: " \u201CTime to run!\u201D"
+    audio: {fileID: 8300000, guid: add04873f973e414aa745842f59760fe, type: 3}
     speaker: 11
     continueTrigger: 1
     eventTrigger: 0

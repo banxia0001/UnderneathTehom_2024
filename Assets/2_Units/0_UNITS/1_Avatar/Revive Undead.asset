@@ -27,7 +27,7 @@ MonoBehaviour:
   isSelfUse: 0
   isInstant: 0
   timer_PerformAction: 0.13
-  castSpecialEffect: {fileID: 2319781598066829374, guid: 08ab8e3b45a41465793fcc9b00e2927c, type: 3}
+  castSpecialEffect: {fileID: 7864247110178309402, guid: c6cfdf6ad73c95142aa6edc68a4963d3, type: 3}
   timer_AttackHit: 0.11
   hitSpecialEffect: {fileID: 100002, guid: e7a53675611748b42a8ecc3523e4f0ce, type: 3}
   timer_WaitAfterAttack: 0.16

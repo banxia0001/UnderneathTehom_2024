@@ -365,11 +365,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.armorMax
-      value: 12
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.armorNow
-      value: 12
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.FleshDrop
@@ -377,11 +377,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.healthMax
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.healthNow
-      value: 12
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.movePointMax
@@ -413,7 +413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.Skill.Array.size
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.unitSpriteAssetType
@@ -450,7 +450,7 @@ PrefabInstance:
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.Skill.Array.data[1].skill
       value: 
-      objectReference: {fileID: 11400000, guid: bdc02c667b98d034aaaf8d56722c3ec6, type: 2}
+      objectReference: {fileID: 11400000, guid: a8e57ea6922839f469ea8ff1660f81f8, type: 2}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.Skill.Array.data[2].skill
       value: 

@@ -73,8 +73,8 @@ public class SM_LV2_2 : MonoBehaviour
                 GC.storyState = GameController._storyState.game;
                 GC.stageController.GameStart(true,true);
              
-                SM.bossUnit = FindObjectOfType<BossAI>().gameObject.GetComponent<Unit>();
-                SM.trigger = StoryManager.Check_StoryTrigger.checkIfBossAlive;
+                //SM.bossUnit = FindObjectOfType<BossAI>().gameObject.GetComponent<Unit>();
+                SM.trigger = StoryManager.Check_StoryTrigger.none;
                 break;
 
             case StoryStage.plot_GameEnd:

@@ -17,6 +17,7 @@ public class NamelessRotation_Mouse : MonoBehaviour
     private void Start()
     {
         this.bone = skeletonAnimation.Skeleton.FindBone("HeadControl_Front");
+        
     }
     private void Update()
     {

@@ -48,8 +48,8 @@ MonoBehaviour:
   castAsCirclePoint: 0
   splashRange: 0
   range: 3
-  autoHit: 0
-  hitBonus: -10
+  autoHit: 1
+  hitBonus: 0
   causeKnockBack: 0
   KnockBack_Distance: 2
   SummonDeath: 0

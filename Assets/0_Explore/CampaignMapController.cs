@@ -19,12 +19,16 @@ public class CampaignMapController : MonoBehaviour
     public CampaignMapEvent NodeMouseAt;
     public CampaignMapEvent NodeWasAt;
     public List<CampaignMapEvent> AllArea;
-    public GameObject PlayerIcon;
-
+    public GameObject PlayerIcon,PlayerLight,WorldFolder;
+    public GameObject LV2ICON,LV3ICON;
+    public float offsetRate;
+    private float xWas;
+    private Vector3 orginPos;
 
     [Header("Debug")]
     public bool debugMode;
     public List<RewardList> debugList;
+    public List<RewardList> debugList_FastStart;
 
     [Header("SFX")]
     public AudioSource click; 
@@ -36,8 +40,18 @@ public class CampaignMapController : MonoBehaviour
 
     private void Awake()
     {
-        CEC.gameObject.SetActive(false);
+        orginPos = WorldFolder.transform.position;
 
+        CEC.gameObject.SetActive(false);
+    
+        LV2ICON.SetActive(false);
+        LV3ICON.SetActive(false);
+
+        if (SaveData.quickStart_FightBoss)
+        {
+            SaveData.AreaAt = 1;
+            SaveData.rewardList = debugList_FastStart;
+        }
         if (SaveData.AreaAt == 0)
         {
             PlayerIcon.transform.position = AllArea[0].transform.position;
@@ -58,10 +72,11 @@ public class CampaignMapController : MonoBehaviour
             CloseAllSprite(AllArea[2],false,this);
             CloseAllSprite(AllArea[3],false,this);
             StartCoroutine(AllArea[4].ShakeSprite());
+
+            LV2ICON.SetActive(true);
         }
 
         SaveData.firstEnterComat_LV_1_1 = false;
-
         QualitySettings.vSyncCount = 1;
         Application.targetFrameRate = 60;
         UI = FindObjectOfType<CampaignMapUI>(true);
@@ -110,47 +125,60 @@ public class CampaignMapController : MonoBehaviour
                         if (NodeAt != NodeMouseAt)
                             if (NodeMouseAt == NodeAt.NodeCanGo)
                             {
+                                state = State.inCampaignMap_Moving;
+                                order = 0;
                                 NodeWasAt = NodeAt;
                                 NodeAt = NodeMouseAt;
-                                EnterNewZone_1();
+                                StartCoroutine(EnterNewZone_1());
                             }
             }
         }
        
         else if(state == State.inCampaignMap_Moving)
         {
-            LerpMoving(PlayerIcon.transform, NodeAt.transform.position, 2);
-            float dist = Vector3.Distance(PlayerIcon.transform.position, NodeAt.transform.position);
-
-            Debug.Log(NodeAt.name + ":" + dist);
-            if (dist < 0.02f)
-            {
-                StartCoroutine(EnterNewZone_2());
-            }
+            MovingOnMap();
         }
     }
-    public static void LerpMoving(Transform A, Vector3 B, float moveSpeed)
+
+    public int order;
+    public List<Transform> gotoList;
+    public void MovingOnMap()
     {
-        float speedModi = 1;
-        float dist = Vector3.Distance(A.position, B);
-        if (dist > 0.1)
+        if (order == gotoList.Count)
         {
-            speedModi = 1 + (dist * 0.6f);
-            if (speedModi > 3) speedModi = 3;
+            state = State.inEventChoice;
+            StartCoroutine(EnterNewZone_2());
+            return;
         }
-        A.position = Vector3.MoveTowards(A.position, B, Time.fixedDeltaTime * moveSpeed * speedModi * 3.5f);
+
+        PlayerIcon.transform.position = Vector2.MoveTowards(PlayerIcon.transform.position, gotoList[order].transform.position, Time.deltaTime * 20f);
+
+        Vector3 nowPos = PlayerIcon.transform.position;
+        Vector3 toPos1 = gotoList[order].transform.position;
+        float dist1 = Vector3.Distance(nowPos, toPos1);
+
+        if (dist1 < 0.001f) order++;
     }
 
+   
     private void RaycastOnTerrain()
     {
         if (UI.isOnUI) return;
 
         Vector2 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+      
+        //if (pos.x > xWas) offsetRate += Time.deltaTime;
+        //if (pos.x < xWas) offsetRate -= Time.deltaTime;
+        //xWas = pos.x;
+
+        //WorldFolder.transform.position =  orginPos + new Vector3(1.2f * offsetRate, 0.35f * offsetRate, 0);
+        //WorldFolder.transform.eulerAngles =   new Vector3(0, 0, -0.2f * offsetRate);
+
+        PlayerLight.transform.position = pos;
         RaycastHit2D hit = Physics2D.Raycast(pos, Vector2.zero, LayerMask.GetMask("Ground"));
 
         if (hit.collider != null)
         {
-         
             if (hit.collider.gameObject.transform.parent.GetComponent<CampaignMapEvent>() != null)
             { 
                 NodeMouseAt = hit.collider.gameObject.transform.parent.GetComponent<CampaignMapEvent>();
@@ -158,11 +186,44 @@ public class CampaignMapController : MonoBehaviour
         }   
     }
 
-    private void EnterNewZone_1()
+    private IEnumerator EnterNewZone_1()
     {
-        CloseAllSprite(NodeWasAt, true, this);
+     
+        LV2ICON.SetActive(false);
+        LV3ICON.SetActive(false);
+
         StartCoroutine(NodeAt.ShakeSprite());
-        state = State.inCampaignMap_Moving;
+        gotoList = NodeWasAt.walkingLines;
+        gotoList.Add(NodeAt.transform);
+
+        if (NodeAt.NodeCanGo.gameObject.name == "SLOT (4) Fight")
+        {
+
+            LV2ICON.SetActive(true);
+        }
+
+        if (NodeAt.NodeCanGo.gameObject.name == "SLOT (6) BossFight")
+        {
+
+            LV3ICON.SetActive(true);
+        }
+
+        if (NodeAt.gameObject.name == "SLOT (6) BossFight")
+        {
+
+            LV3ICON.SetActive(true);
+        }
+
+        if (NodeAt.gameObject.name == "SLOT (4) Fight")
+        {
+
+            LV2ICON.SetActive(true);
+        }
+
+        yield return new WaitForSeconds(1f);
+        CloseAllSprite(NodeWasAt, true, this);
+
+   
     }
 
     private IEnumerator EnterNewZone_2()
@@ -203,10 +264,10 @@ public class CampaignMapController : MonoBehaviour
     public IEnumerator CollaspeOfTile_2(GameObject tile)
     {
         tile.GetComponent<Animator>().SetTrigger("trigger2");
-        yield return new WaitForSeconds(Random.Range(0.2f,1f));
+        yield return new WaitForSeconds(Random.Range(0.1f,1.2f));
         //Debug.Log("Collapse3");
-        tile.GetComponent<Rigidbody2D>().gravityScale = 3f;
 
+        tile.GetComponent<Animator>().SetTrigger("fall");
         yield return new WaitForSeconds(2f);
         tile.gameObject.SetActive(false);
     }

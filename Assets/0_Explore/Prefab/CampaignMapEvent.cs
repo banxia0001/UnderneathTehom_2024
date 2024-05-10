@@ -19,12 +19,13 @@ public class CampaignMapEvent : MonoBehaviour
     public string choiceString;
 
     public List<RewardList> rewardList;
+    public List<Transform> walkingLines;
 
     public IEnumerator ShakeSprite()
     {
         foreach (GameObject ob in CollapseSprite)
         {
-            yield return new WaitForSeconds(Random.Range(0.1f, 0.2f));
+            yield return new WaitForSeconds(Random.Range(0.07f, 0.12f));
             ob.GetComponent<Animator>().SetTrigger("trigger1");
         }
     }

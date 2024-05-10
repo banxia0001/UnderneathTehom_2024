@@ -40,8 +40,8 @@ MonoBehaviour:
   causeHeal: 0
   addArmor: 0
   num: 1
-  damMin: 1
-  damMax: 2
+  damMin: 3
+  damMax: 3
   armorSunder: 0
   armorMgSunder: 0
   castAsCirclePoint: 0

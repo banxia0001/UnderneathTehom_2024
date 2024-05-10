@@ -377,7 +377,7 @@ MeshRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1542222495
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!4 &5727838 stripped
@@ -47417,19 +47417,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 927440186431582256, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.448
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 927440186431582256, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1280823879466648827, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1280823879466648827, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2144640416826224218, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.y
@@ -47481,7 +47481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566276, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566278, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_RootOrder
@@ -47489,11 +47489,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566278, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.6
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566278, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.94
+      value: -4.27
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566278, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_LocalPosition.z

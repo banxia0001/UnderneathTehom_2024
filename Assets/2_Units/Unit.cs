@@ -81,6 +81,9 @@ public class Unit : MonoBehaviour
     public Image[] BuffImages;
     private float timer_GoBack;
     private int addOnLayer;
+
+
+    public int activeNumber;
   
     private void Awake()
     {
@@ -101,7 +104,7 @@ public class Unit : MonoBehaviour
 
     void Start()
     {
-        if(nodeAt == null) UnitFunctions.PlaceUnitOnTile(this);
+        if (nodeAt == null) UnitFunctions.PlaceUnitOnTile(this);
 
         healthLost_ThisTurn = 0;
 
@@ -119,6 +122,9 @@ public class Unit : MonoBehaviour
 
         if (skeletonAnim.enabled) 
         {
+            if (this.skeletonAnim.AnimationState != null)
+                this.skeletonAnim.AnimationState.Event += GC.MSE.HandleEvent;
+
             bool noAnim = false;
             if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._1_Avatar)
                 if (FindObjectOfType<StoryManager>() != null) 
@@ -133,7 +139,8 @@ public class Unit : MonoBehaviour
 
             else if(GC.storyState != GameController._storyState.setup)
             {
-                if (jumpIntoBattle) InputAnimation("enterBattle2");
+                if (this.currentData.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS) { }
+                else if(jumpIntoBattle) InputAnimation("enterBattle2");
                 else InputAnimation("enterBattle");
             }
             else if (!jumpIntoBattle) InputAnimation("idle");
@@ -170,11 +177,25 @@ public class Unit : MonoBehaviour
 
         if (skeletonAnim.AnimationState.bool_HaveAnimation(animString))
         {
-            this.skeletonAnim.AnimationState.SetAnimation(0, animString, true);
-
-            if (this.skeletonAnim.AnimationState != null)
-                this.skeletonAnim.AnimationState.Event += GC.MSE.HandleEvent;
+            this.skeletonAnim.AnimationState.SetAnimation(0, animString, true); 
         }
+    }
+
+    public void InputAnimation_Single_NoLoop(string animString)
+    {
+        if (this.skeletonAnim == null) return;
+
+        if (skeletonAnim.AnimationState.bool_HaveAnimation(animString))
+        {
+            this.skeletonAnim.AnimationState.SetAnimation(0, animString, false);
+        }
+    }
+
+    public void InputAnimation_Debug()
+    {
+        this.skeletonAnim.AnimationState.SetAnimation(0, "fly back recover", true);
+        this.skeletonAnim.AnimationState.AddAnimation(0, "idle", true, 0);
+        
     }
 
     public void InputAnimation_GainFP(string animString)
@@ -203,8 +224,6 @@ public class Unit : MonoBehaviour
         {
             this.skeletonAnim.AnimationState.SetAnimation(0, animString, true);
 
-            if (this.skeletonAnim.AnimationState != null)
-                this.skeletonAnim.AnimationState.Event += GC.MSE.HandleEvent;
         }
 
         bool enterIdle = true;
@@ -219,13 +238,14 @@ public class Unit : MonoBehaviour
         }
         if(enterIdle)
         this.skeletonAnim.AnimationState.AddAnimation(0, "idle", true, 0);
+       
     }
     public void UnitEnable(bool enable)
     {
         if (unitAttribute != UnitAttribute.alive) return;
 
         if (enable)
-        { isActive = true; canFightBack = true; currentData.movePointNow = currentData.movePointMax; isSelectedInThisTurn = false; }
+        { activeNumber = 0; isActive = true; canFightBack = true; currentData.movePointNow = currentData.movePointMax; isSelectedInThisTurn = false; }
         
         else
         {  isActive = false; canFightBack = false; }
@@ -237,6 +257,16 @@ public class Unit : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (nodeAt != null)
+        {
+            if (nodeAt.gameObject.activeSelf == false)
+            {
+                if (this.currentData.healthNow > 0)
+                    this.HealthChange(-1000, 0, "damage");
+            }
+        }
+
+
         if (!isInBattle) return;
 
 
@@ -698,12 +728,15 @@ public class Unit : MonoBehaviour
                 if (ai.unitHoldingSkill) if (value >= 3) ai.CancelUnitHoldAction();
             }
 
-            if (unitSpecialState == UnitSpecialState.boneFireTower)
+            else if (this.currentData.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS)
             {
-                this.GetComponent<EnemyBoneFire>().anim.SetTrigger("hurt");
+                if (this.GetComponent<BossAI>().bossHoldSkill == BossAI.BossHoldSkill.none)
+                {
+                    if (value > 4) InputAnimation("hurt");
+                    else InputAnimation("minorHurt");
+                }
             }
-
-            InputAnimation("hurt");
+            else InputAnimation("hurt");
 
             //If Drop Flesh
             if (this.unitTeam == UnitTeam.enemyTeam)
@@ -765,7 +798,7 @@ public class Unit : MonoBehaviour
 
     public void Gene_DropFlesh(int value)
     {
-        Debug.Log(currentData.FleshDrop +"/"+ value);
+       // Debug.Log(currentData.FleshDrop +"/"+ value);
         List<PathNode> NearbyPath = GameFunctions.FindNodes_ByDistance(this.nodeAt, 1, false);
         List<PathNode> NearbyPath_Empty = new List<PathNode>();
         NearbyPath_Empty.Add(this.nodeAt);
@@ -876,12 +909,22 @@ public class Unit : MonoBehaviour
            nodeAt.unit = null;
         }
 
+        if (this.data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS)
+        {
+            GC.PauseGame();
+            InputAnimation_Single("death");
+            yield return new WaitForSeconds(3f);
+            StoryManager SM = FindObjectOfType<StoryManager>();
+            SM.GoNextStage();
+
+            yield return new WaitForSeconds(3f);
+        }
 
         if (this.data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._1_Avatar)
         {
             GC.PauseGame();
             InputAnimation_Single("dead");
-            yield return new WaitForSeconds(8f);
+            yield return new WaitForSeconds(6f);
             //Death panel
 
         }

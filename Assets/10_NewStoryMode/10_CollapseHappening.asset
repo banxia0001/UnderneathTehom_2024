@@ -13,7 +13,10 @@ MonoBehaviour:
   m_Name: 10_CollapseHappening
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: World start to collapsing once again.
+  - text: 'The intense fighting has shattered the plateau. It begins to collapse
+      as well.
+
+'
     speaker: 0
     continueTrigger: 1
     eventTrigger: 18

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Unit
+  - Grid
+  - Skill
+  - LightMap
+  - Buff
+  - WorldController
+  - GridFolder
+  - SkillPortraitDisplay
+  - Dialog_Choice_Display
+  - EnemyVisualNodes
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Unit
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BehindLighting
+    uniqueID: 889416197
+    locked: 0
+  - name: Ground
+    uniqueID: 3558083585
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Lighting
+    uniqueID: 144187551
+    locked: 0
+  - name: Camp
+    uniqueID: 3096389295
+    locked: 0
+  - name: UI
+    uniqueID: 2752744801
+    locked: 0
+  - name: Story
+    uniqueID: 3994404825
+    locked: 0

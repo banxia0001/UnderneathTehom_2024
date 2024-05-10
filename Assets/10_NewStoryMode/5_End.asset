@@ -13,22 +13,24 @@ MonoBehaviour:
   m_Name: 5_End
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: You survived the disaster.
+  - text: "You\u2019ve survived the collapse.\r\n"
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: Even though you know nothing about this place and youself.
+  - text: 'Even though you know nothing of yourself and this strange land,
+
+'
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: You have to keep escaping.
+  - text: "You\u2019ll have to keep on surviving.\r\n"
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: Waiting for the day...you finally fill the inner hunger.
+  - text: "Waiting\u2026 for the day you\u2019ll finally find a way out.\r"
     speaker: 0
     continueTrigger: 3
     eventTrigger: 0

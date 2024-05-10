@@ -250,7 +250,18 @@ public class GameController : MonoBehaviour
 
     private void Update()
     {
-        if(debug_autoWin) saveloadSys.EndBattle();
+        if (Input.GetKey(KeyCode.LeftControl))
+        {
+            if (Input.GetKeyDown(KeyCode.D))
+            {
+                foreach (Unit unit in enemyList)
+                {
+                    unit.HealthChange(-1000, 0, "damage");
+                }
+            }
+        }
+
+        if (debug_autoWin) saveloadSys.EndBattle();
         switch (storyState)
         {
             case _storyState.setup:
@@ -409,7 +420,7 @@ public class GameController : MonoBehaviour
             case _gameState.enemyTurn_ChooseUnit:   //[Choose Enemy Unit]
                 
                 chooseAiCoolDown += Time.fixedDeltaTime;
-                if (chooseAiCoolDown > 0.1f)
+                if (chooseAiCoolDown > 0.2f)
                 {
                     chooseAiCoolDown = 0;
                     AIUnitController.EnemyChoosing();
@@ -1097,7 +1108,8 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(.02f);
         if (!debug_CancelCameraMoveInNewTurn)
         {
-            CM.addPos(pos.position, true);
+            if (pos != null)
+                CM.addPos(pos.position, true);
             CM.addZoom(3.55f, true);
         }
     }

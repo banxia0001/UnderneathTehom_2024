@@ -13,22 +13,26 @@ MonoBehaviour:
   m_Name: 11_GameEnd
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: Congratulations, you won the battle.
+  - text: "Congratulations! You\u2019ve completed the demo.\r\n"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: '"Thank you for taking me to eat so much delicious meat."'
+  - text: "\u201CThank you for bringing me to eat all this delicious meat!\u201D\r\n"
+    audio: {fileID: 8300000, guid: 3ff43d2156d36a948ace53db3de9c4d4, type: 3}
     speaker: 8
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: '"I''m going to continue my journey."'
+  - text: "\u201CI\u2019m going to continue my journey.\u201D\r\n"
+    audio: {fileID: 8300000, guid: 3bd89afea2929044d901653e4544ef8f, type: 3}
     speaker: 8
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: '"Goodbye!"'
+  - text: "\u201CGoodbye!\u201D\r\n"
+    audio: {fileID: 8300000, guid: 73e7bb36bf789b84db625e092d844b12, type: 3}
     speaker: 8
     continueTrigger: 2
     eventTrigger: 0

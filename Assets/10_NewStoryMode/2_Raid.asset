@@ -13,37 +13,46 @@ MonoBehaviour:
   m_Name: 2_Raid
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: You gathered meat from the carcass.
+  - text: "You claw savagely at the carcass. \r\n"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
   - text: "\u201C*Munch* *Munch* *Chew*\u201D"
+    audio: {fileID: 0}
     speaker: 8
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: Suddenly, you are keenly aware of something...
+  - text: 'Suddenly, you feel the presence of others behind your back.
+
+'
+    audio: {fileID: 0}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 2
   - text: '"...?"'
+    audio: {fileID: 8300000, guid: 4350edd1926f7cd4886d80a0b9e30e10, type: 3}
     speaker: 10
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 2
   - text: "\u201C*Skreeeeeee!*\u201D\r"
+    audio: {fileID: 0}
     speaker: 3
     continueTrigger: 0
     eventTrigger: 15
     camLookAt: 2
-  - text: These deformed creatures... may have been attracted by the aroma of meat.
+  - text: "These deformed creatures\u2026 they seem to have had the same idea.\r\n"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 2
-  - text: '"Food!!!"'
+  - text: '"...!"'
+    audio: {fileID: 8300000, guid: 337baa63dc379904c9ff4e871e78b377, type: 3}
     speaker: 11
     continueTrigger: 1
     eventTrigger: 0

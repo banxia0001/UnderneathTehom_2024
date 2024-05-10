@@ -1,0 +1,228 @@
+
+boss_final.png
+size: 1934,2026
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_L
+  rotate: true
+  xy: 947, 817
+  size: 370, 985
+  orig: 370, 986
+  offset: 0, 1
+  index: -1
+Bottom
+  rotate: true
+  xy: 2, 979
+  size: 359, 403
+  orig: 360, 404
+  offset: 1, 0
+  index: -1
+Hair
+  rotate: false
+  xy: 430, 1209
+  size: 783, 316
+  orig: 783, 317
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 2, 2
+  size: 418, 662
+  orig: 1491, 943
+  offset: 1073, 281
+  index: -1
+Heart
+  rotate: true
+  xy: 201, 1898
+  size: 126, 169
+  orig: 126, 169
+  offset: 0, 0
+  index: -1
+IntestineGroup_1
+  rotate: true
+  xy: 1215, 1189
+  size: 336, 709
+  orig: 337, 711
+  offset: 1, 1
+  index: -1
+IntestineGroup_2
+  rotate: true
+  xy: 910, 404
+  size: 411, 924
+  orig: 411, 943
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 734, 1550
+  size: 303, 396
+  orig: 303, 401
+  offset: 0, 4
+  index: -1
+RibCage_L_B
+  rotate: false
+  xy: 235, 1674
+  size: 209, 207
+  orig: 209, 209
+  offset: 0, 1
+  index: -1
+RibCage_L_F
+  rotate: true
+  xy: 372, 1883
+  size: 141, 207
+  orig: 142, 207
+  offset: 1, 0
+  index: -1
+RibCage_R_B
+  rotate: true
+  xy: 581, 1855
+  size: 169, 199
+  orig: 170, 199
+  offset: 0, 0
+  index: -1
+RibCage_R_F
+  rotate: true
+  xy: 2, 1910
+  size: 114, 197
+  orig: 114, 197
+  offset: 0, 0
+  index: -1
+Shirt_L
+  rotate: true
+  xy: 420, 422
+  size: 438, 488
+  orig: 439, 489
+  offset: 0, 1
+  index: -1
+Shirt_R
+  rotate: true
+  xy: 782, 1855
+  size: 169, 374
+  orig: 169, 374
+  offset: 0, 0
+  index: -1
+ShoulderBottom_L
+  rotate: true
+  xy: 446, 1580
+  size: 273, 286
+  orig: 273, 286
+  offset: 0, 0
+  index: -1
+ShoulderBottom_R
+  rotate: false
+  xy: 2, 1699
+  size: 231, 197
+  orig: 231, 197
+  offset: 0, 0
+  index: -1
+ShoulderTop_R
+  rotate: false
+  xy: 2, 453
+  size: 416, 407
+  orig: 416, 407
+  offset: 0, 0
+  index: -1
+Tentacle_1
+  rotate: true
+  xy: 407, 862
+  size: 345, 538
+  orig: 345, 538
+  offset: 0, 0
+  index: -1
+Tentacle_3
+  rotate: true
+  xy: 2, 1340
+  size: 332, 426
+  orig: 333, 426
+  offset: 1, 0
+  index: -1
+Tentacle_5
+  rotate: false
+  xy: 1132, 1527
+  size: 760, 303
+  orig: 761, 303
+  offset: 1, 0
+  index: -1
+Tentacle_6
+  rotate: false
+  xy: 1158, 1832
+  size: 731, 192
+  orig: 732, 193
+  offset: 1, 0
+  index: -1
+
+boss_final2.png
+size: 1678,1996
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Cloak_B
+  rotate: false
+  xy: 2, 1059
+  size: 1605, 935
+  orig: 1605, 936
+  offset: 0, 0
+  index: -1
+Cloak_L
+  rotate: true
+  xy: 2, 170
+  size: 887, 1099
+  orig: 887, 1099
+  offset: 0, 0
+  index: -1
+Cloak_R
+  rotate: false
+  xy: 1103, 2
+  size: 573, 1055
+  orig: 574, 1055
+  offset: 1, 0
+  index: -1
+
+boss_final3.png
+size: 1819,1518
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm_R
+  rotate: false
+  xy: 569, 754
+  size: 688, 762
+  orig: 688, 762
+  offset: 0, 0
+  index: -1
+BallSac_L
+  rotate: false
+  xy: 1321, 2
+  size: 496, 764
+  orig: 496, 764
+  offset: 0, 0
+  index: -1
+BallSac_R
+  rotate: true
+  xy: 2, 36
+  size: 454, 682
+  orig: 454, 684
+  offset: 0, 2
+  index: -1
+ShoulderTop_L
+  rotate: true
+  xy: 1259, 768
+  size: 748, 522
+  orig: 749, 524
+  offset: 1, 2
+  index: -1
+Tentacle_2
+  rotate: true
+  xy: 2, 492
+  size: 1024, 565
+  orig: 1026, 565
+  offset: 1, 0
+  index: -1
+Tentacle_4
+  rotate: false
+  xy: 686, 21
+  size: 633, 731
+  orig: 635, 741
+  offset: 2, 10
+  index: -1

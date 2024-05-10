@@ -13,30 +13,36 @@ MonoBehaviour:
   m_Name: 1_Hungry
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: 'As you take your first steps forward, you are greeted by the sickly-sweet
-      scent of flesh.
+  - text: 'The sickly-sweet scent of flesh greets your senses as you stumble forward.
 
 '
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
   - text: "\u201CIt\u2026hurts\u2026\u201D\r\n"
+    audio: {fileID: 8300000, guid: 9c39e85ee969c6648b669a926ce8fd40, type: 3}
     speaker: 7
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: "\u201CNeed\u2026. to eat.\u201D\r\n"
-    speaker: 7
+  - text: 'Your ragged body calls for sustenance to mend its wounds.
+
+'
+    audio: {fileID: 0}
+    speaker: 0
     continueTrigger: 0
     eventTrigger: 0
-    camLookAt: 1
+    camLookAt: 0
   - text: "\u201C....Flesh\u2026..Food\u2026.?\u201D"
+    audio: {fileID: 8300000, guid: 0ef17774ab82ee848a28f16b9a000e63, type: 3}
     speaker: 6
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: "\u201C....I wanna food!\u201D"
+  - text: "\u201CI must eat!\u201D\r\n"
+    audio: {fileID: 8300000, guid: 787714db44733c24780fbad20ae2c074, type: 3}
     speaker: 5
     continueTrigger: 1
     eventTrigger: 0

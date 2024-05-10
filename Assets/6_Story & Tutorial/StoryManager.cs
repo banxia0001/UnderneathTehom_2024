@@ -295,12 +295,10 @@ public class StoryManager : MonoBehaviour
                 case Check_StoryTrigger.checkIfBossAlive:
                     if (bossUnit == null)
                     {
+                        Debug.Log("!!!BOSSEND");
                         storyTrigger_ActiveWhenGameCanPause = true;
                         KillAllEnemy();
-
                     }
-                      
-
                     break;
             }
         }

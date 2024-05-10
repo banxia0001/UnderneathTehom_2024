@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.damage.hit
-      value: 80
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.rate_Corpse
@@ -209,7 +209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.damage.damMin
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: deathData.bodyType

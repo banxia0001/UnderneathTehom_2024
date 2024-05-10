@@ -13,46 +13,31 @@ MonoBehaviour:
   m_Name: 0_Awake
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: 'The strange and peculiar imagery of your dreams dissipates like wisps
-      of smoke.
+  - text: 'You awake amidst the ruins of an unfamiliar city.
 
 '
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: 'Your eyelids slowly slither open as the weight of your slumber falls away.
+  - text: 'Memories of your past life elude you. All that comes to mind is a singular,
+      primeval thought:
 
 '
+    audio: {fileID: 0}
     speaker: 9
-    continueTrigger: 0
-    eventTrigger: 0
-    camLookAt: 0
-  - text: 'The debris of an unfamiliar city surrounds you.
-
-'
-    speaker: 9
-    continueTrigger: 0
-    eventTrigger: 0
-    camLookAt: 0
-  - text: 'Who you are, what you are, why you came here - all this eludes you.
-
-'
-    speaker: 0
-    continueTrigger: 0
-    eventTrigger: 0
-    camLookAt: 0
-  - text: 'All that comes to mind is a singular, primeval thought:'
-    speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
   - text: "\u201CI\u2019m starving\u2026.\u201D\r\n"
+    audio: {fileID: 8300000, guid: 536086355237ee44ba7ec54800e05c81, type: 3}
     speaker: 7
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
   - text: "The gnawing emptiness in your stomach drives you to move\u2026\r\n"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 1
     eventTrigger: 0

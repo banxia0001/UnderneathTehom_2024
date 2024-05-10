@@ -13,27 +13,42 @@ MonoBehaviour:
   m_Name: 6_2_1_Start
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: The stench of  beasts hung in the air.
+  - text: 'The stench of wild beasts lingers in the air.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: You entered rat's lair.
+  - text: 'Bones strewn across the ground. Red eyes glowing in the dark.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: '"Flesh!"'
+  - text: "You\u2019ve entered the rats\u2019 lair.\r"
+    audio: {fileID: 0}
+    speaker: 0
+    continueTrigger: 0
+    eventTrigger: 0
+    camLookAt: 1
+  - text: "\u201CFRESH MEAT!\u201D "
+    audio: {fileID: 8300000, guid: 4744249d6dc48724b92300188c44310a, type: 3}
     speaker: 6
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: '"Nice! I''m starving!"'
+  - text: "\u201CNice! I\u2019m starving!\u201D\r\n"
+    audio: {fileID: 8300000, guid: eea7c57c2f1f1f64d9e407f16840304a, type: 3}
     speaker: 5
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: Yes, You decide to eat them all.
+  - text: "Indeed. You\u2019ve decided to eat them all.\r"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 1
     eventTrigger: 0

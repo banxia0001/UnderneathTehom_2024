@@ -13,32 +13,44 @@ MonoBehaviour:
   m_Name: 9_StartBossfight
   m_EditorClassIdentifier: 
   NewDialogContent:
-  - text: "\u201C.......\u201D"
+  - text: "\u201C....\u201D\r\n"
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: You suddenly come to a halt.
+  - text: 'You suddenly come to a halt. Your blood runs cold.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: For the first time, you feel the threat to your life.
+  - text: 'For the first time in ages, you fear for your life.
+
+'
+    audio: {fileID: 0}
     speaker: 6
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: '"Something is approaching..."'
+  - text: "Something is approaching\u2026\r\n"
+    audio: {fileID: 0}
     speaker: 6
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: '"...!"'
+  - text: "\u201C...!!\u201D"
+    audio: {fileID: 8300000, guid: 20cedb42b332d204fa7bb48149c37be5, type: 3}
     speaker: 6
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 1
-  - text: This colossal creature is charging towards you.
+  - text: 'A colossal shadow descends from above.
+
+'
+    audio: {fileID: 0}
     speaker: 0
     continueTrigger: 1
     eventTrigger: 19

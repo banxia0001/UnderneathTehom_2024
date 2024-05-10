@@ -25,6 +25,9 @@ public class NewDialogSystem : MonoBehaviour
     public Sprite nameless_FinishEat_WannaFight, nameless_FinishEat_Shock;
 
     private bool inWaiting;
+    private bool inWaiting2;
+
+    public AudioSource audioSource;
     public void Awake()
     {
         SM = FindObjectOfType<StoryManager>();
@@ -40,6 +43,7 @@ public class NewDialogSystem : MonoBehaviour
         por_Undead.SetActive(false);
 
         inWaiting = false;
+        inWaiting2 = false;
     }
 
     public void InputDialog(NewDialog dialog)
@@ -169,6 +173,10 @@ public class NewDialogSystem : MonoBehaviour
         GetDialogSpeaker(content.speaker);
 
         speakerText.text = content.text;
+        audioSource.clip = null;
+        audioSource.clip = content.audio;
+        if (audioSource.clip != null)
+        { audioSource.Play(); }
 
         switch (content.camLookAt)
         {
@@ -294,7 +302,7 @@ public class NewDialogSystem : MonoBehaviour
 
             case NewDialogContent.EventTrigger.bossSpawn:
                 StartCoroutine(WaitForBoss());
-                FindObjectOfType<SM_LV2_2>().boss.gameObject.SetActive(true);
+               
                 break;
         }
     }
@@ -302,6 +310,7 @@ public class NewDialogSystem : MonoBehaviour
     public void TriggerDialog_End()
     {
         if (inWaiting) return;
+        if (inWaiting2) return;
       
         if (GameController.frozenGame) return;
         NewDialogContent content = dialogInHand.NewDialogContent[dialogNum];
@@ -362,9 +371,13 @@ public class NewDialogSystem : MonoBehaviour
 
     private IEnumerator WaitForBoss()
     {
-        inWaiting = true;
-        yield return new WaitForSeconds(1f);
-        inWaiting = false;
+        inWaiting2 = true;
+        FindObjectOfType<SFX_Controller>().InputVFX_Boss(12);
+        yield return new WaitForSeconds(0.35f);
+        FindObjectOfType<SM_LV2_2>().boss.gameObject.SetActive(true);
+
+        yield return new WaitForSeconds(3.85f);
+        inWaiting2 = false;
     }
 
 }

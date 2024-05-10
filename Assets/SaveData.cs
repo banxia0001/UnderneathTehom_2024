@@ -4,6 +4,7 @@ using UnityEngine;
 
 public static class SaveData
 {
+    public static bool quickStart_FightBoss = false;
     public static int AreaAt = 0;
     public static bool firstEnterComat_LV_1_1 = true;
 

@@ -14,11 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   NewDialogContent:
   - text: '"Delicious! "'
+    audio: {fileID: 8300000, guid: 832b56c120a68b34088ba145ff5c2848, type: 3}
     speaker: 8
     continueTrigger: 0
     eventTrigger: 0
     camLookAt: 0
-  - text: '"Alright, time to hit the road."'
+  - text: "\u201CAlright, time to hit the road.\u201D\r\n"
+    audio: {fileID: 8300000, guid: 22575d34a6b05974b9d37f58092df59f, type: 3}
     speaker: 8
     continueTrigger: 3
     eventTrigger: 0

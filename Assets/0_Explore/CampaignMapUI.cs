@@ -25,6 +25,7 @@ public class CampaignMapUI : MonoBehaviour
     private void Start()
     {
         Display_Buff.gameObject.SetActive(false);
+        loadingPanel.gameObject.SetActive(true);
         loadingPanel.SetBool("Trigger", false);
     }
     private void Update()

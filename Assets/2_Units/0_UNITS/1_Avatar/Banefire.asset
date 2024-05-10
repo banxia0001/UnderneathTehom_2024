@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Banefire
   m_EditorClassIdentifier: 
   skillSprite: {fileID: 21300000, guid: 2339709c75cadfe44b06433a95e03de5, type: 3}
-  CD: 3
-  Cost: 3
+  CD: 1
+  Cost: 2
   description: The caster hurls a bane fireball at the target. The victim becomes
     vulnerable.
   slotInfo: 0
@@ -25,9 +25,9 @@ MonoBehaviour:
   isUsingWeapon: 0
   isFriendly: 0
   isSelfUse: 0
-  isInstant: 0
+  isInstant: 1
   timer_PerformAction: 0.22
-  castSpecialEffect: {fileID: 2319781598066829374, guid: 08ab8e3b45a41465793fcc9b00e2927c, type: 3}
+  castSpecialEffect: {fileID: 7864247110178309402, guid: c6cfdf6ad73c95142aa6edc68a4963d3, type: 3}
   timer_AttackHit: 0
   hitSpecialEffect: {fileID: 100002, guid: e7a53675611748b42a8ecc3523e4f0ce, type: 3}
   timer_WaitAfterAttack: 0.35
@@ -35,14 +35,14 @@ MonoBehaviour:
   moveToGrid_DistanceRatio: 0.5
   projectile: {fileID: 6782966094075572664, guid: d7aed217587e52b4f9c4592a0ae53e42, type: 3}
   isCurveProjectile: 1
-  flyingSpeed: 6
+  flyingSpeed: 4.5
   buffSelf: 0
   buff: {fileID: 11400000, guid: 0f781b876c622834aa3848f1bbad3695, type: 2}
   causeHeal: 0
   addArmor: 0
   num: 1
-  damMin: 2
-  damMax: 2
+  damMin: 0
+  damMax: 1
   armorSunder: 0
   armorMgSunder: 0
   castAsCirclePoint: 0
@@ -51,7 +51,7 @@ MonoBehaviour:
   autoHit: 1
   hitBonus: 0
   causeKnockBack: 1
-  KnockBack_Distance: 2
+  KnockBack_Distance: 1
   SummonDeath: 0
   SommonBeing: []
   randomBuffs: []

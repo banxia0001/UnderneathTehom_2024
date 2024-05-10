@@ -502,6 +502,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -858,6 +859,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -5864,6 +5866,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -6099,7 +6102,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &43089129
 GameObject:
@@ -7531,6 +7534,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -7789,7 +7793,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &160344209
 GameObject:
@@ -7966,7 +7970,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5883395141128386751, guid: 2f9cf17db64f7f04e8d1a6f9ca66c51c, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 5883395141128386751, guid: 2f9cf17db64f7f04e8d1a6f9ca66c51c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10048,6 +10052,10 @@ PrefabInstance:
     - target: {fileID: 3049916206859097571, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
       propertyPath: m_LocalScale.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3049916206859097596, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
+      propertyPath: m_PlaneDistance
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3049916206859097597, guid: 618b48e7acdc15c418a4829c43e1a501, type: 3}
       propertyPath: m_UiScaleMode
@@ -13827,6 +13835,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -14040,6 +14049,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -14190,6 +14200,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -14464,6 +14475,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -15069,6 +15081,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -15343,6 +15356,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -15767,6 +15781,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -16308,6 +16323,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -16459,6 +16475,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -16690,6 +16707,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -17787,19 +17805,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 927440186431582256, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.448
       objectReference: {fileID: 0}
     - target: {fileID: 927440186431582256, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1280823879466648827, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1280823879466648827, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3692427297518324090, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_Mesh
@@ -17811,7 +17829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566276, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5439603991647566278, guid: f75b13b974eb8db4499d9e267fe52922, type: 3}
       propertyPath: m_RootOrder
@@ -18175,6 +18193,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -18742,6 +18761,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -19926,15 +19946,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6275762292806069110, guid: b88023f6efa18554bb6bc5762655b17d, type: 3}
       propertyPath: data.traitList.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6275762292806069110, guid: b88023f6efa18554bb6bc5762655b17d, type: 3}
       propertyPath: data.traitList.Array.data[0].buff
       value: 
       objectReference: {fileID: 11400000, guid: d23b721a276a0f748b3ab11bf215a5b7, type: 2}
+    - target: {fileID: 6275762292806069110, guid: b88023f6efa18554bb6bc5762655b17d, type: 3}
+      propertyPath: data.traitList.Array.data[1].buff
+      value: 
+      objectReference: {fileID: 11400000, guid: 87fc9a2a86f704941bf8f0b23eff60d6, type: 2}
     - target: {fileID: 6275762292806069111, guid: b88023f6efa18554bb6bc5762655b17d, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 6275762292806069111, guid: b88023f6efa18554bb6bc5762655b17d, type: 3}
       propertyPath: m_LocalScale.x
@@ -20651,6 +20675,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -20865,7 +20890,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &494156143
 GameObject:
@@ -21457,6 +21482,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -21834,6 +21860,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -22069,6 +22096,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -22218,6 +22246,7 @@ MonoBehaviour:
   height: 8
   heightOrigin: 8
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -23305,6 +23334,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -23910,6 +23940,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -24273,6 +24304,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -24716,6 +24748,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -25076,6 +25109,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -25225,6 +25259,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -26004,6 +26039,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -26235,6 +26271,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -26655,6 +26692,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -27346,6 +27384,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -27716,6 +27755,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -28304,6 +28344,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -28892,6 +28933,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -29084,6 +29126,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -29553,6 +29596,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -29895,6 +29939,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -29973,7 +30018,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1462218696065207406, guid: 3bcad2351240a5d46a828c82eba8e91d, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 1462218696065207406, guid: 3bcad2351240a5d46a828c82eba8e91d, type: 3}
       propertyPath: m_LocalScale.x
@@ -30454,6 +30499,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -30839,6 +30885,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -31926,6 +31973,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -32463,6 +32511,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -32643,6 +32692,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -33269,6 +33319,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -33793,6 +33844,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -34037,7 +34089,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 7082899171262699770, guid: d93202bd3d05f0e4aa88d7dedd5f290c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -36266,6 +36318,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -41393,6 +41446,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -41625,6 +41679,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -42024,6 +42079,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -42174,6 +42230,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -42430,6 +42487,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -42792,6 +42850,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -43473,6 +43532,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -43551,7 +43611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2503722712167078882, guid: 9150412f8d88b7049bc824f24cfb43c7, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2503722712167078882, guid: 9150412f8d88b7049bc824f24cfb43c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -43816,6 +43876,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -44364,6 +44425,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -44578,7 +44640,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1355607817
 GameObject:
@@ -44715,6 +44777,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -44793,7 +44856,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2503722712167078882, guid: 9150412f8d88b7049bc824f24cfb43c7, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2503722712167078882, guid: 9150412f8d88b7049bc824f24cfb43c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -45599,6 +45662,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -46083,6 +46147,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -46314,6 +46379,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -46681,7 +46747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6180711986588883116, guid: 6e02b564182d84842af9272ccd61c41a, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6180711986588883116, guid: 6e02b564182d84842af9272ccd61c41a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -47213,6 +47279,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -47362,6 +47429,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -48104,6 +48172,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -48560,7 +48629,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1462218696065207406, guid: 3bcad2351240a5d46a828c82eba8e91d, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1462218696065207406, guid: 3bcad2351240a5d46a828c82eba8e91d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -48942,6 +49011,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -49173,6 +49243,7 @@ MonoBehaviour:
   height: -6
   heightOrigin: -6
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -49333,7 +49404,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2503722712167078882, guid: 9150412f8d88b7049bc824f24cfb43c7, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2503722712167078882, guid: 9150412f8d88b7049bc824f24cfb43c7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -50205,6 +50276,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -50776,6 +50848,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -51050,6 +51123,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -51181,45 +51255,25 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6252868460967422615, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
+      propertyPath: skeletonDataAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 7a40211cfc336bc40a2edf9af5699e08, type: 2}
+    - target: {fileID: 6990851984953796484, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6990851984953796484, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 73234d94c57846343bd059665305c008, type: 2}
     - target: {fileID: 8980801174669608877, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
       propertyPath: m_Name
       value: Prefab_SporeFighter_A (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608877, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.armorMax
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.armorNow
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.FleshDrop
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.healthMax
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.healthNow
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.damage.damMax
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980801174669608878, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
-      propertyPath: data.damage.damMin
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 8980801174669608879, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8980801174669608879, guid: e93aaec5f2e4a3b4ab1f4588a2de1346, type: 3}
       propertyPath: m_LocalPosition.x
@@ -52469,6 +52523,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -52661,6 +52716,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -53148,6 +53204,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -53711,6 +53768,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -54323,6 +54381,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -54554,6 +54613,7 @@ MonoBehaviour:
   height: 8
   heightOrigin: 8
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -55336,6 +55396,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -56239,6 +56300,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -56452,6 +56514,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -56765,6 +56828,7 @@ MonoBehaviour:
   height: -4
   heightOrigin: -4
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -57122,6 +57186,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -57421,6 +57486,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 1
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -58195,6 +58261,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -58426,6 +58493,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -58813,6 +58881,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -59251,6 +59320,7 @@ MonoBehaviour:
   height: -2
   heightOrigin: -2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -59733,7 +59803,7 @@ Transform:
   m_Children:
   - {fileID: 1135690030}
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2026002065
 GameObject:
@@ -59823,6 +59893,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -60577,6 +60648,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -60770,6 +60842,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -61109,6 +61182,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 1
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -61198,7 +61272,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2073965430
 GameObject:
@@ -61413,6 +61487,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -61708,6 +61783,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -61857,6 +61933,7 @@ MonoBehaviour:
   height: 0
   heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -62053,7 +62130,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2099037586
 GameObject:
@@ -62565,6 +62642,7 @@ MonoBehaviour:
   height: 2
   heightOrigin: 2
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
@@ -62823,7 +62901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8444173074370682371, guid: 77fdde8e9c992a14bb7144b495084f40, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 8444173074370682371, guid: 77fdde8e9c992a14bb7144b495084f40, type: 3}
       propertyPath: m_LocalPosition.x

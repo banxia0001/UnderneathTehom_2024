@@ -205,11 +205,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.healthMax
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.healthNow
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6773468639426471417, guid: c45af2df0901cbb4d8c4984e968ed51e, type: 3}
       propertyPath: data.damage.hit

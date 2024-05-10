@@ -7,7 +7,7 @@ public class PortraitManager : MonoBehaviour
     public GameObject portraitBackImage;
     public GameObject rat_Minor, rat_Melee, rat_Spore;
     public GameObject rat_Archer, rat_BoneRunner,enemy_BoneTower, zombieRat, undeaArcher,undeadLancer;
-    public GameObject Corpse, Nameless, Skel_Sword, Skel_Shield, Sentry_FB, Sentry_Turret, Sentry_HealTower;
+    public GameObject Corpse, Nameless, Skel_Sword, Skel_Shield, Sentry_FB, Sentry_Turret, Sentry_HealTower, aoeT,boss,mage;
 
     public void CloseAll()
     {
@@ -42,5 +42,8 @@ public class PortraitManager : MonoBehaviour
         if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._10_Rat_Zombie) zombieRat.SetActive(true);
         if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._6_Skel_Archer) undeaArcher.SetActive(true);
         if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._3_Skel_Lance) undeadLancer.SetActive(true);
+        if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._17_BOSS) boss.SetActive(true);
+        if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._18_MAGE) mage.SetActive(true);
+        if (data.unitSpriteAssetType == UnitPrefabList.Unit_SpriteAsset_Type._19_AOE_Turret) aoeT.SetActive(true);
     }
 }

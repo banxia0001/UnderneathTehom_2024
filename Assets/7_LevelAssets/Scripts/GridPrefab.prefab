@@ -93,12 +93,12 @@ GameObject:
   - component: {fileID: 2643257608405153577}
   - component: {fileID: 8426108963543765013}
   m_Layer: 0
-  m_Name: Line
+  m_Name: ' '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2643257608405153577
 Transform:
   m_ObjectHideFlags: 0
@@ -269,12 +269,19 @@ MonoBehaviour:
   fCost: 0
   MOVE_COST: 1
   height: 0
+  heightOrigin: 0
   isBlocked: 0
+  notFalling: 0
   unit: {fileID: 0}
   cameFromNode: {fileID: 0}
   campFire: {fileID: 0}
   type: 0
   dynamicState: 0
+  FleshList: []
+  sortingGroup: {fileID: 0}
+  dynamicFolder: {fileID: 0}
+  heightChangeList: 
+  heightChangeListInGame: []
 --- !u!60 &5178872494741401510
 PolygonCollider2D:
   m_ObjectHideFlags: 0

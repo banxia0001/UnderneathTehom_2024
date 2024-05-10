@@ -112,10 +112,8 @@ public class RewardUI : MonoBehaviour
 
         listPanelUI.ClearField();
         this.gameObject.GetComponent<Animator>().SetTrigger("trigger");
-        yield return new WaitForSeconds(1.5f);
-
+        yield return new WaitForSeconds(1f);
         targetReward.gameObject.SetActive(false);
-
         CampaignMapController CMC = FindObjectOfType<CampaignMapController>();
         CMC.ReturningFromRewardPanel();
         CampaignMapController.gameFrozen = false;
